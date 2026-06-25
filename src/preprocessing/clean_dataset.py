@@ -1,15 +1,17 @@
 from pathlib import Path
 import re
+import sys
 
 import numpy as np
 import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 RAW_PLAYERS_FILE = PROJECT_ROOT / "data" / "raw" / "players_raw.csv"
 PROCESSED_FILE = PROJECT_ROOT / "data" / "processed" / "transfermarkt_dataset_clean.csv"
-MODEL_FILE = PROJECT_ROOT / "data" / "model" / "players_model.csv"
-FBREF_FILE = PROJECT_ROOT / "data" / "interim" / "fbref_player_stats.csv"
+MODEL_FILE = PROJECT_ROOT / "data" / "model" / "players_model_with_performance.csv"
 
 SEASON_MIN = 2017
 SEASON_MAX = 2024
@@ -310,69 +312,42 @@ def save_outputs(clean_df, model_df):
     PROCESSED_FILE.parent.mkdir(parents=True, exist_ok=True)
     MODEL_FILE.parent.mkdir(parents=True, exist_ok=True)
     clean_df.to_csv(PROCESSED_FILE, index=False)
-    model_df.to_csv(MODEL_FILE, index=False)
-    return PROCESSED_FILE, MODEL_FILE
 
-
-def build_final_dataset(raw_file=RAW_PLAYERS_FILE, fbref_file=FBREF_FILE):
-    fbref_file = Path(fbref_file)
-    if not fbref_file.exists():
-        raise FileNotFoundError(
-            f"FBref player stats file not found: {fbref_file}. Jalankan scraping FBref dulu."
-        )
-
-    from src.preprocessing.merge_performance import merge_performance_frames
-
-    clean_df, model_df, report = build_preprocessed_dataset(raw_file=raw_file)
-    fbref_df = pd.read_csv(fbref_file)
-    model_with_performance, performance_report = merge_performance_frames(
-        model_df=model_df,
-        clean_df=clean_df,
-        fbref_df=fbref_df,
-        output_file=MODEL_FILE,
-        write_outputs=False,
+    from src.performance.merge_performance import (
+        FBREF_STATS_FILE,
+        MATCHING_RESULT_FILE,
+        UNMATCHED_PLAYERS_FILE,
+        build_performance_dataset,
+        require_file,
     )
 
-    clean_with_performance = clean_df.copy()
-    performance_columns = [
-        column
-        for column in model_with_performance.columns
-        if column not in model_df.columns or column == "has_performance_stats"
-    ]
-    for column in performance_columns:
-        clean_with_performance[column] = model_with_performance[column].values
+    fbref_df = pd.read_csv(require_file(FBREF_STATS_FILE))
+    performance_model_df, audit_df = build_performance_dataset(clean_df, model_df, fbref_df)
+    performance_model_df.to_csv(MODEL_FILE, index=False)
 
-    report.update(
-        {
-            "fbref_file": str(fbref_file),
-            "matched_rows": performance_report["matched_rows"],
-            "unmatched_rows": performance_report["unmatched_rows"],
-            "match_method_counts": performance_report["match_method_counts"],
-            "performance_columns": performance_report["performance_columns"],
-            "model_columns": list(model_with_performance.columns),
-        }
-    )
-    return clean_with_performance, model_with_performance, report
+    MATCHING_RESULT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    audit_df.to_csv(MATCHING_RESULT_FILE, index=False)
+    audit_df[~audit_df["matched"]].to_csv(UNMATCHED_PLAYERS_FILE, index=False)
+
+    return PROCESSED_FILE, MODEL_FILE, audit_df
 
 
 def main():
-    clean_df, model_df, report = build_final_dataset()
-    processed_file, model_file = save_outputs(clean_df, model_df)
+    clean_df, model_df, report = build_preprocessed_dataset()
+    processed_file, model_file, audit_df = save_outputs(clean_df, model_df)
 
-    print("Preprocessing final dengan performa selesai.")
+    print("Preprocessing selesai.")
     print(f"Processed file: {processed_file}")
-    print(f"Model file    : {model_file}")
+    print(f"Model file Transfermarkt + FBref: {model_file}")
     print(f"Raw rows      : {report['raw_rows']}")
     print(f"Rows after market value not null: {report['rows_after_market_value_notna']}")
     print(f"Rows after market value filter  : {report['rows_after_market_value_filter']}")
     print(f"Clean rows    : {report['clean_rows']}")
-    print(f"Model rows    : {report['model_rows']}")
+    print(f"Base feature rows before FBref merge: {report['model_rows']}")
+    print(f"Matched FBref rows: {int(audit_df['matched'].sum())}")
+    print(f"Unmatched FBref rows: {int((~audit_df['matched']).sum())}")
     print(f"Duplicates removed before history: {report['duplicates_removed_before_history']}")
     print(f"Label distribution: {report['label_distribution']}")
-    print(f"Matched FBref rows: {report['matched_rows']}")
-    print(f"Unmatched FBref rows: {report['unmatched_rows']}")
-    print(f"Match methods: {report['match_method_counts']}")
-    print(f"Performance columns: {report['performance_columns']}")
     print(f"Dropped features: {report['dropped_features']}")
     return clean_df, model_df, report
 

@@ -127,7 +127,11 @@ def confusion_matrix_chart(confusion_df):
             texttemplate="%{text}",
         )
     )
-    fig.update_layout(title="Confusion Matrix Best Model", xaxis_title="Predicted", yaxis_title="Actual")
+    fig.update_layout(
+        title="Confusion Matrix Best Model With FBref Performance",
+        xaxis_title="Predicted",
+        yaxis_title="Actual",
+    )
     return fig
 
 
@@ -138,16 +142,5 @@ def feature_importance_chart(feature_df, n=20):
         x="importance",
         y="feature",
         orientation="h",
-        title=f"Top {n} Feature Importance",
+        title=f"Top {n} Feature Importance With FBref Performance",
     )
-
-
-def model_metric_comparison_chart(comparison_df, metric):
-    return px.bar(
-        comparison_df,
-        x="dataset",
-        y=metric,
-        color="dataset",
-        text=metric,
-        title=f"Original vs With Performance: {metric}",
-    ).update_traces(texttemplate="%{text:.3f}", textposition="outside")

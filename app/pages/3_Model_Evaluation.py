@@ -11,42 +11,39 @@ from utils.load_data import (
     load_confusion_matrix,
     load_feature_importance,
     load_metrics,
-    load_model_comparison,
 )
-from utils.plotting import confusion_matrix_chart, feature_importance_chart, model_metric_comparison_chart
+from utils.plotting import confusion_matrix_chart, feature_importance_chart
 
 
 st.set_page_config(page_title="Model Evaluation", layout="wide")
 st.title("Model Evaluation")
-st.caption("The original 2023-2024 test split is the main final evaluation. Validation is used for model selection.")
+st.caption("Evaluasi model gabungan Transfermarkt + FBref. Test 2023-2024 adalah evaluasi final utama.")
 
 metrics_df = load_metrics()
 report_df = load_classification_report()
 confusion_df = load_confusion_matrix()
 feature_df = load_feature_importance()
-comparison_df = load_model_comparison()
 
 test_metrics = metrics_df[metrics_df["split"] == "test"].copy()
 if test_metrics.empty:
-    st.error("Test metrics are missing from model_metrics_improved.csv.")
+    st.error("Test metrics are missing from model_metrics_with_performance.csv.")
     st.stop()
 
-best_row = test_metrics.iloc[0]
-col1, col2, col3, col4 = st.columns(4)
+if "selected_for_test" in test_metrics.columns and test_metrics["selected_for_test"].any():
+    best_row = test_metrics[test_metrics["selected_for_test"]].iloc[0]
+else:
+    best_row = test_metrics.sort_values("macro_f1", ascending=False).iloc[0]
+
+st.subheader("Best Model Transfermarkt + FBref")
+col1, col2, col3, col4, col5 = st.columns(5)
 col1.metric("Best Model", str(best_row["model"]))
 col2.metric("Scenario", str(best_row["scenario"]))
 col3.metric("Test Accuracy", f"{best_row['accuracy']:.3f}")
 col4.metric("Test Macro F1", f"{best_row['macro_f1']:.3f}")
+col5.metric("Test Weighted F1", f"{best_row['weighted_f1']:.3f}")
 
 st.subheader("Best Model Test Metrics")
 st.dataframe(test_metrics, use_container_width=True, hide_index=True)
-
-st.subheader("Original vs With Performance")
-left_compare, right_compare = st.columns(2)
-with left_compare:
-    st.plotly_chart(model_metric_comparison_chart(comparison_df, "accuracy"), use_container_width=True)
-with right_compare:
-    st.plotly_chart(model_metric_comparison_chart(comparison_df, "macro_f1"), use_container_width=True)
 
 st.subheader("Validation Comparison")
 validation_df = metrics_df[metrics_df["split"] == "validation"].sort_values("macro_f1", ascending=False)

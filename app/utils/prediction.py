@@ -5,7 +5,7 @@ import pandas as pd
 
 TARGET_COLUMN = "market_value_category"
 
-VALID_PERFORMANCE_INPUTS = [
+PERFORMANCE_INPUT_COLUMNS = [
     "matches_played",
     "starts",
     "minutes",
@@ -21,7 +21,6 @@ VALID_PERFORMANCE_INPUTS = [
     "saves",
     "clean_sheets",
     "goals_against",
-    "shots_on_target_against",
 ]
 
 
@@ -87,6 +86,27 @@ def build_prediction_row(inputs, clean_df, model_columns):
 
     rank, pct = estimate_club_rank(clean_df, league, season, club_total_mv_mio)
 
+    matches_played = float(inputs.get("matches_played", 0))
+    starts = float(inputs.get("starts", 0))
+    minutes = float(inputs.get("minutes", 0))
+    goals = float(inputs.get("goals", 0))
+    assists = float(inputs.get("assists", 0))
+    non_penalty_goals = float(inputs.get("non_penalty_goals", goals))
+    yellow_cards = float(inputs.get("yellow_cards", 0))
+    red_cards = float(inputs.get("red_cards", 0))
+    shots_total = float(inputs.get("shots_total", 0))
+    shots_on_target = float(inputs.get("shots_on_target", 0))
+    fouls_committed = float(inputs.get("fouls_committed", 0))
+    fouls_drawn = float(inputs.get("fouls_drawn", 0))
+    saves = float(inputs.get("saves", 0))
+    clean_sheets = float(inputs.get("clean_sheets", 0))
+    goals_against = float(inputs.get("goals_against", 0))
+    shots_on_target_against = float(inputs.get("shots_on_target_against", 0))
+
+    minutes_denominator = minutes if minutes > 0 else None
+    matches_denominator = matches_played if matches_played > 0 else None
+    sota_denominator = shots_on_target_against if shots_on_target_against > 0 else None
+
     row = {
         "age": age,
         "age_squared": age ** 2,
@@ -122,39 +142,32 @@ def build_prediction_row(inputs, clean_df, model_columns):
         "prev_growth_rate_clipped": min(max(prev_growth_rate, -1), 3),
         "prev_mv_to_club_total_ratio": prev_season_mv / club_total_mv_mio if club_total_mv_mio > 0 else 0,
         "age_prev_mv_interaction": age * math.log1p(prev_season_mv),
+        "matches_played": matches_played,
+        "starts": starts,
+        "minutes": minutes,
+        "goals": goals,
+        "assists": assists,
+        "non_penalty_goals": non_penalty_goals,
+        "yellow_cards": yellow_cards,
+        "red_cards": red_cards,
+        "shots_total": shots_total,
+        "shots_on_target": shots_on_target,
+        "fouls_committed": fouls_committed,
+        "fouls_drawn": fouls_drawn,
+        "saves": saves,
+        "clean_sheets": clean_sheets,
+        "goals_against": goals_against,
+        "has_performance_stats": int(minutes > 0 or matches_played > 0),
+        "goals_per_90": goals / minutes_denominator * 90 if minutes_denominator else 0,
+        "assists_per_90": assists / minutes_denominator * 90 if minutes_denominator else 0,
+        "goal_assist_per_90": (goals + assists) / minutes_denominator * 90 if minutes_denominator else 0,
+        "shots_per_90": shots_total / minutes_denominator * 90 if minutes_denominator else 0,
+        "shots_on_target_per_90": shots_on_target / minutes_denominator * 90 if minutes_denominator else 0,
+        "cards_per_90": (yellow_cards + red_cards) / minutes_denominator * 90 if minutes_denominator else 0,
+        "starts_rate": starts / matches_denominator if matches_denominator else 0,
+        "save_pct": saves / sota_denominator if sota_denominator else 0,
+        "clean_sheet_pct": clean_sheets / matches_denominator if matches_denominator else 0,
     }
-
-    for column in VALID_PERFORMANCE_INPUTS:
-        if column in inputs:
-            row[column] = float(inputs[column])
-
-    minutes = row.get("minutes", 0)
-    per90_denominator = minutes / 90 if minutes else 0
-    if per90_denominator > 0:
-        row["goals_per_90"] = row.get("goals", 0) / per90_denominator
-        row["assists_per_90"] = row.get("assists", 0) / per90_denominator
-        row["goal_assist_per_90"] = (
-            row.get("goals", 0) + row.get("assists", 0)
-        ) / per90_denominator
-        row["shots_per_90"] = row.get("shots_total", 0) / per90_denominator
-        row["shots_on_target_per_90"] = row.get("shots_on_target", 0) / per90_denominator
-        row["cards_per_90"] = (
-            row.get("yellow_cards", 0) + row.get("red_cards", 0)
-        ) / per90_denominator
-    else:
-        row["goals_per_90"] = 0
-        row["assists_per_90"] = 0
-        row["goal_assist_per_90"] = 0
-        row["shots_per_90"] = 0
-        row["shots_on_target_per_90"] = 0
-        row["cards_per_90"] = 0
-
-    matches_played = row.get("matches_played", 0)
-    shots_against = row.get("shots_on_target_against", 0)
-    row["starts_rate"] = row.get("starts", 0) / matches_played if matches_played else 0
-    row["save_pct"] = row.get("saves", 0) / shots_against if shots_against else 0
-    row["clean_sheet_pct"] = row.get("clean_sheets", 0) / matches_played if matches_played else 0
-    row["has_performance_stats"] = int(any(row.get(column, 0) > 0 for column in VALID_PERFORMANCE_INPUTS))
 
     feature_columns = [column for column in model_columns if column != TARGET_COLUMN]
     return pd.DataFrame([{column: row.get(column, 0) for column in feature_columns}])

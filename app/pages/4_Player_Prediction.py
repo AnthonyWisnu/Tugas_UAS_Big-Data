@@ -26,25 +26,7 @@ model = load_best_model()
 label_encoder = load_label_encoder()
 
 model_columns = list(model_df.columns)
-performance_inputs = [
-    "matches_played",
-    "starts",
-    "minutes",
-    "goals",
-    "assists",
-    "non_penalty_goals",
-    "yellow_cards",
-    "red_cards",
-    "shots_total",
-    "shots_on_target",
-    "fouls_committed",
-    "fouls_drawn",
-    "saves",
-    "clean_sheets",
-    "goals_against",
-    "shots_on_target_against",
-]
-available_performance_inputs = [column for column in performance_inputs if column in model_columns]
+uses_performance = "has_performance_stats" in model_columns
 
 with st.form("prediction_form"):
     col1, col2, col3 = st.columns(3)
@@ -74,18 +56,28 @@ with st.form("prediction_form"):
         two_seasons_ago_mv = st.number_input("Two Seasons Ago Market Value, EUR Mio", min_value=0.0, value=8.0, step=1.0)
         mv_history_count = st.number_input("Market Value History Count", min_value=0, value=1, step=1)
 
-    performance_values = {}
-    if available_performance_inputs:
-        st.subheader("Performance Inputs")
-        perf_cols = st.columns(4)
-        for index, column in enumerate(available_performance_inputs):
-            with perf_cols[index % 4]:
-                performance_values[column] = st.number_input(
-                    column.replace("_", " ").title(),
-                    min_value=0.0,
-                    value=0.0,
-                    step=1.0,
-                )
+    performance_inputs = {}
+    if uses_performance:
+        st.subheader("Performance Stats")
+        perf1, perf2, perf3 = st.columns(3)
+        with perf1:
+            performance_inputs["matches_played"] = st.number_input("Matches Played", min_value=0.0, value=25.0, step=1.0)
+            performance_inputs["starts"] = st.number_input("Starts", min_value=0.0, value=20.0, step=1.0)
+            performance_inputs["minutes"] = st.number_input("Minutes", min_value=0.0, value=1800.0, step=90.0)
+            performance_inputs["goals"] = st.number_input("Goals", min_value=0.0, value=5.0, step=1.0)
+            performance_inputs["assists"] = st.number_input("Assists", min_value=0.0, value=3.0, step=1.0)
+            performance_inputs["non_penalty_goals"] = st.number_input("Non Penalty Goals", min_value=0.0, value=5.0, step=1.0)
+        with perf2:
+            performance_inputs["shots_total"] = st.number_input("Shots Total", min_value=0.0, value=40.0, step=1.0)
+            performance_inputs["shots_on_target"] = st.number_input("Shots On Target", min_value=0.0, value=15.0, step=1.0)
+            performance_inputs["yellow_cards"] = st.number_input("Yellow Cards", min_value=0.0, value=3.0, step=1.0)
+            performance_inputs["red_cards"] = st.number_input("Red Cards", min_value=0.0, value=0.0, step=1.0)
+            performance_inputs["fouls_committed"] = st.number_input("Fouls Committed", min_value=0.0, value=25.0, step=1.0)
+            performance_inputs["fouls_drawn"] = st.number_input("Fouls Drawn", min_value=0.0, value=25.0, step=1.0)
+        with perf3:
+            performance_inputs["saves"] = st.number_input("Saves", min_value=0.0, value=0.0, step=1.0)
+            performance_inputs["clean_sheets"] = st.number_input("Clean Sheets", min_value=0.0, value=0.0, step=1.0)
+            performance_inputs["goals_against"] = st.number_input("Goals Against", min_value=0.0, value=0.0, step=1.0)
 
     submitted = st.form_submit_button("Predict")
 
@@ -105,7 +97,7 @@ if submitted:
         "two_seasons_ago_mv": two_seasons_ago_mv,
         "mv_history_count": mv_history_count,
     }
-    inputs.update(performance_values)
+    inputs.update(performance_inputs)
     input_df = build_prediction_row(inputs, clean_df, model_columns)
     prediction, probabilities = predict_category(model, label_encoder, input_df)
     st.subheader("Prediction Result")
