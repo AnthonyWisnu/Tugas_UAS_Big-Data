@@ -1,0 +1,3 @@
+timestamp,level,event,url,league,season,club,message,extra
+2026-06-23T00:09:55,WARNING,http_5xx_server_error,https://www.transfermarkt.com/1-fsv-mainz-05/kader/verein/39/saison_id/2023/plus/1,Bundesliga,2023,1.FSV Mainz 05,Server error 502,
+2026-06-23T00:11:51,WARNING,http_5xx_server_error,https://www.transfermarkt.com/fc-bayern-munchen/kader/verein/27/saison_id/2024/plus/1,Bundesliga,2024,Bayern Munich,Server error 502,

@@ -1,0 +1,10 @@
+actual,predicted,count
+Rendah,Rendah,751
+Rendah,Menengah,164
+Rendah,Tinggi,17
+Menengah,Rendah,411
+Menengah,Menengah,755
+Menengah,Tinggi,176
+Tinggi,Rendah,14
+Tinggi,Menengah,89
+Tinggi,Tinggi,362

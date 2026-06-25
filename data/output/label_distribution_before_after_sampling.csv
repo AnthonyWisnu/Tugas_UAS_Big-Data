@@ -1,0 +1,13 @@
+split,label,count
+train_original,Rendah,2319
+train_original,Menengah,2868
+train_original,Tinggi,951
+train_hybrid_sampling_light,Rendah,2500
+train_hybrid_sampling_light,Menengah,2500
+train_hybrid_sampling_light,Tinggi,2500
+validation_original,Rendah,476
+validation_original,Menengah,648
+validation_original,Tinggi,210
+test_original,Rendah,932
+test_original,Menengah,1342
+test_original,Tinggi,465

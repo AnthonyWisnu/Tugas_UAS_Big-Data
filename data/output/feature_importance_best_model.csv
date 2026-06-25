@@ -1,0 +1,297 @@
+feature,importance
+prev_mv_category_Tinggi,0.15603562
+prev_mv_category_Menengah,0.06484375
+prev_season_mv,0.057871
+prev_season_mv_log,0.056777958
+prev_mv_distance_to_10,0.038722415
+prev_mv_category_Rendah,0.03157352
+prev_mv_distance_to_30,0.023952397
+club_total_mv_log,0.023469219
+club_total_mv_mio,0.02135864
+club_total_mv_rank_league_season,0.012976061
+season,0.011777905
+club_total_mv_pct_league_season,0.01023901
+age,0.009359701
+age_squared,0.009092414
+two_seasons_ago_mv,0.009017919
+club_US Sassuolo,0.007873435
+age_group_21-24,0.007751115
+two_seasons_ago_mv_log,0.0072686784
+league_rank_5,0.0072245537
+is_defender,0.007014723
+is_peak_age,0.007005813
+preferred_foot_left,0.0065954784
+age_group_29-32,0.0065885647
+age_prev_mv_interaction,0.0063669705
+prev_growth_rate_clipped,0.005998541
+club_Crystal Palace,0.0058167796
+league_Ligue 1,0.00576959
+pos_category_Defender,0.0056900163
+preferred_foot_right,0.005555914
+club_ACF Fiorentina,0.005537351
+prev_growth_rate,0.005482227
+club_Fulham FC,0.0052924925
+age_peak_distance,0.005263023
+club_Chelsea FC,0.0052198735
+club_Wolverhampton Wanderers,0.005122025
+pos_category_Attack,0.0050955284
+club_SC Freiburg,0.00500778
+club_Leicester City,0.0049751718
+two_seasons_ago_mv_category_Menengah,0.004969786
+club_Eintracht Frankfurt,0.0049310764
+prev_mv_to_club_total_ratio,0.0048259613
+nationality_Netherlands,0.0047990265
+is_forward,0.0047690244
+club_AC Milan,0.004725895
+club_AS Saint-Étienne,0.004696217
+two_seasons_ago_mv_category_Rendah,0.004685715
+club_Watford FC,0.0045673237
+nationality_Iceland,0.0045000263
+club_Atalanta BC,0.0043204227
+club_AS Monaco,0.0042876936
+club_Parma Calcio 1913,0.0042182333
+nationality_Czech Republic,0.0041991663
+club_FC Girondins Bordeaux,0.004198446
+nationality_Wales,0.00417007
+nationality_Sweden,0.0041286587
+mv_history_count,0.0041084695
+club_Everton FC,0.0040318468
+club_Torino FC,0.003957278
+club_Liverpool FC,0.003942375
+club_Athletic Bilbao,0.00393852
+club_Borussia Dortmund,0.0039220084
+club_Granada CF,0.0038603346
+league_Bundesliga,0.003803236
+club_Bayern Munich,0.0037710755
+age_group_U20,0.0037675353
+nationality_Kosovo,0.0037529399
+nationality_Albania,0.0037030422
+league_rank_1,0.0036836923
+nationality_England,0.003554396
+nationality_Uruguay,0.003553687
+height_m,0.0035340223
+club_Stade Reims,0.0034923076
+club_West Ham United,0.0034702444
+club_RC Lens,0.003460827
+nationality_Portugal,0.0034534112
+nationality_Germany,0.0033875192
+club_Levante UD,0.0033824584
+age_group_25-28,0.0033417102
+nationality_DR Congo,0.0032782287
+nationality_Ireland,0.0032598283
+club_RB Leipzig,0.003218473
+club_Borussia Mönchengladbach,0.0032134333
+league_Serie A,0.0032109183
+club_1.FSV Mainz 05,0.0031983312
+club_Brentford FC,0.0031958728
+club_Real Madrid,0.0031444428
+club_Valencia CF,0.0031145243
+nationality_Jamaica,0.0030427906
+club_Paris Saint-Germain,0.0030415386
+nationality_Croatia,0.002992031
+club_SS Lazio,0.0029499747
+club_Tottenham Hotspur,0.0029395146
+club_Hertha BSC,0.00292271
+nationality_Morocco,0.0029158231
+nationality_Norway,0.0029014475
+club_Montpellier HSC,0.0028670623
+nationality_Austria,0.0028464638
+nationality_France,0.0028214932
+nationality_Argentina,0.0028148307
+nationality_Hungary,0.0028077713
+club_SD Eibar,0.0027987915
+nationality_Nigeria,0.0027932352
+nationality_Italy,0.0027543462
+nationality_Northern Ireland,0.0027079945
+league_rank_4,0.0026601206
+league_Premier League,0.002645671
+club_Newcastle United,0.0026422485
+club_Bayer 04 Leverkusen,0.0026072178
+club_Angers SCO,0.0025828434
+nationality_Brazil,0.002582072
+club_FC Empoli,0.002576682
+nationality_Algeria,0.0024782359
+nationality_Dominican Republic,0.0024640656
+age_group_33plus,0.0024637848
+nationality_Colombia,0.002409047
+nationality_Togo,0.0023299067
+club_Sevilla FC,0.00228148
+club_Stade Rennais FC,0.002229664
+nationality_Spain,0.0022127084
+club_Deportivo Alavés,0.0022007287
+nationality_Türkiye,0.0021893424
+club_Cagliari Calcio,0.0021735537
+nationality_Senegal,0.0020700847
+nationality_Cote d'Ivoire,0.0020389732
+club_Olympique Marseille,0.0020117897
+is_midfielder,0.0019473664
+club_Atlético de Madrid,0.0019387162
+nationality_Switzerland,0.0018662078
+is_goalkeeper,0.0017350815
+league_La Liga,0.001642844
+club_Rayo Vallecano,0.0016296023
+league_rank_3,0.0016281976
+club_Arsenal FC,0.0016133337
+club_Real Valladolid CF,0.0015839735
+club_FC Barcelona,0.0015461323
+club_FC Lorient,0.0015375867
+club_Real Betis Balompié,0.0014778994
+club_SD Huesca,0.0014381399
+club_AS Roma,0.0013858227
+pos_category_Midfield,0.0011837111
+nationality_Serbia,0.0011213111
+club_Juventus FC,0.0011147478
+nationality_Belgium,0.0010824867
+club_SV Werder Bremen,0.00086209696
+nationality_Guinea,0.00086006324
+club_Villarreal CF,0.0008335052
+preferred_foot_both,0.000729134
+club_Chievo Verona,0.000688439
+league_rank_2,0.00067914894
+nationality_Gabon,0.0006381061
+club_Inter Milan,0.0006359512
+pos_category_Goalkeeper,0.00054945773
+"nationality_Korea, South",0.0
+nationality_Luxembourg,0.0
+nationality_Guadeloupe,0.0
+nationality_Greece,0.0
+club_Real Sociedad,0.0
+nationality_Ghana,0.0
+nationality_Georgia,0.0
+nationality_Finland,0.0
+"nationality_Korea, North",0.0
+club_SM Caen,0.0
+club_SPAL,0.0
+club_SPAL 2013,0.0
+nationality_Equatorial Guinea,0.0
+club_SSC Napoli,0.0
+nationality_Egypt,0.0
+nationality_Guinea-Bissau,0.0
+club_RCD Mallorca,0.0
+club_RCD Espanyol Barcelona,0.0
+nationality_Ecuador,0.0
+nationality_Haiti,0.0
+nationality_Honduras,0.0
+nationality_Indonesia,0.0
+nationality_Iran,0.0
+nationality_Israel,0.0
+club_Olympique Lyon,0.0
+club_OGC Nice,0.0
+club_Nîmes Olympique,0.0
+club_Norwich City,0.0
+nationality_Japan,0.0
+nationality_Kenya,0.0
+club_Manchester United,0.0
+club_Manchester City,0.0
+club_RC Strasbourg Alsace,0.0
+club_Southampton FC,0.0
+club_Sheffield United,0.0
+club_LOSC Lille,0.0
+club_VfL Bochum,0.0
+club_VfL Wolfsburg,0.0
+nationality_Central African Republic,0.0
+nationality_Cape Verde,0.0
+club_West Bromwich Albion,0.0
+nationality_Canada,0.0
+nationality_Cameroon,0.0
+nationality_Burundi,0.0
+nationality_Burkina Faso,0.0
+nationality_Bosnia-Herzegovina,0.0
+nationality_Benin,0.0
+nationality_Bangladesh,0.0
+nationality_Australia,0.0
+nationality_Armenia,0.0
+nationality_Angola,0.0
+club_VfB Stuttgart,0.0
+club_Venezia FC,0.0
+nationality_Chile,0.0
+club_TSG 1899 Hoffenheim,0.0
+club_Spezia Calcio,0.0
+club_Stade Brestois 29,0.0
+nationality_Denmark,0.0
+nationality_Curacao,0.0
+club_Stoke City,0.0
+club_Swansea City,0.0
+nationality_Costa Rica,0.0
+club_Udinese Calcio,0.0
+nationality_Comoros,0.0
+club_UC Sampdoria,0.0
+club_UD Las Palmas,0.0
+club_US Lecce,0.0
+club_US Salernitana 1919,0.0
+nationality_China,0.0
+club_Leeds United,0.0
+nationality_United States,0.0
+nationality_Madagascar,0.0
+club_Cardiff City,0.0
+club_Aston Villa,0.0
+nationality_Slovakia,0.0
+nationality_Scotland,0.0
+nationality_Russia,0.0
+nationality_Romania,0.0
+club_Benevento Calcio,0.0
+club_Bologna FC 1909,0.0
+nationality_Poland,0.0
+nationality_Philippines,0.0
+nationality_Peru,0.0
+club_Brescia Calcio (- 2025),0.0
+club_Brighton & Hove Albion,0.0
+club_Burnley FC,0.0
+club_CA Osasuna,0.0
+club_CD Leganés,0.0
+nationality_Slovenia,0.0
+club_Arminia Bielefeld,0.0
+nationality_South Africa,0.0
+club_1.FC Union Berlin,0.0
+nationality_Venezuela,0.0
+nationality_Ukraine,0.0
+nationality_Zambia,0.0
+nationality_Zimbabwe,0.0
+club_1.FC Köln,0.0
+club_1.FC Nuremberg,0.0
+nationality_Tunisia,0.0
+club_Amiens SC,0.0
+has_prev_mv,0.0
+nationality_The Gambia,0.0
+club_AFC Bournemouth,0.0
+nationality_Tanzania,0.0
+nationality_Syria,0.0
+nationality_Suriname,0.0
+nationality_Paraguay,0.0
+club_Celta de Vigo,0.0
+two_seasons_ago_mv_category_Tinggi,0.0
+two_seasons_ago_mv_category_NoHistory,0.0
+club_FC Nantes,0.0
+club_FC Schalke 04,0.0
+club_FC Toulouse,0.0
+club_Fortuna Düsseldorf,0.0
+club_Frosinone Calcio,0.0
+prev_mv_category_NoHistory,0.0
+club_Genoa CFC,0.0
+club_Getafe CF,0.0
+club_Girona FC,0.0
+nationality_Malta,0.0
+club_Hamburger SV,0.0
+club_Hannover 96,0.0
+club_Hellas Verona,0.0
+nationality_Mali,0.0
+club_Huddersfield Town,0.0
+club_FC Metz,0.0
+nationality_Martinique,0.0
+nationality_Mexico,0.0
+club_EA Guingamp,0.0
+club_Clermont Foot 63,0.0
+nationality_North Macedonia,0.0
+club_Cádiz CF,0.0
+nationality_New Zealand,0.0
+club_Deportivo de La Coruña,0.0
+club_Dijon FCO,0.0
+club_ESTAC Troyes,0.0
+nationality_Montenegro,0.0
+nationality_New Caledonia,0.0
+club_Elche CF,0.0
+preferred_foot_Unknown,0.0
+club_FC Augsburg,0.0
+nationality_Mozambique,0.0
+club_FC Crotone,0.0
+nationality_Uzbekistan,0.0
