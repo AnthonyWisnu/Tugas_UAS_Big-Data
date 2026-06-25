@@ -1,6 +1,7 @@
 from collections import Counter
 from itertools import product
 from pathlib import Path
+from argparse import ArgumentParser
 
 import joblib
 import matplotlib.pyplot as plt
@@ -84,6 +85,35 @@ CATEGORICAL_FEATURES = [
     "league_rank",
 ]
 
+PERFORMANCE_NUMERIC_FEATURES = [
+    "matches_played",
+    "starts",
+    "minutes",
+    "goals",
+    "assists",
+    "non_penalty_goals",
+    "yellow_cards",
+    "red_cards",
+    "shots_total",
+    "shots_on_target",
+    "fouls_committed",
+    "fouls_drawn",
+    "saves",
+    "clean_sheets",
+    "goals_against",
+    "shots_on_target_against",
+    "goals_per_90",
+    "assists_per_90",
+    "goal_assist_per_90",
+    "shots_per_90",
+    "shots_on_target_per_90",
+    "cards_per_90",
+    "starts_rate",
+    "save_pct",
+    "clean_sheet_pct",
+    "has_performance_stats",
+]
+
 FORBIDDEN_FEATURES = {
     "market_value_mio",
     "market_value_str",
@@ -96,6 +126,13 @@ FORBIDDEN_FEATURES = {
     "player_id",
     "player_name",
     "player_url",
+    "xg",
+    "non_penalty_xg",
+    "xg_per_90",
+    "non_penalty_xg_per_90",
+    "aerial_won",
+    "aerial_lost",
+    "ball_recoveries",
 }
 
 
@@ -110,13 +147,38 @@ def load_model_data(path=MODEL_DATA_FILE):
 
 
 def select_features(df):
-    numeric_features = [column for column in NUMERIC_FEATURES if column in df.columns]
+    numeric_candidates = NUMERIC_FEATURES + PERFORMANCE_NUMERIC_FEATURES
+    numeric_features = []
+    for column in numeric_candidates:
+        if column not in df.columns:
+            continue
+        values = pd.to_numeric(df[column], errors="coerce").fillna(0)
+        if column in PERFORMANCE_NUMERIC_FEATURES and values.abs().sum() == 0:
+            continue
+        numeric_features.append(column)
     categorical_features = [column for column in CATEGORICAL_FEATURES if column in df.columns]
     features = numeric_features + categorical_features
     leakage_features = sorted(set(features) & FORBIDDEN_FEATURES)
     if leakage_features:
         raise ValueError(f"Forbidden features selected: {leakage_features}")
     return numeric_features, categorical_features, features
+
+
+def dataset_config():
+    return {
+        "data_file": MODEL_DATA_FILE,
+        "metrics_file": "model_metrics.csv",
+        "comparison_file": "model_comparison_scenarios.csv",
+        "classification_file": "classification_report_best_model.csv",
+        "confusion_file": "confusion_matrix_best_model.csv",
+        "feature_file": "feature_importance_best_model.csv",
+        "label_distribution_file": "label_distribution_before_after_sampling.csv",
+        "best_model_file": "best_model.pkl",
+        "preprocessor_file": "preprocessor.pkl",
+        "label_encoder_file": "label_encoder.pkl",
+        "figure_confusion_file": "confusion_matrix_best_model.png",
+        "figure_feature_file": "feature_importance_best_model.png",
+    }
 
 
 def split_by_season(df):
@@ -366,18 +428,18 @@ def fit_pipeline(pipeline, X_train, y_train_encoded, y_train_labels, scenario, m
         pipeline.fit(X_train, y_train_encoded)
 
 
-def save_label_distribution(distributions):
+def save_label_distribution(distributions, file_name="label_distribution_before_after_sampling.csv"):
     rows = []
     for split_name, labels in distributions.items():
         counts = Counter(labels)
         for label in LABEL_ORDER:
             rows.append({"split": split_name, "label": label, "count": int(counts.get(label, 0))})
     df = pd.DataFrame(rows)
-    df.to_csv(OUTPUT_DIR / "label_distribution_before_after_sampling.csv", index=False)
+    df.to_csv(OUTPUT_DIR / file_name, index=False)
     return df
 
 
-def plot_confusion_matrix(matrix, model_name, scenario):
+def plot_confusion_matrix(matrix, model_name, scenario, file_name="confusion_matrix_best_model.png"):
     fig, ax = plt.subplots(figsize=(6, 5))
     image = ax.imshow(matrix, cmap="Blues")
     ax.set_xticks(range(len(LABEL_ORDER)), LABEL_ORDER)
@@ -390,20 +452,20 @@ def plot_confusion_matrix(matrix, model_name, scenario):
             ax.text(j, i, int(matrix[i, j]), ha="center", va="center")
     fig.colorbar(image, ax=ax)
     plt.tight_layout()
-    path = FIGURES_DIR / "confusion_matrix_best_model.png"
+    path = FIGURES_DIR / file_name
     plt.savefig(path, dpi=150)
     plt.close()
     return path
 
 
-def plot_feature_importance(feature_importance_df, model_name, scenario):
+def plot_feature_importance(feature_importance_df, model_name, scenario, file_name="feature_importance_best_model.png"):
     top_features = feature_importance_df.head(20).iloc[::-1]
     fig, ax = plt.subplots(figsize=(10, 7))
     ax.barh(top_features["feature"], top_features["importance"])
     ax.set_title(f"Best Model Feature Importance: {model_name}, {scenario}")
     ax.set_xlabel("Importance")
     plt.tight_layout()
-    path = FIGURES_DIR / "feature_importance_best_model.png"
+    path = FIGURES_DIR / file_name
     plt.savefig(path, dpi=150)
     plt.close()
     return path
@@ -414,7 +476,8 @@ def train_and_evaluate():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
-    df = load_model_data()
+    config = dataset_config()
+    df = load_model_data(config["data_file"])
     numeric_features, categorical_features, features = select_features(df)
     train_df, val_df, test_df = split_by_season(df)
 
@@ -477,7 +540,7 @@ def train_and_evaluate():
                     best_train_labels = y_train_scenario
 
     validation_df = pd.DataFrame(validation_rows).sort_values("macro_f1", ascending=False)
-    validation_df.to_csv(OUTPUT_DIR / "model_comparison_scenarios.csv", index=False)
+    validation_df.to_csv(OUTPUT_DIR / config["comparison_file"], index=False)
 
     y_test_encoded = best_label_encoder.transform(y_test)
     y_test_pred = best_pipeline.predict(X_test)
@@ -497,14 +560,14 @@ def train_and_evaluate():
         ],
         ignore_index=True,
     )
-    metrics_df.to_csv(OUTPUT_DIR / "model_metrics_improved.csv", index=False)
+    metrics_df.to_csv(OUTPUT_DIR / config["metrics_file"], index=False)
 
     pd.DataFrame(report_to_rows(best["model"], best["scenario"], "test", best_report)).to_csv(
-        OUTPUT_DIR / "classification_report_best_model.csv",
+        OUTPUT_DIR / config["classification_file"],
         index=False,
     )
     pd.DataFrame(matrix_to_rows(best_matrix)).to_csv(
-        OUTPUT_DIR / "confusion_matrix_best_model.csv",
+        OUTPUT_DIR / config["confusion_file"],
         index=False,
     )
 
@@ -514,11 +577,11 @@ def train_and_evaluate():
         categorical_features,
     )
     feature_importance_df = get_feature_importance(best_pipeline, feature_names)
-    feature_importance_df.to_csv(OUTPUT_DIR / "feature_importance_best_model.csv", index=False)
+    feature_importance_df.to_csv(OUTPUT_DIR / config["feature_file"], index=False)
 
-    joblib.dump(best_pipeline, MODELS_DIR / "best_model.pkl")
-    joblib.dump(best_pipeline.named_steps["preprocessor"], MODELS_DIR / "preprocessor.pkl")
-    joblib.dump(best_label_encoder, MODELS_DIR / "label_encoder.pkl")
+    joblib.dump(best_pipeline, MODELS_DIR / config["best_model_file"])
+    joblib.dump(best_pipeline.named_steps["preprocessor"], MODELS_DIR / config["preprocessor_file"])
+    joblib.dump(best_label_encoder, MODELS_DIR / config["label_encoder_file"])
     joblib.dump(best_pipeline, MODELS_DIR / f"{best['model']}.pkl")
 
     save_label_distribution(
@@ -527,11 +590,17 @@ def train_and_evaluate():
             f"train_{best['scenario']}": best_train_labels,
             "validation_original": y_val,
             "test_original": y_test,
-        }
+        },
+        file_name=config["label_distribution_file"],
     )
-    plot_confusion_matrix(best_matrix, best["model"], best["scenario"])
+    plot_confusion_matrix(best_matrix, best["model"], best["scenario"], config["figure_confusion_file"])
     if not feature_importance_df.empty:
-        plot_feature_importance(feature_importance_df, best["model"], best["scenario"])
+        plot_feature_importance(
+            feature_importance_df,
+            best["model"],
+            best["scenario"],
+            config["figure_feature_file"],
+        )
 
     summary = {
         "best_model": best["model"],
@@ -552,13 +621,23 @@ def train_and_evaluate():
         "test_metrics": test_metrics,
         "confusion_matrix": best_matrix,
         "feature_importance": feature_importance_df,
+        "dataset_variant": "final",
+        "data_file": str(config["data_file"]),
     }
     return summary, metrics_df
 
 
+def parse_args():
+    parser = ArgumentParser(description="Train market value model.")
+    return parser.parse_args()
+
+
 def main():
+    parse_args()
     summary, metrics_df = train_and_evaluate()
-    print("Improved training selesai.")
+    print("Training final selesai.")
+    print(f"Dataset      : {summary['dataset_variant']}")
+    print(f"Data file    : {summary['data_file']}")
     print(f"Best model   : {summary['best_model']}")
     print(f"Best scenario: {summary['best_scenario']}")
     print(f"Best params  : {summary['best_params']}")

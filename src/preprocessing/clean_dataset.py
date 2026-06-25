@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_PLAYERS_FILE = PROJECT_ROOT / "data" / "raw" / "players_raw.csv"
 PROCESSED_FILE = PROJECT_ROOT / "data" / "processed" / "transfermarkt_dataset_clean.csv"
 MODEL_FILE = PROJECT_ROOT / "data" / "model" / "players_model.csv"
+FBREF_FILE = PROJECT_ROOT / "data" / "interim" / "fbref_player_stats.csv"
 
 SEASON_MIN = 2017
 SEASON_MAX = 2024
@@ -313,11 +314,52 @@ def save_outputs(clean_df, model_df):
     return PROCESSED_FILE, MODEL_FILE
 
 
+def build_final_dataset(raw_file=RAW_PLAYERS_FILE, fbref_file=FBREF_FILE):
+    fbref_file = Path(fbref_file)
+    if not fbref_file.exists():
+        raise FileNotFoundError(
+            f"FBref player stats file not found: {fbref_file}. Jalankan scraping FBref dulu."
+        )
+
+    from src.preprocessing.merge_performance import merge_performance_frames
+
+    clean_df, model_df, report = build_preprocessed_dataset(raw_file=raw_file)
+    fbref_df = pd.read_csv(fbref_file)
+    model_with_performance, performance_report = merge_performance_frames(
+        model_df=model_df,
+        clean_df=clean_df,
+        fbref_df=fbref_df,
+        output_file=MODEL_FILE,
+        write_outputs=False,
+    )
+
+    clean_with_performance = clean_df.copy()
+    performance_columns = [
+        column
+        for column in model_with_performance.columns
+        if column not in model_df.columns or column == "has_performance_stats"
+    ]
+    for column in performance_columns:
+        clean_with_performance[column] = model_with_performance[column].values
+
+    report.update(
+        {
+            "fbref_file": str(fbref_file),
+            "matched_rows": performance_report["matched_rows"],
+            "unmatched_rows": performance_report["unmatched_rows"],
+            "match_method_counts": performance_report["match_method_counts"],
+            "performance_columns": performance_report["performance_columns"],
+            "model_columns": list(model_with_performance.columns),
+        }
+    )
+    return clean_with_performance, model_with_performance, report
+
+
 def main():
-    clean_df, model_df, report = build_preprocessed_dataset()
+    clean_df, model_df, report = build_final_dataset()
     processed_file, model_file = save_outputs(clean_df, model_df)
 
-    print("Preprocessing selesai.")
+    print("Preprocessing final dengan performa selesai.")
     print(f"Processed file: {processed_file}")
     print(f"Model file    : {model_file}")
     print(f"Raw rows      : {report['raw_rows']}")
@@ -327,6 +369,10 @@ def main():
     print(f"Model rows    : {report['model_rows']}")
     print(f"Duplicates removed before history: {report['duplicates_removed_before_history']}")
     print(f"Label distribution: {report['label_distribution']}")
+    print(f"Matched FBref rows: {report['matched_rows']}")
+    print(f"Unmatched FBref rows: {report['unmatched_rows']}")
+    print(f"Match methods: {report['match_method_counts']}")
+    print(f"Performance columns: {report['performance_columns']}")
     print(f"Dropped features: {report['dropped_features']}")
     return clean_df, model_df, report
 

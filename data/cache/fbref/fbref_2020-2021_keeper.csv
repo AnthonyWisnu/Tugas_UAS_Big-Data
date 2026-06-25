@@ -1,0 +1,209 @@
+league,season,team,player,nation,pos,age,born,keeper_playing_time_mp,keeper_playing_time_starts,keeper_playing_time_min,keeper_90s,keeper_performance_ga,keeper_performance_ga90,keeper_performance_sota,keeper_performance_saves,keeper_performance_savepct,keeper_performance_w,keeper_performance_d,keeper_performance_l,keeper_performance_cs,keeper_performance_cspct,keeper_penalty_kicks_pkatt,keeper_penalty_kicks_pka,keeper_penalty_kicks_pksv,keeper_penalty_kicks_pkm,keeper_penalty_kicks_savepct,fbref_season_label,fbref_stat_type
+ENG-Premier League,2020,Arsenal,Bernd Leno,GER,GK,28,1992,35,35,3131,34.8,37,1.06,120,84,69.2,17,6,12,11,31.4,2,1,1,0,50.0,2020-2021,keeper
+ENG-Premier League,2020,Arsenal,Mathew Ryan,AUS,GK,28,1992,3,3,270,3.0,2,0.67,10,8,80.0,1,1,1,1,33.3,1,1,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Arsenal,Rúnar Alex Rúnarsson,ISL,GK,25,1995,1,0,16,0.2,0,0.0,2,2,100.0,0,0,0,0,,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Aston Villa,Emiliano Martínez,ARG,GK,27,1992,38,38,3420,38.0,46,1.21,182,141,74.7,16,7,15,15,39.5,6,5,1,0,16.7,2020-2021,keeper
+ENG-Premier League,2020,Brighton,Mathew Ryan,AUS,GK,28,1992,11,11,990,11.0,19,1.73,35,16,45.7,2,4,5,2,18.2,4,4,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Brighton,Robert Sánchez,ESP,GK,22,1997,27,27,2430,27.0,27,1.0,93,66,71.0,7,10,10,10,37.0,3,2,0,1,0.0,2020-2021,keeper
+ENG-Premier League,2020,Burnley,Bailey Peacock-Farrell,NIR,GK,23,1996,4,4,360,4.0,14,3.5,24,10,41.7,0,0,4,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Burnley,Nick Pope,ENG,GK,28,1992,32,32,2880,32.0,37,1.16,151,114,75.5,10,9,13,11,34.4,3,3,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Burnley,Will Norris,ENG,GK,26,1993,2,2,180,2.0,4,2.0,6,2,33.3,0,0,2,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Chelsea,Kepa Arrizabalaga,ESP,GK,25,1994,7,6,585,6.5,8,1.23,24,16,66.7,2,2,2,2,33.3,1,1,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Chelsea,Willy Caballero,ARG,GK,38,1981,1,1,90,1.0,3,3.0,3,0,0.0,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Chelsea,Édouard Mendy,SEN,GK,28,1992,31,31,2745,30.5,25,0.82,81,56,69.1,17,7,7,16,51.6,3,2,1,0,33.3,2020-2021,keeper
+ENG-Premier League,2020,Crystal Palace,Jack Butland,ENG,GK,27,1993,1,1,90,1.0,2,2.0,5,3,60.0,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Crystal Palace,Vicente Guaita,ESP,GK,33,1987,37,37,3330,37.0,64,1.73,170,106,62.4,11,8,18,8,21.6,4,3,1,0,25.0,2020-2021,keeper
+ENG-Premier League,2020,Everton,Jordan Pickford,ENG,GK,26,1994,31,31,2742,30.5,39,1.28,128,89,69.5,15,5,11,10,32.3,3,2,0,1,0.0,2020-2021,keeper
+ENG-Premier League,2020,Everton,João Virgínia,POR,GK,20,1999,1,0,48,0.5,0,0.0,3,3,100.0,0,0,0,0,,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Everton,Robin Olsen,SWE,GK,30,1990,7,7,630,7.0,9,1.29,30,21,70.0,2,3,2,2,28.6,1,1,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Fulham,Alphonse Areola,FRA,GK,27,1993,36,36,3240,36.0,48,1.33,158,115,69.6,5,13,18,9,25.0,6,6,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Fulham,Marek Rodák,SVK,GK,23,1996,2,2,180,2.0,5,2.5,9,4,44.4,0,0,2,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Leeds United,Illan Meslier,FRA,GK,20,2000,35,35,3150,35.0,52,1.49,191,139,72.8,16,5,14,11,31.4,9,8,1,0,11.1,2020-2021,keeper
+ENG-Premier League,2020,Leeds United,Kiko Casilla,ESP,GK,33,1986,3,3,270,3.0,2,0.67,10,8,80.0,2,0,1,1,33.3,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Leicester City,Kasper Schmeichel,DEN,GK,33,1986,38,38,3420,38.0,50,1.32,138,88,63.8,20,6,12,11,28.9,4,4,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Liverpool,Adrián,ESP,GK,33,1987,3,3,270,3.0,9,3.0,19,9,52.6,1,1,1,1,33.3,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Liverpool,Alisson,BRA,GK,27,1992,33,33,2970,33.0,32,0.97,115,83,72.2,18,8,7,10,30.3,8,4,1,3,20.0,2020-2021,keeper
+ENG-Premier League,2020,Liverpool,Caoimhín Kelleher,IRL,GK,21,1998,2,2,180,2.0,1,0.5,7,6,85.7,1,0,1,1,50.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Manchester City,Ederson Moraes,BRA,GK,26,1993,36,36,3240,36.0,28,0.78,93,65,69.9,25,5,6,19,52.8,8,7,1,0,12.5,2020-2021,keeper
+ENG-Premier League,2020,Manchester City,Scott Carson,ENG,GK,34,1985,1,1,90,1.0,3,3.0,4,1,25.0,1,0,0,0,0.0,2,1,1,0,50.0,2020-2021,keeper
+ENG-Premier League,2020,Manchester City,Zack Steffen,USA,GK,25,1995,1,1,90,1.0,1,1.0,2,1,50.0,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Manchester Utd,David de Gea,ESP,GK,29,1990,26,26,2295,25.5,32,1.25,91,59,64.8,12,9,5,9,34.6,4,4,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Manchester Utd,Dean Henderson,ENG,GK,23,1997,13,12,1125,12.5,12,0.96,52,40,76.9,9,2,1,4,33.3,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Newcastle,Karl Darlow,WAL,GK,29,1990,25,25,2250,25.0,43,1.72,130,87,66.9,7,4,14,4,16.0,4,3,1,0,25.0,2020-2021,keeper
+ENG-Premier League,2020,Newcastle,Martin Dúbravka,SVK,GK,31,1989,13,13,1170,13.0,19,1.46,64,45,70.3,5,5,3,3,23.1,1,1,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Sheffield United,Aaron Ramsdale,ENG,GK,22,1998,38,38,3420,38.0,63,1.66,208,145,69.7,7,2,29,5,13.2,4,3,0,1,0.0,2020-2021,keeper
+ENG-Premier League,2020,Southampton,Alex McCarthy,ENG,GK,30,1989,30,30,2700,30.0,57,1.9,144,92,60.4,8,7,15,7,23.3,6,6,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,Southampton,Fraser Forster,ENG,GK,32,1988,8,8,720,8.0,11,1.37,30,19,63.3,4,0,4,2,25.0,3,2,1,0,33.3,2020-2021,keeper
+ENG-Premier League,2020,Tottenham,Hugo Lloris,FRA,GK,33,1986,38,38,3420,38.0,45,1.18,159,114,71.7,18,8,12,12,31.6,10,10,0,0,0.0,2020-2021,keeper
+ENG-Premier League,2020,West Brom,David Button,ENG,GK,31,1989,1,1,90,1.0,2,2.0,6,4,66.7,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,West Brom,Sam Johnstone,ENG,GK,27,1993,37,37,3330,37.0,74,2.0,238,164,68.9,4,11,22,6,16.2,12,7,2,3,22.2,2020-2021,keeper
+ENG-Premier League,2020,West Ham,Darren Randolph,IRL,GK,33,1987,3,3,270,3.0,3,1.0,9,6,66.7,2,0,1,1,33.3,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,West Ham,Łukasz Fabiański,POL,GK,35,1985,35,35,3150,35.0,44,1.26,140,99,68.6,17,8,10,10,28.6,6,3,2,1,40.0,2020-2021,keeper
+ENG-Premier League,2020,Wolves,John Ruddy,ENG,GK,33,1986,2,1,91,1.0,1,0.99,4,3,75.0,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ENG-Premier League,2020,Wolves,Rui Patrício,POR,GK,32,1988,37,37,3329,37.0,51,1.38,150,99,66.0,12,9,16,10,27.0,8,7,1,0,12.5,2020-2021,keeper
+ESP-La Liga,2020,Alavés,Antonio Sivera,ESP,GK,23,1996,1,1,71,0.8,0,0.0,1,1,100.0,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Alavés,Fernando Pacheco,ESP,GK,28,1992,38,37,3349,37.2,57,1.53,143,86,60.1,9,11,17,9,24.3,3,3,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Athletic Club,Jokin Ezkieta,ESP,GK,23,1996,1,1,90,1.0,2,2.0,3,1,33.3,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Athletic Club,Unai Simón,ESP,GK,23,1997,37,37,3330,37.0,40,1.08,108,68,63.0,11,13,13,9,24.3,6,5,1,0,16.7,2020-2021,keeper
+ESP-La Liga,2020,Atlético Madrid,Jan Oblak,SVN,GK,27,1993,38,38,3420,38.0,25,0.66,123,100,79.7,26,8,4,18,47.4,4,1,2,1,66.7,2020-2021,keeper
+ESP-La Liga,2020,Barcelona,Marc-André ter Stegen,GER,GK,28,1992,31,31,2790,31.0,32,1.03,110,78,70.9,21,5,5,11,35.5,3,3,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Barcelona,Neto,BRA,GK,31,1989,7,7,630,7.0,6,0.86,24,18,75.0,3,2,2,3,42.9,2,2,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Celta Vigo,Iván Villar,ESP,GK,23,1997,21,19,1781,19.8,30,1.52,77,47,61.0,7,5,7,5,26.3,7,6,1,0,14.3,2020-2021,keeper
+ESP-La Liga,2020,Celta Vigo,Rubén Blanco,ESP,GK,25,1995,19,19,1637,18.2,27,1.48,61,34,55.7,7,6,6,4,21.1,1,1,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Cádiz,Alberto Cifuentes,ESP,GK,41,1979,2,2,180,2.0,3,1.5,6,3,50.0,1,0,1,1,50.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Cádiz,David Gil,ESP,GK,26,1994,4,4,360,4.0,10,2.5,17,7,41.2,0,1,3,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Cádiz,Jeremías Ledesma,ARG,GK,27,1993,32,32,2880,32.0,45,1.41,119,82,62.2,10,10,12,9,28.1,9,8,1,0,11.1,2020-2021,keeper
+ESP-La Liga,2020,Eibar,Marko Dmitrović,SRB,GK,28,1992,35,35,3120,34.7,49,1.41,129,80,62.0,6,11,18,9,25.7,5,3,1,1,25.0,2020-2021,keeper
+ESP-La Liga,2020,Eibar,Yoel,ESP,GK,31,1988,4,3,300,3.3,3,0.9,6,3,50.0,0,1,2,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Elche,Paulo Gazzaniga,ARG,GK,28,1992,8,8,720,8.0,9,1.13,24,15,62.5,3,1,4,2,25.0,1,1,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Elche,Édgar Badía,ESP,GK,28,1992,30,30,2700,30.0,46,1.53,139,93,66.9,5,11,14,5,16.7,9,5,3,1,37.5,2020-2021,keeper
+ESP-La Liga,2020,Getafe,David Soria,ESP,GK,27,1993,28,28,2520,28.0,31,1.11,77,52,59.7,6,8,14,10,35.7,7,6,1,0,14.3,2020-2021,keeper
+ESP-La Liga,2020,Getafe,Rubén Yáñez,ESP,GK,26,1993,10,10,900,10.0,12,1.2,32,20,62.5,3,3,4,4,40.0,1,1,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Granada,Aarón Escandell,ESP,GK,24,1995,5,5,450,5.0,8,1.6,24,16,66.7,1,1,3,1,20.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Granada,Rui Silva,POR,GK,26,1994,32,32,2880,32.0,55,1.72,134,79,59.0,12,6,14,8,25.0,10,5,4,1,44.4,2020-2021,keeper
+ESP-La Liga,2020,Granada,Ángel,ESP,GK,18,2002,1,1,90,1.0,2,2.0,8,6,75.0,0,0,1,0,0.0,2,1,1,0,50.0,2020-2021,keeper
+ESP-La Liga,2020,Huesca,Andrés Fernández,ESP,GK,33,1986,16,16,1440,16.0,21,1.31,55,34,61.8,2,8,6,4,25.0,3,3,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Huesca,Álvaro Fernández,ESP,GK,22,1998,22,22,1980,22.0,32,1.45,97,65,67.0,5,5,12,5,22.7,2,2,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Levante,Aitor Fernández,ESP,GK,29,1991,29,29,2610,29.0,44,1.52,122,78,63.9,8,11,10,3,10.3,3,3,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Levante,Dani Cárdenas,ESP,GK,23,1997,8,8,720,8.0,11,1.37,39,28,71.8,1,3,4,1,12.5,1,0,0,1,,2020-2021,keeper
+ESP-La Liga,2020,Levante,Koke Vegas,ESP,GK,24,1995,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Osasuna,Juan Pérez,ESP,GK,24,1996,3,3,270,3.0,3,1.0,8,5,62.5,1,1,1,1,33.3,1,1,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Osasuna,Rubén,ESP,GK,36,1984,3,3,187,2.1,5,2.41,8,3,37.5,0,2,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Osasuna,Sergio Herrera,ESP,GK,27,1993,33,32,2958,32.9,40,1.22,121,87,66.9,10,8,14,10,31.3,8,4,3,1,42.9,2020-2021,keeper
+ESP-La Liga,2020,Real Betis,Claudio Bravo,CHI,GK,37,1983,20,20,1800,20.0,25,1.25,76,51,67.1,8,8,4,7,35.0,5,4,1,0,20.0,2020-2021,keeper
+ESP-La Liga,2020,Real Betis,Joel Robles,ESP,GK,30,1990,18,18,1620,18.0,25,1.39,62,37,59.7,9,2,7,6,33.3,5,4,1,0,20.0,2020-2021,keeper
+ESP-La Liga,2020,Real Madrid,Thibaut Courtois,BEL,GK,28,1992,38,38,3420,38.0,28,0.74,116,88,75.9,25,9,4,17,44.7,9,7,2,0,22.2,2020-2021,keeper
+ESP-La Liga,2020,Real Sociedad,Álex Remiro,ESP,GK,25,1995,38,38,3420,38.0,38,1.0,102,67,62.7,17,11,10,14,36.8,5,3,1,1,25.0,2020-2021,keeper
+ESP-La Liga,2020,Sevilla,Tomáš Vaclík,CZE,GK,31,1989,5,5,450,5.0,5,1.0,14,9,64.3,3,0,2,2,40.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Sevilla,Yassine Bounou,MAR,GK,29,1991,33,33,2970,33.0,28,0.85,107,79,73.8,21,5,7,15,45.5,6,4,2,0,33.3,2020-2021,keeper
+ESP-La Liga,2020,Valencia,Jasper Cillessen,NED,GK,31,1989,10,10,900,10.0,11,1.1,44,33,75.0,5,1,4,3,30.0,2,1,1,0,50.0,2020-2021,keeper
+ESP-La Liga,2020,Valencia,Jaume Doménech,ESP,GK,29,1990,28,28,2520,28.0,42,1.5,130,88,67.7,5,12,11,4,14.3,6,4,2,0,33.3,2020-2021,keeper
+ESP-La Liga,2020,Valladolid,Jordi Masip,ESP,GK,31,1989,25,25,2250,25.0,40,1.6,112,75,64.3,4,9,12,2,8.0,4,4,0,0,0.0,2020-2021,keeper
+ESP-La Liga,2020,Valladolid,Roberto,ESP,GK,34,1986,13,13,1170,13.0,17,1.31,46,29,63.0,1,7,5,1,7.7,3,2,0,1,0.0,2020-2021,keeper
+ESP-La Liga,2020,Villarreal,Gerónimo Rulli,ARG,GK,28,1992,2,2,180,2.0,4,2.0,8,4,50.0,0,0,2,0,0.0,0,0,0,0,,2020-2021,keeper
+ESP-La Liga,2020,Villarreal,Sergio Asenjo,ESP,GK,31,1989,36,36,3240,36.0,41,1.14,121,80,66.1,15,13,8,10,27.8,9,7,1,1,12.5,2020-2021,keeper
+FRA-Ligue 1,2020,Angers,Paul Bernardoni,FRA,GK,23,1997,38,38,3420,38.0,58,1.53,141,83,58.9,12,8,18,9,23.7,8,7,1,0,12.5,2020-2021,keeper
+FRA-Ligue 1,2020,Bordeaux,Benoît Costil,FRA,GK,33,1987,38,38,3420,38.0,57,1.5,151,101,62.3,13,6,19,14,36.8,8,7,1,0,12.5,2020-2021,keeper
+FRA-Ligue 1,2020,Brest,Gautier Larsonneur,FRA,GK,23,1997,35,35,3150,35.0,62,1.77,173,111,64.2,10,7,18,6,17.1,10,8,1,1,11.1,2020-2021,keeper
+FRA-Ligue 1,2020,Brest,Sébastien Cibois,FRA,GK,22,1998,3,3,270,3.0,4,1.33,11,7,63.6,1,1,1,1,33.3,1,1,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Dijon,Alfred Gomis,SEN,GK,26,1993,5,5,450,5.0,10,2.0,32,22,68.8,0,1,4,0,0.0,3,3,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Dijon,Anthony Racioppi,SUI,GK,21,1998,21,21,1890,21.0,33,1.57,93,60,64.5,2,6,13,3,14.3,4,3,1,0,25.0,2020-2021,keeper
+FRA-Ligue 1,2020,Dijon,Saturnin Allagbé,BEN,GK,26,1993,12,12,1080,12.0,30,2.5,67,37,55.2,2,2,8,3,25.0,3,1,1,1,50.0,2020-2021,keeper
+FRA-Ligue 1,2020,Lens,Jean-Louis Leca,FRA,GK,34,1985,37,37,3313,36.8,51,1.39,139,88,63.3,15,12,10,8,21.6,11,10,1,0,9.1,2020-2021,keeper
+FRA-Ligue 1,2020,Lens,Wuilker Faríñez,VEN,GK,22,1998,3,1,107,1.2,3,2.52,7,4,57.1,0,0,1,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Lille,Mike Maignan,FRA,GK,25,1995,38,38,3420,38.0,23,0.61,108,86,78.7,24,11,3,21,55.3,2,1,1,0,50.0,2020-2021,keeper
+FRA-Ligue 1,2020,Lorient,Matthieu Dreyer,FRA,GK,31,1989,15,15,1350,15.0,25,1.67,58,33,56.9,5,5,5,2,13.3,6,6,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Lorient,Paul Nardi,FRA,GK,26,1994,23,23,2070,23.0,44,1.91,111,67,60.4,6,4,13,3,13.0,6,4,1,1,20.0,2020-2021,keeper
+FRA-Ligue 1,2020,Lyon,Anthony Lopes,POR,GK,29,1990,38,38,3420,38.0,43,1.13,136,93,68.4,22,10,6,11,28.9,8,5,2,1,28.6,2020-2021,keeper
+FRA-Ligue 1,2020,Marseille,Steve Mandanda,FRA,GK,35,1985,37,37,3330,37.0,45,1.22,129,84,65.1,16,12,9,8,21.6,3,3,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Marseille,Yohann Pelé,FRA,GK,37,1982,1,1,90,1.0,2,2.0,5,3,60.0,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,Metz,Alexandre Oukidja,ALG,GK,32,1988,34,34,3058,34.0,39,1.15,127,88,69.3,12,10,12,8,23.5,10,9,1,0,10.0,2020-2021,keeper
+FRA-Ligue 1,2020,Metz,Marc-Aurèle Caillard,FRA,GK,26,1994,5,4,361,4.0,10,2.49,23,13,56.5,0,1,3,0,0.0,3,3,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Monaco,Benjamin Lecomte,FRA,GK,29,1991,28,28,2520,28.0,27,0.96,70,43,61.4,18,5,5,13,46.4,3,3,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Monaco,Radosław Majecki,POL,GK,20,1999,1,1,90,1.0,1,1.0,2,1,50.0,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,Monaco,Vito Mannone,ITA,GK,32,1988,9,9,810,9.0,14,1.56,33,19,57.6,5,1,3,2,22.2,2,2,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Montpellier,Dimitry Bertaud,COD,GK,22,1998,9,7,745,8.3,11,1.33,43,32,74.4,4,2,1,3,42.9,1,1,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Montpellier,Jonas Omlin,SUI,GK,26,1994,31,31,2673,29.7,51,1.72,159,108,67.9,10,10,11,2,6.5,11,11,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Nantes,Alban Lafont,CIV,GK,21,1999,38,38,3420,38.0,55,1.45,167,112,67.1,9,13,16,5,13.2,13,10,2,1,16.7,2020-2021,keeper
+FRA-Ligue 1,2020,Nice,Walter Benítez,ARG,GK,27,1993,38,38,3420,38.0,53,1.39,178,125,70.2,15,7,16,9,23.7,7,7,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Nîmes,Baptiste Reynet,FRA,GK,29,1990,38,38,3420,38.0,71,1.87,195,124,63.6,9,8,21,8,21.1,10,6,3,1,33.3,2020-2021,keeper
+FRA-Ligue 1,2020,PSG,Keylor Navas,CRC,GK,33,1986,29,29,2520,28.0,18,0.64,90,73,80.0,21,3,5,15,51.7,2,1,1,0,50.0,2020-2021,keeper
+FRA-Ligue 1,2020,PSG,Marcin Bułka,POL,GK,20,1999,1,1,90,1.0,1,1.0,3,2,66.7,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,PSG,Sergio Rico,ESP,GK,26,1993,10,8,810,9.0,9,1.0,37,28,75.7,5,1,2,5,62.5,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,Reims,Predrag Rajković,SRB,GK,24,1995,37,37,3285,36.5,49,1.34,162,113,69.8,9,15,13,10,27.0,7,4,2,1,33.3,2020-2021,keeper
+FRA-Ligue 1,2020,Reims,Yehvann Diouf,SEN,GK,20,1999,2,1,135,1.5,1,0.67,6,5,83.3,0,0,1,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Rennes,Alfred Gomis,SEN,GK,26,1993,22,22,1980,22.0,25,1.14,77,52,67.5,7,5,10,5,22.7,4,3,0,1,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Rennes,Romain Salin,FRA,GK,36,1984,15,15,1350,15.0,14,0.93,54,40,74.1,9,4,2,5,33.3,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,Rennes,Édouard Mendy,SEN,GK,28,1992,1,1,90,1.0,1,1.0,1,0,0.0,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+FRA-Ligue 1,2020,Saint-Étienne,Etienne Green,ENG,GK,20,2000,8,8,720,8.0,8,1.0,27,19,70.4,4,1,3,3,37.5,4,2,1,1,33.3,2020-2021,keeper
+FRA-Ligue 1,2020,Saint-Étienne,Jessy Moulin,FRA,GK,34,1986,29,29,2610,29.0,42,1.45,104,62,59.6,8,9,12,9,31.0,4,4,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Saint-Étienne,Stefan Bajic,FRA,GK,18,2001,1,1,90,1.0,4,4.0,4,0,0.0,0,0,1,0,0.0,1,0,0,1,,2020-2021,keeper
+FRA-Ligue 1,2020,Strasbourg,Bingourou Kamara,SEN,GK,23,1996,8,8,720,8.0,14,1.75,33,19,57.6,2,0,6,2,25.0,1,1,0,0,0.0,2020-2021,keeper
+FRA-Ligue 1,2020,Strasbourg,Eiji Kawashima,JPN,GK,37,1983,24,24,2160,24.0,31,1.29,91,60,65.9,8,7,9,8,33.3,5,3,1,1,25.0,2020-2021,keeper
+FRA-Ligue 1,2020,Strasbourg,Matz Sels,BEL,GK,28,1992,6,6,540,6.0,13,2.17,26,13,50.0,1,2,3,0,0.0,2,2,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Atalanta,Marco Sportiello,ITA,GK,28,1992,15,13,1261,14.0,21,1.5,48,27,56.3,9,1,3,2,15.4,2,1,1,0,50.0,2020-2021,keeper
+ITA-Serie A,2020,Atalanta,Pierluigi Gollini,ITA,GK,25,1995,25,25,2156,24.0,26,1.09,65,39,60.0,14,8,3,9,36.0,6,4,2,0,33.3,2020-2021,keeper
+ITA-Serie A,2020,Benevento,Lorenzo Montipò,ITA,GK,24,1996,37,37,3330,37.0,74,2.0,173,103,57.2,7,11,19,7,18.9,5,4,1,0,20.0,2020-2021,keeper
+ITA-Serie A,2020,Benevento,Niccolò Manfredini,ITA,GK,32,1988,1,1,90,1.0,1,1.0,5,4,80.0,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Bologna,Angelo da Costa Júnior,BRA,GK,36,1983,6,6,540,6.0,9,1.5,27,18,66.7,0,5,1,1,16.7,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Bologna,Federico Ravaglia,ITA,GK,20,1999,4,4,360,4.0,10,2.5,20,10,50.0,0,1,3,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Bologna,Łukasz Skorupski,POL,GK,29,1991,28,28,2520,28.0,46,1.64,147,101,68.7,10,5,13,4,14.3,7,5,2,0,28.6,2020-2021,keeper
+ITA-Serie A,2020,Cagliari,Alessio Cragno,ITA,GK,26,1994,34,34,3060,34.0,53,1.56,185,132,71.4,6,10,18,6,17.6,5,5,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Cagliari,Guglielmo Vicario,ITA,GK,23,1996,4,4,360,4.0,6,1.5,21,15,71.4,3,0,1,1,25.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Crotone,Alex Cordaz,ITA,GK,37,1983,36,36,3240,36.0,91,2.53,209,118,56.5,6,3,27,2,5.6,5,5,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Crotone,Gian Crespi,ITA,GK,19,2001,1,1,90,1.0,0,0.0,1,1,100.0,0,1,0,1,100.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Crotone,Marco Festa,ITA,GK,28,1992,1,1,90,1.0,1,1.0,8,7,87.5,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Fiorentina,Bartłomiej Drągowski,POL,GK,22,1997,36,36,3148,35.0,55,1.57,140,85,60.7,9,12,15,8,22.2,10,8,2,0,20.0,2020-2021,keeper
+ITA-Serie A,2020,Fiorentina,Pietro Terracciano,ITA,GK,30,1990,4,2,272,3.0,4,1.32,11,7,63.6,0,1,1,2,100.0,1,0,1,0,100.0,2020-2021,keeper
+ITA-Serie A,2020,Genoa,Alberto Paleari,ITA,GK,27,1992,3,2,206,2.3,3,1.31,12,9,75.0,1,0,1,1,50.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Genoa,Federico Marchetti,ITA,GK,37,1983,4,4,334,3.7,11,2.96,18,7,38.9,0,1,3,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Genoa,Mattia Perin,ITA,GK,27,1992,32,32,2879,32.0,44,1.38,157,119,72.0,9,11,12,8,25.0,7,7,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Hellas Verona,Alessandro Berardi,ITA,GK,29,1991,1,0,28,0.3,0,0.0,1,1,100.0,0,0,0,0,,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Hellas Verona,Ivor Pandur,CRO,GK,20,2000,4,4,332,3.7,6,1.63,13,7,53.8,0,3,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Hellas Verona,Marco Silvestri,ITA,GK,29,1991,34,34,3060,34.0,42,1.24,135,93,68.9,11,9,14,7,20.6,7,6,0,1,0.0,2020-2021,keeper
+ITA-Serie A,2020,Inter,Daniele Padelli,ITA,GK,34,1985,1,0,45,0.5,1,2.0,2,1,50.0,0,0,0,0,,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Inter,Ionuț Radu,ROU,GK,23,1997,2,1,135,1.5,1,0.67,6,5,83.3,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Inter,Samir Handanović,SVN,GK,36,1984,37,37,3240,36.0,33,0.92,110,77,70.0,27,7,3,14,37.8,6,4,2,0,33.3,2020-2021,keeper
+ITA-Serie A,2020,Juventus,Carlo Pinsoglio,ITA,GK,30,1990,1,0,23,0.3,1,3.91,2,1,50.0,0,0,0,0,,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Juventus,Gianluigi Buffon,ITA,GK,42,1978,8,8,720,8.0,5,0.62,20,15,75.0,7,1,0,3,37.5,3,2,1,0,33.3,2020-2021,keeper
+ITA-Serie A,2020,Juventus,Wojciech Szczęsny,POL,GK,30,1990,30,30,2677,29.7,32,1.08,96,67,66.7,16,8,6,5,16.7,6,4,2,0,33.3,2020-2021,keeper
+ITA-Serie A,2020,Lazio,Pepe Reina,ESP,GK,37,1982,29,29,2610,29.0,41,1.41,109,75,62.4,18,3,8,9,31.0,8,8,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Lazio,Thomas Strakosha,ALB,GK,25,1995,9,9,810,9.0,14,1.56,38,24,63.2,3,2,4,3,33.3,2,2,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Milan,Ciprian Tătărușanu,ROU,GK,34,1986,1,1,90,1.0,3,3.0,7,4,57.1,0,1,0,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Milan,Gianluigi Donnarumma,ITA,GK,21,1999,37,37,3330,37.0,38,1.03,128,92,70.3,24,6,7,14,37.8,4,2,1,1,33.3,2020-2021,keeper
+ITA-Serie A,2020,Napoli,Alex Meret,ITA,GK,23,1997,22,22,1980,22.0,29,1.32,82,53,64.6,13,5,4,6,27.3,2,2,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Napoli,David Ospina,COL,GK,31,1988,16,16,1440,16.0,12,0.75,42,30,71.4,11,0,5,8,50.0,3,3,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Parma,Luigi Sepe,ITA,GK,29,1991,36,36,3240,36.0,76,2.11,185,109,58.9,3,11,22,5,13.9,2,2,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Parma,Simone Colombi,ITA,GK,29,1991,2,2,180,2.0,7,3.5,10,3,30.0,0,0,2,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Roma,Antonio Mirante,ITA,GK,37,1983,13,13,1153,12.8,19,1.48,55,36,65.5,6,3,4,5,38.5,3,2,1,0,33.3,2020-2021,keeper
+ITA-Serie A,2020,Roma,Daniel Fuzato,BRA,GK,23,1997,5,5,450,5.0,7,1.4,26,19,73.1,2,1,2,2,40.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Roma,Pau López,ESP,GK,25,1994,21,20,1817,20.2,29,1.44,88,59,67.0,10,4,6,4,20.0,3,3,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Sampdoria,Emil Audero,IDN,GK,23,1997,37,37,3330,37.0,54,1.46,174,120,69.0,14,7,16,6,16.2,9,7,2,0,22.2,2020-2021,keeper
+ITA-Serie A,2020,Sampdoria,Karlo Letica,CRO,GK,23,1997,1,1,90,1.0,0,0.0,1,1,100.0,1,0,0,1,100.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Sassuolo,Andrea Consigli,ITA,GK,33,1987,37,37,3330,37.0,56,1.51,186,130,69.9,17,10,10,7,18.9,5,4,1,0,20.0,2020-2021,keeper
+ITA-Serie A,2020,Sassuolo,Gianluca Pegolo,ITA,GK,39,1981,1,1,90,1.0,0,0.0,1,1,100.0,0,1,0,1,100.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Spezia,Ivan Provedel,ITA,GK,26,1994,29,29,2610,29.0,55,1.9,130,75,57.7,6,10,13,4,13.8,7,6,1,0,14.3,2020-2021,keeper
+ITA-Serie A,2020,Spezia,Jeroen Zoet,NED,GK,29,1991,7,7,603,6.7,12,1.79,30,18,60.0,3,1,3,1,14.3,3,3,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Spezia,Rafael,BRA,GK,38,1982,3,2,207,2.3,5,2.17,18,13,72.2,0,1,1,1,50.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Torino,Salvatore Sirigu,ITA,GK,33,1987,32,32,2880,32.0,62,1.94,136,74,54.4,5,13,14,7,21.9,9,8,0,1,0.0,2020-2021,keeper
+ITA-Serie A,2020,Torino,Samir Ujkani,KVX,GK,32,1988,1,1,90,1.0,1,1.0,3,2,66.7,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Torino,Vanja Milinković-Savić,SRB,GK,23,1997,5,5,450,5.0,6,1.2,20,14,70.0,2,2,1,1,20.0,1,1,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Udinese,Juan Musso,ARG,GK,26,1994,35,35,3147,35.0,51,1.46,150,99,66.0,9,10,16,8,22.9,13,13,0,0,0.0,2020-2021,keeper
+ITA-Serie A,2020,Udinese,Manuel Gasparini,ITA,GK,18,2002,1,0,3,0.0,0,0.0,0,0,,0,0,0,0,,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Udinese,Nícolas Andrade,BRA,GK,32,1988,2,2,180,2.0,5,2.5,6,1,16.7,1,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+ITA-Serie A,2020,Udinese,Simone Scuffet,ITA,GK,24,1996,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+,2020,Arminia,Stefan Ortega,GER,GK,27,1992,34,34,3060,34.0,52,1.53,167,120,68.9,9,8,17,11,32.4,6,5,1,0,16.7,2020-2021,keeper
+,2020,Augsburg,Rafał Gikiewicz,POL,GK,32,1987,34,34,3060,34.0,55,1.62,183,128,69.9,10,6,18,7,20.6,10,6,2,2,25.0,2020-2021,keeper
+,2020,Bayern Munich,Alexander Nübel,GER,GK,23,1996,1,1,90,1.0,2,2.0,4,2,50.0,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Bayern Munich,Manuel Neuer,GER,GK,34,1986,33,33,2970,33.0,42,1.27,122,81,65.6,24,5,4,9,27.3,3,1,1,1,50.0,2020-2021,keeper
+,2020,Dortmund,Marwin Hitz,SUI,GK,32,1987,16,16,1395,15.5,16,1.03,45,29,64.4,11,2,3,7,43.8,2,2,0,0,0.0,2020-2021,keeper
+,2020,Dortmund,Roman Bürki,SUI,GK,29,1990,19,18,1665,18.5,30,1.62,92,62,67.4,9,2,7,4,22.2,4,4,0,0,0.0,2020-2021,keeper
+,2020,Frankfurt,Elias Bördner,GER,GK,18,2002,1,1,90,1.0,1,1.0,6,5,83.3,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Frankfurt,Kevin Trapp,GER,GK,30,1990,33,33,2970,33.0,52,1.58,154,102,66.2,15,12,6,4,12.1,6,4,1,1,20.0,2020-2021,keeper
+,2020,Freiburg,Florian Müller,GER,GK,22,1997,31,31,2790,31.0,46,1.48,158,112,70.9,11,8,12,6,19.4,3,2,1,0,33.3,2020-2021,keeper
+,2020,Freiburg,Mark Flekken,NED,GK,27,1993,3,3,270,3.0,6,2.0,18,12,66.7,1,1,1,0,0.0,3,2,0,1,0.0,2020-2021,keeper
+,2020,Gladbach,Tobias Sippel,GER,GK,32,1988,4,3,344,3.8,6,1.57,19,13,68.4,1,1,1,1,33.3,0,0,0,0,,2020-2021,keeper
+,2020,Gladbach,Yann Sommer,SUI,GK,31,1988,31,31,2712,30.1,50,1.66,134,84,62.7,12,9,10,6,19.4,6,6,0,0,0.0,2020-2021,keeper
+,2020,Hertha BSC,Alexander Schwolow,GER,GK,28,1992,26,26,2340,26.0,39,1.5,108,69,63.9,6,10,10,8,30.8,6,6,0,0,0.0,2020-2021,keeper
+,2020,Hertha BSC,Rune Jarstein,NOR,GK,35,1984,8,8,720,8.0,13,1.62,33,20,60.6,2,1,5,1,12.5,2,1,1,0,50.0,2020-2021,keeper
+,2020,Hoffenheim,Oliver Baumann,GER,GK,30,1990,31,31,2790,31.0,51,1.65,137,86,62.8,10,8,13,6,19.4,9,6,2,1,25.0,2020-2021,keeper
+,2020,Hoffenheim,Philipp Pentke,GER,GK,35,1985,3,3,270,3.0,3,1.0,13,10,76.9,1,2,0,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Köln,Ron-Robert Zieler,GER,GK,31,1989,1,0,51,0.6,1,1.76,3,2,66.7,0,0,0,0,,1,1,0,0,0.0,2020-2021,keeper
+,2020,Köln,Timo Horn,GER,GK,27,1993,34,34,3009,33.4,59,1.76,155,96,61.9,8,9,17,5,14.7,8,7,1,0,12.5,2020-2021,keeper
+,2020,Leverkusen,Lennart Grill,GER,GK,21,1999,4,4,360,4.0,7,1.75,20,13,65.0,1,0,3,1,25.0,0,0,0,0,,2020-2021,keeper
+,2020,Leverkusen,Lukáš Hrádecký,FIN,GK,30,1989,29,29,2565,28.5,29,1.02,84,55,65.5,13,9,7,8,27.6,2,1,1,0,50.0,2020-2021,keeper
+,2020,Leverkusen,Niklas Lomb,GER,GK,27,1993,2,1,135,1.5,3,2.0,8,5,62.5,0,1,0,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Mainz 05,Finn Dahmen,GER,GK,22,1998,3,3,270,3.0,10,3.33,21,11,52.4,1,0,2,0,0.0,1,1,0,0,0.0,2020-2021,keeper
+,2020,Mainz 05,Robin Zentner,GER,GK,25,1994,31,31,2790,31.0,46,1.48,141,99,67.4,9,9,13,5,16.1,6,5,0,1,0.0,2020-2021,keeper
+,2020,RB Leipzig,Josep Martinez,ESP,GK,22,1998,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,RB Leipzig,Péter Gulácsi,HUN,GK,30,1990,33,33,2970,33.0,30,0.91,78,50,61.5,19,8,6,15,45.5,3,3,0,0,0.0,2020-2021,keeper
+,2020,Schalke 04,Frederik Rønnow,DEN,GK,27,1992,11,10,945,10.5,24,2.29,69,45,65.2,0,4,6,1,10.0,4,4,0,0,0.0,2020-2021,keeper
+,2020,Schalke 04,Michael Langer,AUT,GK,35,1985,3,2,239,2.7,12,4.52,24,12,50.0,0,0,2,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Schalke 04,Ralf Fährmann,GER,GK,31,1988,22,22,1876,20.8,50,2.4,142,95,64.8,3,3,16,3,13.6,4,3,1,0,25.0,2020-2021,keeper
+,2020,Stuttgart,Fabian Bredlow,GER,GK,25,1995,1,1,90,1.0,1,1.0,9,8,88.9,1,0,0,0,0.0,0,0,0,0,,2020-2021,keeper
+,2020,Stuttgart,Gregor Kobel,SUI,GK,22,1997,33,33,2970,33.0,54,1.64,151,103,64.2,11,9,13,5,15.2,7,5,2,0,28.6,2020-2021,keeper
+,2020,Union Berlin,Andreas Luthe,GER,GK,33,1987,31,31,2768,30.8,42,1.37,131,89,67.9,11,12,8,5,16.1,5,4,1,0,20.0,2020-2021,keeper
+,2020,Union Berlin,Loris Karius,GER,GK,27,1993,4,3,292,3.2,1,0.31,5,4,80.0,1,2,0,2,66.7,0,0,0,0,,2020-2021,keeper
+,2020,Werder Bremen,Jiří Pavlenka,CZE,GK,28,1992,34,34,3060,34.0,57,1.68,158,106,63.9,7,10,17,6,17.6,6,4,2,0,33.3,2020-2021,keeper
+,2020,Wolfsburg,Koen Casteels,BEL,GK,28,1992,32,32,2880,32.0,33,1.03,107,74,69.2,17,9,6,14,43.8,5,3,2,0,40.0,2020-2021,keeper
+,2020,Wolfsburg,Pavao Pervan,AUT,GK,32,1987,2,2,180,2.0,4,2.0,14,10,71.4,0,1,1,0,0.0,0,0,0,0,,2020-2021,keeper

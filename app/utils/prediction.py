@@ -5,6 +5,25 @@ import pandas as pd
 
 TARGET_COLUMN = "market_value_category"
 
+VALID_PERFORMANCE_INPUTS = [
+    "matches_played",
+    "starts",
+    "minutes",
+    "goals",
+    "assists",
+    "non_penalty_goals",
+    "yellow_cards",
+    "red_cards",
+    "shots_total",
+    "shots_on_target",
+    "fouls_committed",
+    "fouls_drawn",
+    "saves",
+    "clean_sheets",
+    "goals_against",
+    "shots_on_target_against",
+]
+
 
 def create_market_value_category(value):
     if value < 10:
@@ -104,6 +123,38 @@ def build_prediction_row(inputs, clean_df, model_columns):
         "prev_mv_to_club_total_ratio": prev_season_mv / club_total_mv_mio if club_total_mv_mio > 0 else 0,
         "age_prev_mv_interaction": age * math.log1p(prev_season_mv),
     }
+
+    for column in VALID_PERFORMANCE_INPUTS:
+        if column in inputs:
+            row[column] = float(inputs[column])
+
+    minutes = row.get("minutes", 0)
+    per90_denominator = minutes / 90 if minutes else 0
+    if per90_denominator > 0:
+        row["goals_per_90"] = row.get("goals", 0) / per90_denominator
+        row["assists_per_90"] = row.get("assists", 0) / per90_denominator
+        row["goal_assist_per_90"] = (
+            row.get("goals", 0) + row.get("assists", 0)
+        ) / per90_denominator
+        row["shots_per_90"] = row.get("shots_total", 0) / per90_denominator
+        row["shots_on_target_per_90"] = row.get("shots_on_target", 0) / per90_denominator
+        row["cards_per_90"] = (
+            row.get("yellow_cards", 0) + row.get("red_cards", 0)
+        ) / per90_denominator
+    else:
+        row["goals_per_90"] = 0
+        row["assists_per_90"] = 0
+        row["goal_assist_per_90"] = 0
+        row["shots_per_90"] = 0
+        row["shots_on_target_per_90"] = 0
+        row["cards_per_90"] = 0
+
+    matches_played = row.get("matches_played", 0)
+    shots_against = row.get("shots_on_target_against", 0)
+    row["starts_rate"] = row.get("starts", 0) / matches_played if matches_played else 0
+    row["save_pct"] = row.get("saves", 0) / shots_against if shots_against else 0
+    row["clean_sheet_pct"] = row.get("clean_sheets", 0) / matches_played if matches_played else 0
+    row["has_performance_stats"] = int(any(row.get(column, 0) > 0 for column in VALID_PERFORMANCE_INPUTS))
 
     feature_columns = [column for column in model_columns if column != TARGET_COLUMN]
     return pd.DataFrame([{column: row.get(column, 0) for column in feature_columns}])

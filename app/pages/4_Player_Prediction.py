@@ -26,6 +26,25 @@ model = load_best_model()
 label_encoder = load_label_encoder()
 
 model_columns = list(model_df.columns)
+performance_inputs = [
+    "matches_played",
+    "starts",
+    "minutes",
+    "goals",
+    "assists",
+    "non_penalty_goals",
+    "yellow_cards",
+    "red_cards",
+    "shots_total",
+    "shots_on_target",
+    "fouls_committed",
+    "fouls_drawn",
+    "saves",
+    "clean_sheets",
+    "goals_against",
+    "shots_on_target_against",
+]
+available_performance_inputs = [column for column in performance_inputs if column in model_columns]
 
 with st.form("prediction_form"):
     col1, col2, col3 = st.columns(3)
@@ -55,6 +74,19 @@ with st.form("prediction_form"):
         two_seasons_ago_mv = st.number_input("Two Seasons Ago Market Value, EUR Mio", min_value=0.0, value=8.0, step=1.0)
         mv_history_count = st.number_input("Market Value History Count", min_value=0, value=1, step=1)
 
+    performance_values = {}
+    if available_performance_inputs:
+        st.subheader("Performance Inputs")
+        perf_cols = st.columns(4)
+        for index, column in enumerate(available_performance_inputs):
+            with perf_cols[index % 4]:
+                performance_values[column] = st.number_input(
+                    column.replace("_", " ").title(),
+                    min_value=0.0,
+                    value=0.0,
+                    step=1.0,
+                )
+
     submitted = st.form_submit_button("Predict")
 
 if submitted:
@@ -73,6 +105,7 @@ if submitted:
         "two_seasons_ago_mv": two_seasons_ago_mv,
         "mv_history_count": mv_history_count,
     }
+    inputs.update(performance_values)
     input_df = build_prediction_row(inputs, clean_df, model_columns)
     prediction, probabilities = predict_category(model, label_encoder, input_df)
     st.subheader("Prediction Result")

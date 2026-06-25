@@ -1,0 +1,203 @@
+league,season,team,player,nation,pos,age,born,keeper_playing_time_mp,keeper_playing_time_starts,keeper_playing_time_min,keeper_90s,keeper_performance_ga,keeper_performance_ga90,keeper_performance_sota,keeper_performance_saves,keeper_performance_savepct,keeper_performance_w,keeper_performance_d,keeper_performance_l,keeper_performance_cs,keeper_performance_cspct,keeper_penalty_kicks_pkatt,keeper_penalty_kicks_pka,keeper_penalty_kicks_pksv,keeper_penalty_kicks_pkm,keeper_penalty_kicks_savepct,fbref_season_label,fbref_stat_type
+ENG-Premier League,2018,Arsenal,Bernd Leno,GER,GK,26,1992,32,31,2835,31.5,42,1.33,147,105,71.4,16,7,8,7,22.6,7,7,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Arsenal,Petr Čech,CZE,GK,36,1982,7,7,585,6.5,9,1.38,36,27,75.0,5,0,2,2,28.6,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Bournemouth,Artur Boruc,POL,GK,38,1980,12,12,1080,12.0,18,1.5,57,39,68.4,4,3,5,4,33.3,3,3,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Bournemouth,Asmir Begović,BIH,GK,31,1987,24,24,2160,24.0,47,1.96,106,59,55.7,8,3,13,5,20.8,2,2,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Bournemouth,Mark Travers,IRL,GK,19,1999,2,2,180,2.0,5,2.5,14,9,64.3,1,0,1,1,50.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Brighton,David Button,ENG,GK,29,1989,4,4,360,4.0,5,1.25,19,14,73.7,1,1,2,1,25.0,2,2,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Brighton,Mathew Ryan,AUS,GK,26,1992,34,34,3060,34.0,55,1.62,152,97,63.8,8,8,18,6,17.6,8,8,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Burnley,Joe Hart,ENG,GK,31,1987,19,19,1710,19.0,41,2.16,117,76,65.0,3,3,13,4,21.1,2,1,1,0,50.0,2018-2019,keeper
+ENG-Premier League,2018,Burnley,Tom Heaton,ENG,GK,32,1986,19,19,1710,19.0,27,1.42,90,63,70.0,8,4,7,4,21.1,1,1,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Cardiff City,Neil Etheridge,PHI,GK,28,1990,38,38,3420,38.0,69,1.82,206,137,66.5,10,4,24,10,26.3,7,4,3,0,42.9,2018-2019,keeper
+ENG-Premier League,2018,Chelsea,Kepa Arrizabalaga,ESP,GK,23,1994,36,36,3240,36.0,39,1.08,120,81,67.5,20,8,8,14,38.9,2,1,1,0,50.0,2018-2019,keeper
+ENG-Premier League,2018,Chelsea,Willy Caballero,ARG,GK,36,1981,2,2,180,2.0,0,0.0,3,3,100.0,1,1,0,2,100.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Crystal Palace,Julián Speroni,ARG,GK,39,1979,1,1,90,1.0,4,4.0,9,5,55.6,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Crystal Palace,Vicente Guaita,ESP,GK,31,1987,20,20,1755,19.5,23,1.18,87,64,73.6,10,4,6,7,35.0,1,1,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Crystal Palace,Wayne Hennessey,WAL,GK,31,1987,18,17,1575,17.5,26,1.49,69,43,62.3,4,3,10,5,29.4,4,3,1,0,25.0,2018-2019,keeper
+ENG-Premier League,2018,Everton,Jordan Pickford,ENG,GK,24,1994,38,38,3420,38.0,46,1.21,136,90,66.2,15,9,14,14,36.8,5,2,3,0,60.0,2018-2019,keeper
+ENG-Premier League,2018,Fulham,Fabricio,ESP,GK,30,1987,2,2,180,2.0,5,2.5,20,15,75.0,0,0,2,0,0.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Fulham,Marcus Bettinelli,ENG,GK,26,1992,7,7,630,7.0,20,2.86,39,19,48.7,1,2,4,0,0.0,3,1,1,1,50.0,2018-2019,keeper
+ENG-Premier League,2018,Fulham,Sergio Rico,ESP,GK,24,1993,29,29,2610,29.0,56,1.93,167,111,66.5,6,3,20,5,17.2,4,4,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Huddersfield,Ben Hamer,ENG,GK,30,1987,7,7,553,6.1,21,3.42,45,24,53.3,0,1,6,1,14.3,3,3,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Huddersfield,Joel Coleman,ENG,GK,22,1995,1,1,90,1.0,1,1.0,3,2,66.7,0,1,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Huddersfield,Jonas Lössl,DEN,GK,29,1989,31,30,2777,30.9,54,1.75,141,87,61.7,3,5,22,5,16.7,5,4,1,0,20.0,2018-2019,keeper
+ENG-Premier League,2018,Leicester City,Kasper Schmeichel,DEN,GK,31,1986,38,38,3420,38.0,48,1.26,138,90,65.2,15,7,16,10,26.3,5,5,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Liverpool,Alisson,BRA,GK,25,1992,38,38,3420,38.0,22,0.58,98,76,77.6,30,7,1,21,55.3,1,0,0,1,,2018-2019,keeper
+ENG-Premier League,2018,Manchester City,Ederson Moraes,BRA,GK,24,1993,38,38,3420,38.0,23,0.61,81,58,71.6,32,2,4,20,52.6,4,4,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Manchester Utd,David de Gea,ESP,GK,27,1990,38,38,3420,38.0,54,1.42,177,123,69.5,19,9,10,7,18.4,6,6,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Newcastle,Martin Dúbravka,SVK,GK,29,1989,38,38,3420,38.0,48,1.26,144,96,66.7,12,9,17,11,28.9,6,6,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Southampton,Alex McCarthy,ENG,GK,28,1989,25,25,2250,25.0,44,1.76,122,78,63.9,5,8,12,4,16.0,2,2,0,0,0.0,2018-2019,keeper
+ENG-Premier League,2018,Southampton,Angus Gunn,SCO,GK,22,1996,12,12,1080,12.0,18,1.5,50,32,64.0,4,4,4,3,25.0,1,0,1,0,100.0,2018-2019,keeper
+ENG-Premier League,2018,Southampton,Fraser Forster,ENG,GK,30,1988,1,1,90,1.0,3,3.0,6,3,50.0,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Tottenham,Hugo Lloris,FRA,GK,31,1986,33,33,2970,33.0,33,1.0,131,98,74.8,21,2,10,12,36.4,5,3,2,0,40.0,2018-2019,keeper
+ENG-Premier League,2018,Tottenham,Michel Vorm,NED,GK,34,1983,2,2,180,2.0,4,2.0,13,9,69.2,0,0,2,0,0.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Tottenham,Paulo Gazzaniga,ARG,GK,26,1992,3,3,270,3.0,2,0.67,13,11,84.6,2,0,1,1,33.3,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Watford,Ben Foster,ENG,GK,35,1983,38,38,3420,38.0,59,1.55,185,126,68.1,14,8,16,7,18.4,5,4,1,0,20.0,2018-2019,keeper
+ENG-Premier League,2018,West Ham,Łukasz Fabiański,POL,GK,33,1985,38,38,3420,38.0,55,1.45,201,146,72.6,15,7,16,7,18.4,5,4,1,0,20.0,2018-2019,keeper
+ENG-Premier League,2018,Wolves,John Ruddy,ENG,GK,31,1986,1,1,90,1.0,0,0.0,3,3,100.0,1,0,0,1,100.0,0,0,0,0,,2018-2019,keeper
+ENG-Premier League,2018,Wolves,Rui Patrício,POR,GK,30,1988,37,37,3330,37.0,46,1.24,143,97,67.8,15,9,13,8,21.6,4,3,0,1,0.0,2018-2019,keeper
+ENG-Premier League,2018,Wolves,Will Norris,ENG,GK,24,1993,1,0,,0.0,0,,0,0,,0,0,0,1,,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Alavés,Antonio Sivera,ESP,GK,21,1996,3,3,270,3.0,4,1.33,13,9,69.2,2,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Alavés,Fernando Pacheco,ESP,GK,26,1992,35,35,3150,35.0,46,1.31,158,112,70.9,11,11,13,8,22.9,6,6,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Athletic Club,Iago Herrerín,ESP,GK,30,1988,31,31,2790,31.0,32,1.03,88,56,63.6,12,10,9,10,32.3,3,3,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Athletic Club,Unai Simón,ESP,GK,21,1997,7,7,630,7.0,13,1.86,34,21,61.8,1,4,2,0,0.0,2,2,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Atlético Madrid,Antonio Adán,ESP,GK,31,1987,2,1,90,1.0,2,2.0,7,5,71.4,0,1,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Atlético Madrid,Jan Oblak,SVN,GK,25,1993,37,37,3330,37.0,27,0.73,132,105,79.5,22,9,6,20,54.1,5,5,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Barcelona,Jasper Cillessen,NED,GK,29,1989,3,3,270,3.0,4,1.33,14,10,71.4,1,1,1,1,33.3,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Barcelona,Marc-André ter Stegen,GER,GK,26,1992,35,35,3150,35.0,32,0.91,117,85,72.6,25,8,2,16,45.7,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Celta Vigo,Rubén Blanco,ESP,GK,23,1995,25,25,2250,25.0,40,1.6,109,69,63.3,7,6,12,6,24.0,5,4,0,1,0.0,2018-2019,keeper
+ESP-La Liga,2018,Celta Vigo,Sergio Álvarez,ESP,GK,31,1986,13,13,1170,13.0,22,1.69,60,38,63.3,3,5,5,2,15.4,2,2,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Eibar,Asier Riesgo,ESP,GK,34,1983,15,14,1260,14.0,20,1.43,47,27,57.4,2,8,4,4,28.6,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Eibar,Marko Dmitrović,SRB,GK,26,1992,24,24,2160,24.0,30,1.25,85,55,64.7,9,6,9,5,20.8,4,3,1,0,25.0,2018-2019,keeper
+ESP-La Liga,2018,Espanyol,Diego López,ESP,GK,36,1981,38,38,3420,38.0,50,1.32,169,119,70.4,14,11,13,10,26.3,8,6,2,0,25.0,2018-2019,keeper
+ESP-La Liga,2018,Getafe,David Soria,ESP,GK,25,1993,37,37,3330,37.0,34,0.92,133,99,74.4,14,14,9,13,35.1,7,4,2,1,33.3,2018-2019,keeper
+ESP-La Liga,2018,Getafe,Leandro Chichizola,ARG,GK,28,1990,1,1,90,1.0,1,1.0,1,0,0.0,1,0,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Girona,Gorka Iraizoz,ESP,GK,37,1981,7,6,558,6.2,10,1.61,41,31,75.6,1,0,5,1,16.7,2,2,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Girona,Yassine Bounou,MAR,GK,27,1991,32,32,2862,31.8,43,1.35,168,125,74.4,8,10,14,8,25.0,6,6,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Huesca,Aleksandar Jovanović,SRB,GK,25,1992,12,12,1080,12.0,19,1.58,47,28,59.6,1,4,7,0,0.0,2,2,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Huesca,Axel Werner,ARG,GK,22,1996,6,6,540,6.0,16,2.67,33,17,51.5,1,1,4,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Huesca,Roberto Santamaría,ESP,GK,33,1985,20,20,1800,20.0,30,1.5,99,69,69.7,5,7,8,6,30.0,6,6,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Leganés,Andriy Lunin,UKR,GK,19,1999,5,4,364,4.1,5,1.24,18,13,72.2,1,0,3,2,50.0,2,1,1,0,50.0,2018-2019,keeper
+ESP-La Liga,2018,Leganés,Iván Cuéllar,ESP,GK,34,1984,34,34,3056,33.9,38,1.12,116,78,67.2,10,12,12,10,29.4,2,2,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Levante,Aitor Fernández,ESP,GK,27,1991,16,16,1440,16.0,24,1.5,84,60,71.4,4,5,7,2,12.5,4,4,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Levante,Koke Vegas,ESP,GK,22,1995,1,1,90,1.0,2,2.0,8,6,75.0,0,1,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Levante,Oier Olazábal,ESP,GK,28,1989,21,21,1890,21.0,40,1.9,135,95,70.4,7,5,9,5,23.8,5,4,1,0,20.0,2018-2019,keeper
+ESP-La Liga,2018,Rayo Vallecano,Alberto García,ESP,GK,33,1985,17,17,1530,17.0,35,2.06,86,51,59.3,3,4,10,4,23.5,4,1,3,0,75.0,2018-2019,keeper
+ESP-La Liga,2018,Rayo Vallecano,Stole Dimitrievski,MKD,GK,24,1993,21,21,1890,21.0,35,1.67,94,59,62.8,5,4,12,3,14.3,7,6,1,0,14.3,2018-2019,keeper
+ESP-La Liga,2018,Real Betis,Joel Robles,ESP,GK,28,1990,5,5,450,5.0,5,1.0,21,16,76.2,2,1,2,1,20.0,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Real Betis,Pau López,ESP,GK,23,1994,33,33,2970,33.0,47,1.42,133,86,64.7,12,7,14,10,30.3,4,3,1,0,25.0,2018-2019,keeper
+ESP-La Liga,2018,Real Madrid,Keylor Navas,CRC,GK,31,1986,10,10,900,10.0,8,0.8,31,23,74.2,6,2,2,4,40.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Real Madrid,Luca Zidane,ALG,GK,20,1998,1,1,90,1.0,2,2.0,3,1,33.3,1,0,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Real Madrid,Thibaut Courtois,BEL,GK,26,1992,27,27,2430,27.0,36,1.33,104,68,65.4,14,3,10,8,29.6,8,6,1,1,14.3,2018-2019,keeper
+ESP-La Liga,2018,Real Sociedad,Gerónimo Rulli,ARG,GK,26,1992,27,27,2430,27.0,35,1.3,111,76,68.5,10,9,8,7,25.9,3,2,1,0,33.3,2018-2019,keeper
+ESP-La Liga,2018,Real Sociedad,Miguel Ángel Moyá,ESP,GK,34,1984,11,11,990,11.0,11,1.0,33,22,66.7,3,2,6,2,18.2,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Sevilla,Javier Díaz,ESP,GK,21,1997,1,1,90,1.0,1,1.0,2,1,50.0,0,0,1,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Sevilla,Juan Soriano,ESP,GK,20,1997,4,4,359,4.0,2,0.5,11,9,81.8,4,0,0,3,75.0,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Sevilla,Tomáš Vaclík,CZE,GK,29,1989,33,33,2970,33.0,44,1.33,142,98,69.0,13,8,12,8,24.2,5,4,1,0,20.0,2018-2019,keeper
+ESP-La Liga,2018,Valencia,Jaume Doménech,ESP,GK,27,1990,4,4,360,4.0,1,0.25,13,12,92.3,2,2,0,3,75.0,0,0,0,0,,2018-2019,keeper
+ESP-La Liga,2018,Valencia,Neto,BRA,GK,29,1989,34,34,3060,34.0,34,1.0,142,108,76.1,13,14,7,10,29.4,8,7,1,0,12.5,2018-2019,keeper
+ESP-La Liga,2018,Valladolid,Jordi Masip,ESP,GK,29,1989,35,35,3150,35.0,45,1.29,141,96,68.1,10,9,16,9,25.7,8,5,3,0,37.5,2018-2019,keeper
+ESP-La Liga,2018,Valladolid,Yoel,ESP,GK,29,1988,3,3,270,3.0,6,2.0,12,6,50.0,0,2,1,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Villarreal,Andrés Fernández,ESP,GK,31,1986,6,6,540,6.0,7,1.17,23,16,69.6,3,2,1,2,33.3,1,1,0,0,0.0,2018-2019,keeper
+ESP-La Liga,2018,Villarreal,Sergio Asenjo,ESP,GK,29,1989,32,32,2880,32.0,45,1.41,166,121,72.9,7,12,13,9,28.1,4,2,1,1,33.3,2018-2019,keeper
+FRA-Ligue 1,2018,Amiens,Régis Gurtner,FRA,GK,31,1986,38,38,3420,38.0,52,1.37,160,114,67.5,9,11,18,11,28.9,9,6,2,1,25.0,2018-2019,keeper
+FRA-Ligue 1,2018,Angers,Ludovic Butelle,FRA,GK,35,1983,36,36,3239,36.0,48,1.33,162,114,70.4,9,15,12,12,33.3,5,3,2,0,40.0,2018-2019,keeper
+FRA-Ligue 1,2018,Angers,Zacharie Boucher,FRA,GK,26,1992,2,2,180,2.0,1,0.5,4,3,75.0,1,1,0,1,50.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Bordeaux,Benoît Costil,FRA,GK,31,1987,37,37,3330,37.0,42,1.14,152,110,72.4,9,11,17,10,27.0,7,6,1,0,14.3,2018-2019,keeper
+FRA-Ligue 1,2018,Bordeaux,Gaëtan Poussin,FRA,GK,19,1999,1,1,90,1.0,0,0.0,1,1,100.0,1,0,0,1,100.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Caen,Brice Samba,FRA,GK,24,1994,38,38,3420,38.0,54,1.42,192,138,71.9,7,12,19,9,23.7,8,6,2,0,25.0,2018-2019,keeper
+FRA-Ligue 1,2018,Dijon,Bobby Allain,FRA,GK,26,1991,13,13,1170,13.0,17,1.31,74,57,77.0,2,2,9,1,7.7,1,1,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Dijon,Rúnar Alex Rúnarsson,ISL,GK,23,1995,25,25,2250,25.0,43,1.72,99,57,56.6,7,5,13,5,20.0,2,2,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Guingamp,Karl-Johan Johnsson,SWE,GK,28,1990,17,17,1530,17.0,34,2.0,77,43,55.8,1,5,11,4,23.5,4,2,1,1,33.3,2018-2019,keeper
+FRA-Ligue 1,2018,Guingamp,Marc-Aurèle Caillard,FRA,GK,24,1994,21,21,1890,21.0,34,1.62,92,58,63.0,4,7,10,6,28.6,2,1,1,0,50.0,2018-2019,keeper
+FRA-Ligue 1,2018,Lille,Mike Maignan,FRA,GK,23,1995,38,38,3420,38.0,33,0.87,118,91,72.0,22,9,7,15,39.5,10,6,2,2,25.0,2018-2019,keeper
+FRA-Ligue 1,2018,Lyon,Anthony Lopes,POR,GK,27,1990,34,34,3060,34.0,42,1.24,137,95,69.3,18,9,7,9,26.5,5,5,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Lyon,Mathieu Gorgelin,FRA,GK,27,1990,4,4,360,4.0,5,1.25,15,10,66.7,3,0,1,1,25.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Marseille,Steve Mandanda,FRA,GK,33,1985,31,31,2736,30.4,40,1.32,107,73,62.6,14,5,12,9,29.0,7,6,1,0,14.3,2018-2019,keeper
+FRA-Ligue 1,2018,Marseille,Yohann Pelé,FRA,GK,35,1982,9,7,680,7.6,12,1.59,24,12,50.0,4,2,1,3,42.9,5,4,1,0,20.0,2018-2019,keeper
+FRA-Ligue 1,2018,Monaco,Danijel Subašić,CRO,GK,33,1984,14,14,1138,12.6,12,0.95,38,26,68.4,4,5,5,4,28.6,3,2,1,0,33.3,2018-2019,keeper
+FRA-Ligue 1,2018,Monaco,Diego Benaglio,SUI,GK,34,1983,23,22,2057,22.9,38,1.66,97,59,60.8,4,6,12,4,18.2,5,3,2,0,40.0,2018-2019,keeper
+FRA-Ligue 1,2018,Monaco,Seydou Sy,SEN,GK,22,1995,3,2,225,2.5,7,2.8,13,6,46.2,0,1,1,0,0.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Montpellier,Benjamin Lecomte,FRA,GK,27,1991,37,37,3330,37.0,42,1.14,147,105,71.4,15,13,9,11,29.7,5,3,1,1,25.0,2018-2019,keeper
+FRA-Ligue 1,2018,Montpellier,Dimitry Bertaud,COD,GK,20,1998,1,1,90,1.0,0,0.0,1,1,100.0,0,1,0,1,100.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Nantes,Alexandre Olliero,FRA,GK,22,1996,1,1,90,1.0,1,1.0,1,0,0.0,0,0,1,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Nantes,Ciprian Tătărușanu,ROU,GK,32,1986,27,27,2391,26.6,30,1.13,92,62,67.4,8,6,13,7,25.9,4,1,3,0,75.0,2018-2019,keeper
+FRA-Ligue 1,2018,Nantes,Maxime Dupé,FRA,GK,25,1993,11,10,939,10.4,17,1.63,34,17,50.0,5,3,2,1,10.0,3,2,1,0,33.3,2018-2019,keeper
+FRA-Ligue 1,2018,Nice,Walter Benítez,ARG,GK,25,1993,35,35,3150,35.0,29,0.83,141,112,79.4,15,10,10,16,45.7,5,2,3,0,60.0,2018-2019,keeper
+FRA-Ligue 1,2018,Nice,Yoan Cardinale,FRA,GK,24,1994,3,3,270,3.0,6,2.0,12,6,50.0,0,1,2,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Nîmes,Paul Bernardoni,FRA,GK,21,1997,38,38,3420,38.0,58,1.53,181,123,68.0,15,8,15,10,26.3,5,4,1,0,20.0,2018-2019,keeper
+FRA-Ligue 1,2018,PSG,Alphonse Areola,FRA,GK,25,1993,21,21,1890,21.0,17,0.81,67,50,74.6,16,3,2,11,52.4,4,4,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,PSG,Gianluigi Buffon,ITA,GK,40,1978,17,17,1530,17.0,18,1.06,67,49,73.1,13,1,3,6,35.3,2,1,1,0,50.0,2018-2019,keeper
+FRA-Ligue 1,2018,Reims,Édouard Mendy,SEN,GK,26,1992,38,38,3420,38.0,42,1.11,152,110,72.4,13,16,9,14,36.8,7,7,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Rennes,Abdoulaye Diallo,SEN,GK,26,1992,6,6,495,5.5,4,0.73,19,15,78.9,3,2,1,2,33.3,1,1,0,0,0.0,2018-2019,keeper
+FRA-Ligue 1,2018,Rennes,Tomáš Koubek,CZE,GK,25,1992,33,32,2925,32.5,48,1.48,138,90,65.2,10,11,11,9,28.1,4,3,1,0,25.0,2018-2019,keeper
+FRA-Ligue 1,2018,Saint-Étienne,Jessy Moulin,FRA,GK,32,1986,1,1,90,1.0,1,1.0,6,5,83.3,0,1,0,0,0.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Saint-Étienne,Stéphane Ruffier,FRA,GK,31,1986,37,37,3330,37.0,40,1.08,149,109,73.2,19,8,10,13,35.1,9,7,1,1,12.5,2018-2019,keeper
+FRA-Ligue 1,2018,Strasbourg,Eiji Kawashima,JPN,GK,35,1983,1,1,90,1.0,0,0.0,1,1,100.0,1,0,0,1,100.0,0,0,0,0,,2018-2019,keeper
+FRA-Ligue 1,2018,Strasbourg,Matz Sels,BEL,GK,26,1992,37,37,3330,37.0,48,1.3,149,101,67.8,10,16,11,8,21.6,9,7,2,0,22.2,2018-2019,keeper
+FRA-Ligue 1,2018,Toulouse,Baptiste Reynet,FRA,GK,27,1990,31,31,2704,30.0,45,1.5,140,99,67.9,6,11,14,6,19.4,5,4,1,0,20.0,2018-2019,keeper
+FRA-Ligue 1,2018,Toulouse,Mauro Goicoechea,URU,GK,30,1988,8,7,712,7.9,12,1.52,34,22,64.7,2,3,2,3,42.9,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Atalanta,Etrit Berisha,ALB,GK,29,1989,18,18,1620,18.0,25,1.39,67,42,62.7,9,3,6,5,27.8,2,1,0,1,0.0,2018-2019,keeper
+ITA-Serie A,2018,Atalanta,Francesco Rossi,ITA,GK,27,1991,1,0,,0.0,0,,0,0,,0,0,0,0,,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Atalanta,Pierluigi Gollini,ITA,GK,23,1995,20,20,1800,20.0,21,1.05,70,49,70.0,11,6,3,4,20.0,3,3,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Bologna,Łukasz Skorupski,POL,GK,27,1991,38,38,3420,38.0,56,1.47,176,120,68.2,11,11,16,10,26.3,4,4,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Cagliari,Alessio Cragno,ITA,GK,24,1994,38,38,3420,38.0,54,1.42,207,153,73.9,10,11,17,7,18.4,10,8,2,0,20.0,2018-2019,keeper
+ITA-Serie A,2018,Chievo,Adrian Šemper,CRO,GK,20,1998,6,6,540,6.0,8,1.33,34,26,76.5,1,3,2,2,33.3,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Chievo,Andrea Seculin,ITA,GK,28,1990,2,1,90,1.0,6,6.0,11,5,45.5,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Chievo,Stefano Sorrentino,ITA,GK,39,1979,31,31,2790,31.0,61,1.97,166,108,63.3,1,11,19,5,16.1,4,2,2,0,50.0,2018-2019,keeper
+ITA-Serie A,2018,Empoli,Bartłomiej Drągowski,POL,GK,20,1997,14,14,1260,14.0,24,1.71,95,71,74.7,5,2,7,3,21.4,4,3,1,0,25.0,2018-2019,keeper
+ITA-Serie A,2018,Empoli,Ivan Provedel,ITA,GK,24,1994,16,16,1440,16.0,36,2.25,104,68,65.4,4,4,8,0,0.0,4,3,0,1,0.0,2018-2019,keeper
+ITA-Serie A,2018,Empoli,Pietro Terracciano,ITA,GK,28,1990,8,8,720,8.0,10,1.25,36,26,72.2,1,2,5,2,25.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Fiorentina,Alban Lafont,CIV,GK,19,1999,34,34,3015,33.5,40,1.19,130,90,69.2,8,15,11,9,26.5,6,5,1,0,16.7,2018-2019,keeper
+ITA-Serie A,2018,Fiorentina,Bartłomiej Drągowski,POL,GK,20,1997,3,2,225,2.5,2,0.8,8,6,75.0,0,1,1,1,50.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Fiorentina,Pietro Terracciano,ITA,GK,28,1990,2,2,180,2.0,3,1.5,11,8,72.7,0,1,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Frosinone,Francesco Bardi,ITA,GK,26,1992,3,3,270,3.0,5,1.67,12,7,58.3,0,1,2,1,33.3,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Frosinone,Marco Sportiello,ITA,GK,26,1992,35,35,3150,35.0,64,1.83,206,142,68.9,5,9,21,8,22.9,5,5,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Genoa,Federico Marchetti,ITA,GK,35,1983,4,4,360,4.0,10,2.5,19,9,47.4,2,0,2,1,25.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Genoa,Ionuț Radu,ROU,GK,21,1997,33,33,2970,33.0,46,1.39,145,104,68.3,6,14,13,6,18.2,6,5,1,0,16.7,2018-2019,keeper
+ITA-Serie A,2018,Genoa,Jandrei,BRA,GK,25,1993,1,1,90,1.0,1,1.0,3,2,66.7,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Inter,Samir Handanović,SVN,GK,34,1984,38,38,3420,38.0,33,0.87,130,98,74.6,20,9,9,17,44.7,5,3,0,2,0.0,2018-2019,keeper
+ITA-Serie A,2018,Juventus,Carlo Pinsoglio,ITA,GK,28,1990,1,1,90,1.0,2,2.0,3,1,33.3,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Juventus,Mattia Perin,ITA,GK,25,1992,9,9,810,9.0,8,0.89,28,20,71.4,6,1,2,5,55.6,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Juventus,Wojciech Szczęsny,POL,GK,28,1990,28,28,2520,28.0,20,0.71,83,63,75.9,22,5,1,11,39.3,3,1,1,1,50.0,2018-2019,keeper
+ITA-Serie A,2018,Lazio,Guido Guerrieri,ITA,GK,22,1996,1,1,90,1.0,3,3.0,4,1,25.0,0,1,0,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Lazio,Silvio Proto,BEL,GK,35,1983,2,2,180,2.0,4,2.0,13,9,69.2,1,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Lazio,Thomas Strakosha,ALB,GK,23,1995,35,35,3150,35.0,39,1.11,138,99,71.7,16,7,12,10,28.6,7,5,2,0,28.6,2018-2019,keeper
+ITA-Serie A,2018,Milan,Gianluigi Donnarumma,ITA,GK,19,1999,36,36,3092,34.3,31,0.9,126,98,75.4,18,11,7,11,30.6,4,3,1,0,25.0,2018-2019,keeper
+ITA-Serie A,2018,Milan,Pepe Reina,ESP,GK,35,1982,4,2,328,3.7,5,1.37,14,9,64.3,1,0,1,1,50.0,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Napoli,Alex Meret,ITA,GK,21,1997,14,13,1150,12.8,9,0.7,48,39,81.3,9,1,3,5,38.5,2,2,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Napoli,David Ospina,COL,GK,29,1988,17,16,1457,16.2,20,1.24,63,43,68.3,9,4,3,5,31.3,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Napoli,Orestis Karnezis,GRE,GK,33,1985,9,9,810,9.0,7,0.78,28,21,75.0,6,2,1,4,44.4,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Parma,Luigi Sepe,ITA,GK,27,1991,37,37,3330,37.0,59,1.59,194,142,69.6,10,11,16,10,27.0,8,8,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Parma,Pierluigi Frattali,ITA,GK,32,1985,1,1,90,1.0,2,2.0,9,7,77.8,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Roma,Antonio Mirante,ITA,GK,35,1983,11,11,990,11.0,6,0.55,37,31,83.8,6,4,1,6,54.5,1,0,1,0,100.0,2018-2019,keeper
+ITA-Serie A,2018,Roma,Robin Olsen,SWE,GK,28,1990,27,27,2430,27.0,42,1.56,125,86,66.4,12,8,7,4,14.8,6,4,0,2,0.0,2018-2019,keeper
+ITA-Serie A,2018,SPAL,Alfred Gomis,SEN,GK,24,1993,20,19,1723,19.2,27,1.41,76,49,64.5,3,6,10,6,31.6,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,SPAL,Emiliano Viviano,ITA,GK,32,1985,17,17,1525,16.9,25,1.48,85,60,70.6,7,3,7,4,23.5,4,4,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,SPAL,Giacomo Poluzzi,ITA,GK,30,1988,1,0,5,0.1,0,0.0,0,0,,0,0,0,1,,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,SPAL,Vanja Milinković-Savić,SRB,GK,21,1997,2,2,164,1.8,4,2.2,16,12,75.0,1,0,1,1,50.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Sampdoria,Emil Audero,IDN,GK,21,1997,36,36,3240,36.0,51,1.42,147,96,65.3,14,7,15,11,30.6,8,7,1,0,12.5,2018-2019,keeper
+ITA-Serie A,2018,Sampdoria,Rafael Cabral,BRA,GK,28,1990,2,2,180,2.0,0,0.0,3,2,100.0,1,1,0,2,100.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Sassuolo,Andrea Consigli,ITA,GK,31,1987,36,36,3213,35.7,56,1.57,149,98,62.4,9,15,12,12,33.3,8,4,3,1,42.9,2018-2019,keeper
+ITA-Serie A,2018,Sassuolo,Gianluca Pegolo,ITA,GK,37,1981,3,2,202,2.3,4,1.78,13,9,69.2,0,1,1,0,0.0,0,0,0,0,,2018-2019,keeper
+ITA-Serie A,2018,Torino,Salvador Ichazo,URU,GK,26,1992,3,2,250,2.8,2,0.72,10,8,80.0,1,1,0,1,50.0,1,1,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Torino,Salvatore Sirigu,ITA,GK,31,1987,36,36,3170,35.2,35,0.99,132,100,73.5,15,14,7,14,38.9,4,2,2,0,50.0,2018-2019,keeper
+ITA-Serie A,2018,Udinese,Juan Musso,ARG,GK,24,1994,29,29,2610,29.0,40,1.38,141,108,71.6,9,8,12,7,24.1,8,8,0,0,0.0,2018-2019,keeper
+ITA-Serie A,2018,Udinese,Simone Scuffet,ITA,GK,22,1996,9,9,810,9.0,13,1.44,39,26,66.7,2,2,5,2,22.2,1,1,0,0,0.0,2018-2019,keeper
+,2018,Augsburg,Andreas Luthe,GER,GK,31,1987,15,14,1310,14.6,22,1.51,79,57,72.2,3,5,6,2,14.3,0,0,0,0,,2018-2019,keeper
+,2018,Augsburg,Fabian Giefer,GER,GK,28,1990,4,4,360,4.0,7,1.75,19,12,63.2,1,1,2,0,0.0,0,0,0,0,,2018-2019,keeper
+,2018,Augsburg,Gregor Kobel,SUI,GK,20,1997,16,16,1390,15.4,42,2.72,92,50,54.3,4,2,10,3,18.8,2,1,1,0,50.0,2018-2019,keeper
+,2018,Bayern Munich,Manuel Neuer,GER,GK,32,1986,26,26,2303,25.6,23,0.9,57,34,59.6,20,3,3,10,38.5,3,3,0,0,0.0,2018-2019,keeper
+,2018,Bayern Munich,Sven Ulreich,GER,GK,29,1988,9,8,757,8.4,9,1.07,23,14,60.9,4,3,1,2,25.0,3,2,0,1,0.0,2018-2019,keeper
+,2018,Dortmund,Marwin Hitz,SUI,GK,30,1987,2,2,180,2.0,4,2.0,6,2,33.3,2,0,0,0,0.0,1,0,0,1,,2018-2019,keeper
+,2018,Dortmund,Roman Bürki,SUI,GK,27,1990,32,32,2880,32.0,40,1.25,129,89,69.0,21,7,4,10,31.3,4,4,0,0,0.0,2018-2019,keeper
+,2018,Düsseldorf,Jaroslav Drobný,CZE,GK,38,1979,2,2,180,2.0,3,1.5,9,6,66.7,1,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+,2018,Düsseldorf,Michael Rensing,GER,GK,34,1984,32,32,2880,32.0,62,1.94,170,108,63.5,12,5,15,5,15.6,7,7,0,0,0.0,2018-2019,keeper
+,2018,Frankfurt,Frederik Rønnow,DEN,GK,25,1992,2,1,122,1.4,0,0.0,7,7,100.0,1,0,0,1,100.0,0,0,0,0,,2018-2019,keeper
+,2018,Frankfurt,Kevin Trapp,GER,GK,28,1990,33,33,2938,32.6,48,1.47,164,116,70.7,14,9,10,8,24.2,1,1,0,0,0.0,2018-2019,keeper
+,2018,Freiburg,Alexander Schwolow,GER,GK,26,1992,33,33,2970,33.0,60,1.82,172,112,65.1,7,12,14,5,15.2,7,7,0,0,0.0,2018-2019,keeper
+,2018,Freiburg,Mark Flekken,NED,GK,25,1993,1,1,90,1.0,1,1.0,5,4,80.0,1,0,0,0,0.0,0,0,0,0,,2018-2019,keeper
+,2018,Gladbach,Yann Sommer,SUI,GK,29,1988,34,34,3060,34.0,43,1.26,157,114,72.6,16,7,11,13,38.2,3,3,0,0,0.0,2018-2019,keeper
+,2018,Hannover 96,Michael Esser,GER,GK,30,1987,32,32,2880,32.0,67,2.09,215,148,68.8,5,6,21,5,15.6,6,5,1,0,16.7,2018-2019,keeper
+,2018,Hannover 96,Philipp Tschauner,GER,GK,32,1985,1,1,90,1.0,3,3.0,6,3,50.0,0,0,1,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+,2018,Hannover 96,Samuel Şahin-Radlinger,AUT,GK,25,1992,1,1,90,1.0,2,2.0,7,5,71.4,0,0,1,0,0.0,0,0,0,0,,2018-2019,keeper
+,2018,Hertha BSC,Rune Jarstein,NOR,GK,33,1984,31,31,2745,30.5,48,1.57,148,100,67.6,9,10,12,8,25.8,4,2,1,1,33.3,2018-2019,keeper
+,2018,Hertha BSC,Thomas Kraft,GER,GK,30,1988,4,3,315,3.5,9,2.57,16,7,43.8,2,0,1,1,33.3,2,2,0,0,0.0,2018-2019,keeper
+,2018,Hoffenheim,Gregor Kobel,SUI,GK,20,1997,1,1,90,1.0,1,1.0,7,6,85.7,1,0,0,0,0.0,1,1,0,0,0.0,2018-2019,keeper
+,2018,Hoffenheim,Oliver Baumann,GER,GK,28,1990,33,33,2970,33.0,51,1.55,168,117,69.6,12,12,9,5,15.2,7,6,1,0,14.3,2018-2019,keeper
+,2018,Leverkusen,Lukáš Hrádecký,FIN,GK,28,1989,32,32,2880,32.0,49,1.53,131,82,62.6,18,4,10,9,28.1,4,3,1,0,25.0,2018-2019,keeper
+,2018,Leverkusen,Ramazan Özcan,AUT,GK,34,1984,2,2,180,2.0,5,2.5,12,7,58.3,0,0,2,0,0.0,2,1,1,0,50.0,2018-2019,keeper
+,2018,Mainz 05,Florian Müller,GER,GK,20,1997,24,24,2160,24.0,43,1.79,124,81,65.3,8,3,13,5,20.8,4,3,0,1,0.0,2018-2019,keeper
+,2018,Mainz 05,Robin Zentner,GER,GK,23,1994,10,10,900,10.0,14,1.4,51,37,72.5,4,4,2,2,20.0,0,0,0,0,,2018-2019,keeper
+,2018,Nürnberg,Christian Mathenia,GER,GK,26,1992,22,22,1933,21.5,40,1.86,122,82,67.2,1,7,14,2,9.1,1,1,0,0,0.0,2018-2019,keeper
+,2018,Nürnberg,Fabian Bredlow,GER,GK,23,1995,14,12,1127,12.5,28,2.24,60,33,53.3,2,3,7,2,16.7,3,1,1,1,50.0,2018-2019,keeper
+,2018,RB Leipzig,Péter Gulácsi,HUN,GK,28,1990,33,33,2925,32.5,28,0.86,121,93,76.9,19,9,5,16,48.5,5,4,0,1,0.0,2018-2019,keeper
+,2018,RB Leipzig,Yvon Mvogo,SUI,GK,24,1994,2,1,135,1.5,2,1.33,4,2,50.0,0,0,1,1,100.0,1,1,0,0,0.0,2018-2019,keeper
+,2018,Schalke 04,Alexander Nübel,GER,GK,21,1996,18,18,1588,17.6,29,1.64,84,55,65.5,4,6,8,4,22.2,4,3,1,0,25.0,2018-2019,keeper
+,2018,Schalke 04,Ralf Fährmann,GER,GK,29,1988,17,16,1469,16.3,26,1.59,84,58,69.0,4,3,9,3,18.8,2,2,0,0,0.0,2018-2019,keeper
+,2018,Stuttgart,Ron-Robert Zieler,GER,GK,29,1989,34,34,3060,34.0,70,2.06,183,113,61.7,7,7,20,6,17.6,3,2,0,1,0.0,2018-2019,keeper
+,2018,Werder Bremen,Jiří Pavlenka,CZE,GK,26,1992,34,34,2978,33.1,47,1.42,152,105,69.1,14,11,9,5,14.7,4,3,0,1,0.0,2018-2019,keeper
+,2018,Werder Bremen,Luca Plogmann,GER,GK,18,2000,1,0,37,0.4,1,2.43,1,0,0.0,0,0,0,0,,1,1,0,0,0.0,2018-2019,keeper
+,2018,Werder Bremen,Stefanos Kapino,GRE,GK,24,1994,1,0,45,0.5,1,2.0,3,2,66.7,0,0,0,0,,0,0,0,0,,2018-2019,keeper
+,2018,Wolfsburg,Koen Casteels,BEL,GK,26,1992,26,26,2295,25.5,39,1.53,118,79,66.9,11,6,9,8,30.8,5,4,1,0,20.0,2018-2019,keeper
+,2018,Wolfsburg,Pavao Pervan,AUT,GK,30,1987,10,8,765,8.5,11,1.29,41,30,73.2,5,1,2,1,12.5,1,0,0,1,,2018-2019,keeper

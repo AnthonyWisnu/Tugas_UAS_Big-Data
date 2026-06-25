@@ -11,8 +11,9 @@ from utils.load_data import (
     load_confusion_matrix,
     load_feature_importance,
     load_metrics,
+    load_model_comparison,
 )
-from utils.plotting import confusion_matrix_chart, feature_importance_chart
+from utils.plotting import confusion_matrix_chart, feature_importance_chart, model_metric_comparison_chart
 
 
 st.set_page_config(page_title="Model Evaluation", layout="wide")
@@ -23,6 +24,7 @@ metrics_df = load_metrics()
 report_df = load_classification_report()
 confusion_df = load_confusion_matrix()
 feature_df = load_feature_importance()
+comparison_df = load_model_comparison()
 
 test_metrics = metrics_df[metrics_df["split"] == "test"].copy()
 if test_metrics.empty:
@@ -38,6 +40,13 @@ col4.metric("Test Macro F1", f"{best_row['macro_f1']:.3f}")
 
 st.subheader("Best Model Test Metrics")
 st.dataframe(test_metrics, use_container_width=True, hide_index=True)
+
+st.subheader("Original vs With Performance")
+left_compare, right_compare = st.columns(2)
+with left_compare:
+    st.plotly_chart(model_metric_comparison_chart(comparison_df, "accuracy"), use_container_width=True)
+with right_compare:
+    st.plotly_chart(model_metric_comparison_chart(comparison_df, "macro_f1"), use_container_width=True)
 
 st.subheader("Validation Comparison")
 validation_df = metrics_df[metrics_df["split"] == "validation"].sort_values("macro_f1", ascending=False)

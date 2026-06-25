@@ -140,3 +140,14 @@ def feature_importance_chart(feature_df, n=20):
         orientation="h",
         title=f"Top {n} Feature Importance",
     )
+
+
+def model_metric_comparison_chart(comparison_df, metric):
+    return px.bar(
+        comparison_df,
+        x="dataset",
+        y=metric,
+        color="dataset",
+        text=metric,
+        title=f"Original vs With Performance: {metric}",
+    ).update_traces(texttemplate="%{text:.3f}", textposition="outside")

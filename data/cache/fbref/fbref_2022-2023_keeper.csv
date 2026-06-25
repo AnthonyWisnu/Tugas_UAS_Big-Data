@@ -1,0 +1,209 @@
+league,season,team,player,nation,pos,age,born,keeper_playing_time_mp,keeper_playing_time_starts,keeper_playing_time_min,keeper_90s,keeper_performance_ga,keeper_performance_ga90,keeper_performance_sota,keeper_performance_saves,keeper_performance_savepct,keeper_performance_w,keeper_performance_d,keeper_performance_l,keeper_performance_cs,keeper_performance_cspct,keeper_penalty_kicks_pkatt,keeper_penalty_kicks_pka,keeper_penalty_kicks_pksv,keeper_penalty_kicks_pkm,keeper_penalty_kicks_savepct,fbref_season_label,fbref_stat_type
+ENG-Premier League,2022,Arsenal,Aaron Ramsdale,ENG,GK,24,1998,38,38,3420,38.0,43,1.13,137,94,68.6,26,6,6,14,36.8,5,3,0,2,0.0,2022-2023,keeper
+ENG-Premier League,2022,Aston Villa,Emiliano Martínez,ARG,GK,29,1992,36,36,3139,34.9,38,1.09,135,97,71.9,17,7,12,11,30.6,5,4,1,0,20.0,2022-2023,keeper
+ENG-Premier League,2022,Aston Villa,Robin Olsen,SWE,GK,32,1990,4,2,281,3.1,8,2.56,19,11,57.9,1,0,1,1,50.0,1,1,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Bournemouth,Mark Travers,IRL,GK,23,1999,12,11,1035,11.5,32,2.78,68,36,52.9,2,0,9,2,18.2,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Bournemouth,Neto,BRA,GK,33,1989,27,27,2385,26.5,39,1.47,139,100,71.9,9,6,12,6,22.2,5,4,0,1,0.0,2022-2023,keeper
+ENG-Premier League,2022,Brentford,David Raya,ESP,GK,26,1995,38,38,3420,38.0,46,1.21,200,154,77.0,15,14,9,12,31.6,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Brighton,Jason Steele,ENG,GK,31,1990,15,15,1350,15.0,23,1.53,59,36,61.0,7,3,5,6,40.0,2,1,1,0,50.0,2022-2023,keeper
+ENG-Premier League,2022,Brighton,Robert Sánchez,ESP,GK,24,1997,23,23,2070,23.0,30,1.3,77,47,61.0,11,5,7,6,26.1,6,5,1,0,16.7,2022-2023,keeper
+ENG-Premier League,2022,Chelsea,Kepa Arrizabalaga,ESP,GK,27,1994,29,29,2565,28.5,33,1.16,124,91,73.4,8,9,12,9,31.0,1,1,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Chelsea,Édouard Mendy,SEN,GK,30,1992,10,9,855,9.5,14,1.47,39,25,64.1,3,2,4,1,11.1,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Crystal Palace,Joseph Whitworth,ENG,GK,18,2004,2,2,180,2.0,5,2.5,10,5,50.0,0,0,2,0,0.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Crystal Palace,Sam Johnstone,ENG,GK,29,1993,9,9,810,9.0,10,1.11,36,26,72.2,4,3,2,3,33.3,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Crystal Palace,Vicente Guaita,ESP,GK,35,1987,27,27,2430,27.0,34,1.26,117,84,70.9,7,9,11,6,22.2,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Everton,Asmir Begović,BIH,GK,35,1987,1,1,90,1.0,0,0.0,4,4,100.0,1,0,0,1,100.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Everton,Jordan Pickford,ENG,GK,28,1994,37,37,3330,37.0,57,1.54,180,123,68.3,7,12,18,8,21.6,6,5,1,0,16.7,2022-2023,keeper
+ENG-Premier League,2022,Fulham,Bernd Leno,GER,GK,30,1992,36,36,3240,36.0,51,1.42,194,143,73.7,15,5,16,8,22.2,8,7,1,0,12.5,2022-2023,keeper
+ENG-Premier League,2022,Fulham,Marek Rodák,SVK,GK,25,1996,2,2,180,2.0,2,1.0,4,2,50.0,0,2,0,1,50.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Leeds United,Illan Meslier,FRA,GK,22,2000,34,34,3060,34.0,67,1.97,161,94,58.4,7,9,18,5,14.7,3,3,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Leeds United,Joel Robles,ESP,GK,32,1990,4,4,360,4.0,11,2.75,27,16,59.3,0,1,3,0,0.0,3,2,0,1,0.0,2022-2023,keeper
+ENG-Premier League,2022,Leicester City,Daniel Iversen,DEN,GK,25,1997,12,12,1080,12.0,22,1.83,60,38,63.3,2,4,6,1,8.3,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Leicester City,Danny Ward,WAL,GK,29,1993,26,26,2340,26.0,46,1.77,122,76,62.3,7,3,16,6,23.1,3,2,1,0,33.3,2022-2023,keeper
+ENG-Premier League,2022,Liverpool,Alisson,BRA,GK,29,1992,37,37,3330,37.0,43,1.16,146,104,70.5,19,9,9,14,37.8,4,2,1,1,33.3,2022-2023,keeper
+ENG-Premier League,2022,Liverpool,Caoimhín Kelleher,IRL,GK,23,1998,1,1,90,1.0,4,4.0,10,6,60.0,0,1,0,0,0.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Manchester City,Ederson Moraes,BRA,GK,28,1993,35,35,3150,35.0,32,0.91,78,46,59.0,26,4,5,11,31.4,3,3,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Manchester City,Stefan Ortega,GER,GK,29,1992,3,3,270,3.0,1,0.33,15,14,93.3,2,1,0,2,66.7,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Manchester Utd,David de Gea,ESP,GK,31,1990,38,38,3420,38.0,43,1.13,143,100,69.9,23,6,9,17,44.7,3,2,1,0,33.3,2022-2023,keeper
+ENG-Premier League,2022,Newcastle,Martin Dúbravka,SVK,GK,33,1989,2,1,157,1.7,1,0.57,11,10,90.9,0,1,0,0,0.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Newcastle,Nick Pope,ENG,GK,30,1992,37,37,3261,36.2,32,0.88,117,85,72.6,19,13,5,14,37.8,5,2,2,1,50.0,2022-2023,keeper
+ENG-Premier League,2022,Nottingham,Dean Henderson,ENG,GK,25,1997,18,18,1620,18.0,31,1.72,83,52,62.7,5,5,8,6,33.3,5,2,2,1,50.0,2022-2023,keeper
+ENG-Premier League,2022,Nottingham,Keylor Navas,CRC,GK,35,1986,17,17,1529,17.0,32,1.88,83,51,61.4,4,4,9,2,11.8,4,4,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Nottingham,Wayne Hennessey,WAL,GK,35,1987,4,3,271,3.0,5,1.66,15,10,66.7,0,2,1,1,33.3,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Southampton,Alex McCarthy,ENG,GK,32,1989,6,6,540,6.0,17,2.83,31,14,45.2,0,1,5,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,Southampton,Gavin Bazunu,IRL,GK,20,2002,32,32,2880,32.0,56,1.75,124,68,54.8,6,6,20,4,12.5,2,1,1,0,50.0,2022-2023,keeper
+ENG-Premier League,2022,Tottenham,Fraser Forster,ENG,GK,34,1988,14,13,1215,13.5,24,1.78,55,31,56.4,5,3,5,3,23.1,3,2,1,0,33.3,2022-2023,keeper
+ENG-Premier League,2022,Tottenham,Hugo Lloris,FRA,GK,35,1986,25,25,2205,24.5,39,1.59,118,79,66.9,13,3,9,7,28.0,1,1,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,West Ham,Alphonse Areola,FRA,GK,29,1993,5,2,309,3.4,7,2.04,16,9,56.3,0,1,1,1,50.0,2,2,0,0,0.0,2022-2023,keeper
+ENG-Premier League,2022,West Ham,Łukasz Fabiański,POL,GK,37,1985,36,36,3111,34.6,48,1.39,156,108,69.2,11,6,19,9,25.0,4,2,1,1,33.3,2022-2023,keeper
+ENG-Premier League,2022,Wolves,Daniel Bentley,ENG,GK,29,1993,2,2,180,2.0,3,1.5,14,11,78.6,0,1,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ENG-Premier League,2022,Wolves,José Sá,POR,GK,29,1993,36,36,3240,36.0,55,1.53,161,106,65.8,11,7,18,11,30.6,4,2,2,0,50.0,2022-2023,keeper
+ESP-La Liga,2022,Almería,Diego Mariño,ESP,GK,32,1990,1,0,45,0.5,2,4.0,5,3,60.0,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Almería,Fernando,ESP,GK,32,1990,37,37,3285,36.5,61,1.67,193,132,68.4,11,8,18,4,10.8,6,4,1,1,20.0,2022-2023,keeper
+ESP-La Liga,2022,Almería,Fernando Pacheco,ESP,GK,30,1992,1,1,90,1.0,2,2.0,5,3,60.0,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Athletic Club,Julen Agirrezabala,ESP,GK,21,2000,8,7,675,7.5,6,0.8,19,13,68.4,1,3,3,2,28.6,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Athletic Club,Unai Simón,ESP,GK,25,1997,31,31,2745,30.5,37,1.21,107,70,65.4,13,6,12,9,29.0,3,3,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Atlético Madrid,Antonio Gomis,ESP,GK,19,2003,1,0,6,0.1,1,15.0,1,0,0.0,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Atlético Madrid,Ivo Grbić,CRO,GK,26,1996,12,10,922,10.2,12,1.17,48,36,75.0,6,3,1,2,20.0,3,3,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Atlético Madrid,Jan Oblak,SVN,GK,29,1993,28,28,2492,27.7,20,0.72,80,60,75.0,17,5,6,12,42.9,2,1,0,1,0.0,2022-2023,keeper
+ESP-La Liga,2022,Barcelona,Iñaki Peña,ESP,GK,23,1999,2,0,73,0.8,2,2.47,4,2,50.0,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Barcelona,Marc-André ter Stegen,GER,GK,30,1992,38,38,3347,37.2,18,0.48,101,83,82.2,28,4,6,26,68.4,3,3,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Celta Vigo,Agustín Marchesín,ARG,GK,34,1988,19,19,1710,19.0,29,1.53,71,42,59.2,5,5,9,6,31.6,4,2,2,0,50.0,2022-2023,keeper
+ESP-La Liga,2022,Celta Vigo,Iván Villar,ESP,GK,25,1997,19,19,1710,19.0,24,1.26,62,38,61.3,6,5,8,4,21.1,4,3,0,1,0.0,2022-2023,keeper
+ESP-La Liga,2022,Cádiz,David Gil,ESP,GK,28,1994,4,4,360,4.0,5,1.25,23,18,78.3,1,1,2,1,25.0,1,1,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Cádiz,Jeremías Ledesma,ARG,GK,29,1993,34,34,3060,34.0,48,1.41,173,133,72.3,9,11,14,12,35.3,9,8,1,0,11.1,2022-2023,keeper
+ESP-La Liga,2022,Elche,Axel Werner,ARG,GK,26,1996,2,2,180,2.0,4,2.0,9,5,55.6,0,0,2,0,0.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Elche,Édgar Badía,ESP,GK,30,1992,36,36,3240,36.0,63,1.75,199,136,68.3,5,10,21,4,11.1,10,7,3,0,30.0,2022-2023,keeper
+ESP-La Liga,2022,Espanyol,Benjamin Lecomte,FRA,GK,31,1991,10,10,899,10.0,14,1.4,43,28,67.4,1,5,4,1,10.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Espanyol,Fernando Pacheco,ESP,GK,30,1992,16,16,1440,16.0,33,2.06,88,55,62.5,4,3,9,3,18.8,5,4,1,0,20.0,2022-2023,keeper
+ESP-La Liga,2022,Espanyol,Joan García,ESP,GK,21,2001,1,1,90,1.0,3,3.0,4,1,25.0,0,1,0,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Espanyol,Álvaro Fernández,ESP,GK,24,1998,11,11,990,11.0,18,1.64,52,33,65.4,3,4,4,2,18.2,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Getafe,David Soria,ESP,GK,29,1993,38,38,3420,38.0,45,1.18,165,120,72.7,10,12,16,13,34.2,8,4,4,0,50.0,2022-2023,keeper
+ESP-La Liga,2022,Girona,Juan Carlos,ESP,GK,34,1988,10,10,900,10.0,18,1.8,44,26,59.1,2,2,6,0,0.0,2,2,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Girona,Paulo Gazzaniga,ARG,GK,30,1992,28,28,2520,28.0,37,1.32,124,90,70.2,11,8,9,4,14.3,6,4,1,1,20.0,2022-2023,keeper
+ESP-La Liga,2022,Mallorca,Dominik Greif,SVK,GK,25,1997,1,1,90,1.0,3,3.0,8,5,62.5,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Mallorca,Leo Román,ESP,GK,22,2000,1,1,90,1.0,0,0.0,4,4,100.0,1,0,0,1,100.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Mallorca,Predrag Rajković,SRB,GK,26,1995,36,36,3240,36.0,40,1.11,127,93,68.5,13,8,15,12,33.3,7,6,1,0,14.3,2022-2023,keeper
+ESP-La Liga,2022,Osasuna,Aitor Fernández,ESP,GK,31,1991,21,21,1890,21.0,19,0.9,78,59,75.6,10,5,6,8,38.1,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Osasuna,Sergio Herrera,ESP,GK,29,1993,17,17,1530,17.0,23,1.35,71,48,67.6,5,3,9,3,17.6,4,1,1,2,50.0,2022-2023,keeper
+ESP-La Liga,2022,Rayo Vallecano,Diego López,ESP,GK,40,1981,2,1,96,1.1,4,3.75,5,1,20.0,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Rayo Vallecano,Stole Dimitrievski,MKD,GK,28,1993,37,37,3324,36.9,49,1.33,140,94,65.0,13,10,14,9,24.3,5,4,0,1,0.0,2022-2023,keeper
+ESP-La Liga,2022,Real Betis,Claudio Bravo,CHI,GK,39,1983,12,12,1080,12.0,8,0.67,38,30,78.9,5,5,2,4,33.3,1,1,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Real Betis,Rui Silva,POR,GK,28,1994,26,26,2340,26.0,32,1.23,105,73,69.5,12,4,10,9,34.6,2,2,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Real Madrid,Andriy Lunin,UKR,GK,23,1999,7,7,630,7.0,7,1.0,19,12,63.2,4,1,2,3,42.9,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Real Madrid,Thibaut Courtois,BEL,GK,30,1992,31,31,2790,31.0,29,0.94,118,89,75.4,20,5,6,10,32.3,5,4,1,0,20.0,2022-2023,keeper
+ESP-La Liga,2022,Real Sociedad,Álex Remiro,ESP,GK,27,1995,38,38,3420,38.0,35,0.92,134,99,73.9,21,8,9,15,39.5,2,1,1,0,50.0,2022-2023,keeper
+ESP-La Liga,2022,Sevilla,Marko Dmitrović,SRB,GK,30,1992,15,13,1269,14.1,13,0.92,57,44,77.2,6,4,3,5,38.5,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Sevilla,Yassine Bounou,MAR,GK,31,1991,25,25,2151,23.9,40,1.67,102,62,60.8,7,6,12,4,16.0,3,2,1,0,33.3,2022-2023,keeper
+ESP-La Liga,2022,Valencia,Giorgi Mamardashvili,GEO,GK,21,2000,38,38,3420,38.0,45,1.18,150,105,70.0,11,9,18,7,18.4,5,2,0,3,0.0,2022-2023,keeper
+ESP-La Liga,2022,Valladolid,Jordi Masip,ESP,GK,33,1989,28,28,2507,27.9,42,1.51,145,103,71.0,9,5,14,8,28.6,9,5,3,1,37.5,2022-2023,keeper
+ESP-La Liga,2022,Valladolid,Sergio Asenjo,ESP,GK,33,1989,10,10,900,10.0,21,2.1,52,31,59.6,2,2,6,1,10.0,1,1,0,0,0.0,2022-2023,keeper
+ESP-La Liga,2022,Valladolid,Álvaro Aceves,ESP,GK,19,2003,1,0,13,0.1,0,0.0,3,3,100.0,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Villarreal,Filip Jørgensen,DEN,GK,20,2002,2,2,180,2.0,3,1.5,6,3,50.0,0,1,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Villarreal,Gerónimo Rulli,ARG,GK,30,1992,14,14,1260,14.0,10,0.71,56,46,82.1,6,3,5,7,50.0,0,0,0,0,,2022-2023,keeper
+ESP-La Liga,2022,Villarreal,Pepe Reina,ESP,GK,39,1982,22,22,1980,22.0,27,1.23,88,61,69.3,13,3,6,5,22.7,4,4,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Ajaccio,Benjamin Leroy,FRA,GK,33,1989,32,32,2798,31.1,60,1.93,127,74,52.8,6,4,22,5,15.6,9,8,0,1,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Ajaccio,François-Joseph Sollacaro,FRA,GK,28,1994,6,6,540,6.0,14,2.33,25,11,44.0,1,1,4,1,16.7,1,1,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Ajaccio,Ghjuvanni Quilichini,FRA,GK,19,2002,1,0,82,0.9,0,0.0,4,4,100.0,0,0,0,1,,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Angers,Paul Bernardoni,FRA,GK,25,1997,27,27,2430,27.0,62,2.3,147,85,57.8,1,5,21,3,11.1,9,8,0,1,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Angers,Yahia Fofana,CIV,GK,21,2000,11,11,990,11.0,19,1.73,54,35,64.8,3,1,7,1,9.1,2,1,1,0,50.0,2022-2023,keeper
+FRA-Ligue 1,2022,Auxerre,Benoît Costil,FRA,GK,35,1987,19,19,1710,19.0,41,2.16,97,56,57.7,3,4,12,2,10.5,3,3,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Auxerre,Donovan Léon,GUF,GK,29,1992,2,2,180,2.0,2,1.0,11,9,81.8,1,1,0,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Auxerre,Ionuț Radu,ROU,GK,25,1997,17,17,1530,17.0,20,1.18,74,54,73.0,4,6,7,5,29.4,2,0,2,0,100.0,2022-2023,keeper
+FRA-Ligue 1,2022,Brest,Joaquín Blázquez,ARG,GK,21,2001,1,1,90,1.0,0,0.0,3,3,100.0,0,1,0,1,100.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Brest,Marco Bizot,NED,GK,31,1991,37,37,3330,37.0,54,1.46,178,124,69.7,11,10,16,8,21.6,9,7,2,0,22.2,2022-2023,keeper
+FRA-Ligue 1,2022,Clermont Foot,Mory Diaw,SEN,GK,29,1993,37,37,3330,37.0,47,1.27,145,109,67.6,17,8,12,10,27.0,12,8,4,0,33.3,2022-2023,keeper
+FRA-Ligue 1,2022,Clermont Foot,Ouparine Djoco,GNB,GK,24,1998,1,1,90,1.0,2,2.0,3,1,33.3,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Lens,Brice Samba,FRA,GK,28,1994,37,37,3330,37.0,28,0.76,124,98,77.4,24,9,4,15,40.5,3,3,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Lens,Jean-Louis Leca,FRA,GK,36,1985,1,1,90,1.0,1,1.0,4,3,75.0,1,0,0,0,0.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Lille,Lucas Chevalier,FRA,GK,20,2001,32,32,2880,32.0,31,0.97,108,77,71.3,16,9,7,10,31.3,3,2,1,0,33.3,2022-2023,keeper
+FRA-Ligue 1,2022,Lille,Léo Jardim,BRA,GK,27,1995,6,6,540,6.0,13,2.17,17,4,23.5,3,1,2,0,0.0,2,2,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Lorient,Vito Mannone,ITA,GK,34,1988,18,17,1608,17.9,24,1.34,85,61,71.8,4,6,7,5,29.4,1,1,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Lorient,Yvon Mvogo,SUI,GK,28,1994,21,21,1812,20.1,29,1.44,99,70,70.7,11,4,6,3,14.3,1,1,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Lyon,Anthony Lopes,POR,GK,31,1990,32,32,2816,31.3,39,1.25,128,95,69.5,16,4,12,7,21.9,7,7,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Lyon,Rémy Riou,FRA,GK,34,1987,7,6,601,6.7,8,1.2,25,17,68.0,2,4,0,1,16.7,4,4,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Marseille,Pau López,ESP,GK,27,1994,33,32,2925,32.5,34,1.05,126,92,73.0,21,4,7,10,31.3,5,5,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Marseille,Rubén Blanco,ESP,GK,27,1995,6,6,495,5.5,6,1.09,21,15,71.4,1,3,2,0,0.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Monaco,Alexander Nübel,GER,GK,25,1996,38,38,3420,38.0,58,1.53,198,140,70.7,19,8,11,9,23.7,5,5,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Montpellier,Benjamin Lecomte,FRA,GK,31,1991,19,19,1710,19.0,22,1.16,96,74,77.1,10,3,6,8,42.1,3,2,1,0,33.3,2022-2023,keeper
+FRA-Ligue 1,2022,Montpellier,Bingourou Kamara,SEN,GK,25,1996,5,4,408,4.5,11,2.43,25,14,56.0,0,1,3,0,0.0,3,1,1,1,50.0,2022-2023,keeper
+FRA-Ligue 1,2022,Montpellier,Jonas Omlin,SUI,GK,28,1994,14,14,1166,13.0,26,2.01,75,49,65.3,5,1,8,3,21.4,4,3,1,0,25.0,2022-2023,keeper
+FRA-Ligue 1,2022,Montpellier,Matis Carvalho,POR,GK,23,1999,2,1,136,1.5,3,1.99,7,4,57.1,0,0,1,1,100.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Nantes,Alban Lafont,CIV,GK,23,1999,37,37,3329,37.0,54,1.46,178,132,69.7,7,14,16,11,29.7,9,9,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Nantes,Rémy Descamps,FRA,GK,26,1996,1,1,90,1.0,1,1.0,6,5,83.3,0,1,0,0,0.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,Nice,Kasper Schmeichel,DEN,GK,35,1986,36,36,3240,36.0,35,0.97,141,106,75.2,15,12,9,11,30.6,5,3,1,1,25.0,2022-2023,keeper
+FRA-Ligue 1,2022,Nice,Marcin Bułka,POL,GK,22,1999,2,2,180,2.0,2,1.0,6,4,66.7,0,1,1,0,0.0,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,PSG,Alexandre Letellier,FRA,GK,31,1990,1,0,11,0.1,0,0.0,0,0,,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+FRA-Ligue 1,2022,PSG,Gianluigi Donnarumma,ITA,GK,23,1999,38,38,3409,37.9,40,1.06,160,122,75.0,27,4,7,13,34.2,5,2,1,2,33.3,2022-2023,keeper
+FRA-Ligue 1,2022,Reims,Patrick Pentz,AUT,GK,25,1997,7,7,630,7.0,14,2.0,30,16,53.3,1,3,3,0,0.0,2,2,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Reims,Yehvann Diouf,SEN,GK,22,1999,31,31,2790,31.0,31,1.0,138,107,77.5,11,12,8,14,45.2,1,1,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Rennes,Doğan Alemdar,TUR,GK,19,2002,6,4,406,4.5,8,1.77,15,7,46.7,2,0,2,1,25.0,2,1,1,0,50.0,2022-2023,keeper
+FRA-Ligue 1,2022,Rennes,Steve Mandanda,FRA,GK,37,1985,34,34,3014,33.5,31,0.93,110,79,71.8,19,5,10,13,38.2,3,2,1,0,33.3,2022-2023,keeper
+FRA-Ligue 1,2022,Strasbourg,Matz Sels,BEL,GK,30,1992,38,38,3420,38.0,59,1.55,174,115,66.1,9,13,16,6,15.8,11,10,0,1,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Toulouse,Maxime Dupé,FRA,GK,29,1993,38,38,3420,38.0,57,1.5,173,122,67.1,13,9,16,9,23.7,7,4,3,0,42.9,2022-2023,keeper
+FRA-Ligue 1,2022,Troyes,Gauthier Gallon,FRA,GK,29,1993,30,30,2667,29.6,65,2.19,179,114,63.7,3,9,18,0,0.0,5,5,0,0,0.0,2022-2023,keeper
+FRA-Ligue 1,2022,Troyes,Mateusz Lis,POL,GK,25,1997,9,8,751,8.3,16,1.92,50,34,68.0,1,3,4,1,12.5,3,2,1,0,33.3,2022-2023,keeper
+ITA-Serie A,2022,Atalanta,Francesco Rossi,ITA,GK,31,1991,1,0,4,0.0,0,0.0,0,0,,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Atalanta,Juan Musso,ARG,GK,28,1994,24,24,2077,23.1,27,1.17,91,64,70.3,13,4,7,8,33.3,2,2,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Atalanta,Marco Sportiello,ITA,GK,30,1992,15,14,1339,14.9,21,1.41,64,43,67.2,6,3,5,2,14.3,1,1,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Bologna,Francesco Bardi,ITA,GK,30,1992,1,1,90,1.0,0,0.0,4,4,100.0,1,0,0,1,100.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Bologna,Łukasz Skorupski,POL,GK,31,1991,37,37,3330,37.0,49,1.32,154,113,68.2,13,12,12,7,18.9,9,7,2,0,22.2,2022-2023,keeper
+ITA-Serie A,2022,Cremonese,Ionuț Radu,ROU,GK,25,1997,9,9,810,9.0,19,2.11,64,45,70.3,0,3,6,1,11.1,3,3,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Cremonese,Marco Carnesecchi,ITA,GK,22,2000,27,27,2430,27.0,47,1.74,154,107,69.5,4,9,14,4,14.8,2,2,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Cremonese,Mouhamadou Sarr,SEN,GK,25,1997,2,2,180,2.0,3,1.5,8,5,62.5,1,0,1,1,50.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Empoli,Guglielmo Vicario,ITA,GK,25,1996,31,31,2783,30.9,39,1.26,135,96,71.1,9,12,10,7,22.6,6,4,1,1,20.0,2022-2023,keeper
+ITA-Serie A,2022,Empoli,Samir Ujkani,KVX,GK,34,1988,1,0,7,0.1,1,12.86,1,0,0.0,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Empoli,Samuele Perisan,ITA,GK,24,1997,7,7,630,7.0,9,1.29,24,15,62.5,1,1,5,2,28.6,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Fiorentina,Michele Cerofolini,ITA,GK,23,1999,5,5,450,5.0,3,0.6,11,8,72.7,4,1,0,2,40.0,1,1,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Fiorentina,Pierluigi Gollini,ITA,GK,27,1995,3,3,270,3.0,2,0.67,8,6,75.0,1,2,0,2,66.7,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Fiorentina,Pietro Terracciano,ITA,GK,32,1990,29,29,2610,29.0,38,1.31,91,59,58.2,9,8,12,5,17.2,7,6,1,0,14.3,2022-2023,keeper
+ITA-Serie A,2022,Fiorentina,Salvatore Sirigu,ITA,GK,35,1987,1,1,90,1.0,0,0.0,5,5,100.0,1,0,0,1,100.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Hellas Verona,Lorenzo Montipò,ITA,GK,26,1996,37,37,3330,37.0,59,1.59,184,125,67.9,7,9,21,5,13.5,2,1,1,0,50.0,2022-2023,keeper
+ITA-Serie A,2022,Hellas Verona,Simone Perilli,ITA,GK,27,1995,1,1,90,1.0,0,0.0,4,4,100.0,0,1,0,1,100.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Inter,Alex Cordaz,ITA,GK,39,1983,1,0,26,0.3,0,0.0,2,2,100.0,0,0,0,1,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Inter,André Onana,CMR,GK,26,1996,24,24,2160,24.0,24,1.0,84,61,71.4,14,3,7,8,33.3,2,2,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Inter,Samir Handanović,SVN,GK,38,1984,14,14,1234,13.7,18,1.31,53,35,66.0,9,0,5,5,35.7,1,1,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Juventus,Mattia Perin,ITA,GK,29,1992,11,10,948,10.5,7,0.66,39,32,82.1,5,3,2,6,60.0,2,1,1,0,50.0,2022-2023,keeper
+ITA-Serie A,2022,Juventus,Wojciech Szczęsny,POL,GK,32,1990,28,28,2472,27.5,26,0.95,91,67,71.4,17,3,8,15,53.6,3,3,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Lazio,Ivan Provedel,ITA,GK,28,1994,38,37,3413,37.9,30,0.79,129,99,76.7,21,8,8,21,56.8,2,1,0,1,0.0,2022-2023,keeper
+ITA-Serie A,2022,Lazio,Luís Maximiano,POR,GK,23,1999,1,1,5,0.1,0,0.0,0,0,,1,0,0,0,0.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Lecce,Wladimiro Falcone,ITA,GK,27,1995,38,38,3420,38.0,46,1.21,153,112,69.9,8,12,18,6,15.8,6,5,1,0,16.7,2022-2023,keeper
+ITA-Serie A,2022,Milan,Antonio Mirante,ITA,GK,39,1983,1,0,2,0.0,0,0.0,0,0,,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Milan,Ciprian Tătărușanu,ROU,GK,36,1986,16,16,1440,16.0,22,1.37,63,41,65.1,9,3,4,4,25.0,2,2,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Milan,Mike Maignan,FRA,GK,27,1995,22,22,1978,22.0,21,0.96,59,40,64.4,11,7,4,8,36.4,3,2,1,0,33.3,2022-2023,keeper
+ITA-Serie A,2022,Monza,Alessio Cragno,ITA,GK,28,1994,1,1,90,1.0,3,3.0,5,2,40.0,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Monza,Michele Di Gregorio,ITA,GK,25,1997,37,37,3330,37.0,49,1.32,169,120,71.0,14,10,13,10,27.0,3,3,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Napoli,Alex Meret,ITA,GK,25,1997,34,34,3060,34.0,24,0.71,90,67,73.3,26,5,3,16,47.1,2,1,1,0,50.0,2022-2023,keeper
+ITA-Serie A,2022,Napoli,Pierluigi Gollini,ITA,GK,27,1995,4,4,360,4.0,4,1.0,16,12,75.0,2,1,1,2,50.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Roma,Mile Svilar,SRB,GK,22,1999,3,3,270,3.0,3,1.0,10,7,70.0,1,1,1,1,33.3,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Roma,Rui Patrício,POR,GK,34,1988,35,35,3150,35.0,35,1.0,108,73,67.6,17,8,10,13,37.1,3,2,1,0,33.3,2022-2023,keeper
+ITA-Serie A,2022,Salernitana,Guillermo Ochoa,MEX,GK,37,1985,20,20,1800,20.0,33,1.65,103,70,68.0,4,10,6,4,20.0,4,3,1,0,25.0,2022-2023,keeper
+ITA-Serie A,2022,Salernitana,Luigi Sepe,ITA,GK,31,1991,17,17,1530,17.0,27,1.59,84,57,67.9,4,5,8,3,17.6,7,4,3,0,42.9,2022-2023,keeper
+ITA-Serie A,2022,Salernitana,Vincenzo Fiorillo,ITA,GK,32,1990,1,1,90,1.0,2,2.0,4,2,50.0,1,0,0,0,0.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Sampdoria,Emil Audero,IDN,GK,25,1997,25,25,2250,25.0,39,1.56,121,82,67.8,2,6,17,4,16.0,7,5,2,0,28.6,2022-2023,keeper
+ITA-Serie A,2022,Sampdoria,Martin Turk,SVN,GK,18,2003,4,4,360,4.0,9,2.25,30,21,70.0,1,1,2,0,0.0,2,1,0,1,0.0,2022-2023,keeper
+ITA-Serie A,2022,Sampdoria,Nicola Ravaglia,ITA,GK,33,1988,9,9,810,9.0,23,2.56,64,41,64.1,0,3,6,0,0.0,2,2,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Sassuolo,Alessandro Russo,ITA,GK,21,2001,1,1,90,1.0,3,3.0,7,4,57.1,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Sassuolo,Andrea Consigli,ITA,GK,35,1987,35,35,3150,35.0,55,1.57,119,64,53.8,12,8,15,9,25.7,3,3,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Sassuolo,Gianluca Pegolo,ITA,GK,41,1981,2,2,180,2.0,3,1.5,6,3,50.0,0,1,1,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Spezia,Bartłomiej Drągowski,POL,GK,24,1997,34,34,2946,32.7,54,1.65,168,114,67.9,6,10,18,6,17.6,6,4,1,1,20.0,2022-2023,keeper
+ITA-Serie A,2022,Spezia,Federico Marchetti,ITA,GK,39,1983,1,0,66,0.7,2,2.73,3,1,33.3,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Spezia,Jeroen Zoet,NED,GK,31,1991,5,4,334,3.7,4,1.08,14,10,71.4,0,3,1,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+ITA-Serie A,2022,Spezia,Petar Zovko,BIH,GK,20,2002,1,0,74,0.8,2,2.43,3,1,33.3,0,0,0,0,,0,0,0,0,,2022-2023,keeper
+ITA-Serie A,2022,Torino,Vanja Milinković-Savić,SRB,GK,25,1997,38,38,3420,38.0,41,1.08,137,96,70.1,14,11,13,11,28.9,6,5,0,1,0.0,2022-2023,keeper
+ITA-Serie A,2022,Udinese,Marco Silvestri,ITA,GK,31,1991,38,38,3420,38.0,48,1.26,137,89,65.0,11,13,14,10,26.3,7,6,0,1,0.0,2022-2023,keeper
+,2022,Augsburg,Rafał Gikiewicz,POL,GK,34,1987,23,23,2070,23.0,41,1.78,137,96,70.1,8,3,12,5,21.7,4,1,2,1,66.7,2022-2023,keeper
+,2022,Augsburg,Tomáš Koubek,CZE,GK,29,1992,11,11,990,11.0,22,2.0,68,46,67.6,1,4,6,1,9.1,0,0,0,0,,2022-2023,keeper
+,2022,Bayern Munich,Manuel Neuer,GER,GK,36,1986,12,12,1080,12.0,11,0.92,44,33,75.0,7,4,1,4,33.3,2,2,0,0,0.0,2022-2023,keeper
+,2022,Bayern Munich,Sven Ulreich,GER,GK,33,1988,3,3,270,3.0,2,0.67,7,5,71.4,3,0,0,2,66.7,1,0,1,0,100.0,2022-2023,keeper
+,2022,Bayern Munich,Yann Sommer,SUI,GK,33,1988,19,19,1710,19.0,25,1.32,55,30,54.5,11,4,4,5,26.3,7,7,0,0,0.0,2022-2023,keeper
+,2022,Bochum,Manuel Riemann,GER,GK,33,1988,34,34,3060,34.0,72,2.12,189,127,61.9,10,5,19,5,14.7,14,8,3,3,27.3,2022-2023,keeper
+,2022,Dortmund,Alexander Meyer,GER,GK,31,1991,7,7,630,7.0,12,1.71,32,20,62.5,3,2,2,1,14.3,0,0,0,0,,2022-2023,keeper
+,2022,Dortmund,Gregor Kobel,SUI,GK,24,1997,27,27,2430,27.0,32,1.19,120,88,73.3,19,3,5,11,40.7,1,1,0,0,0.0,2022-2023,keeper
+,2022,Frankfurt,Diant Ramaj,GER,GK,20,2001,1,1,90,1.0,1,1.0,6,5,83.3,0,1,0,0,0.0,0,0,0,0,,2022-2023,keeper
+,2022,Frankfurt,Kevin Trapp,GER,GK,32,1990,33,33,2970,33.0,51,1.55,131,80,61.1,13,10,10,6,18.2,2,2,0,0,0.0,2022-2023,keeper
+,2022,Freiburg,Mark Flekken,NED,GK,29,1993,34,34,3060,34.0,44,1.29,148,108,70.3,17,8,9,13,38.2,6,5,0,1,0.0,2022-2023,keeper
+,2022,Gladbach,Jan Olschowsky,GER,GK,20,2001,4,4,360,4.0,11,2.75,31,20,64.5,1,1,2,0,0.0,1,1,0,0,0.0,2022-2023,keeper
+,2022,Gladbach,Jonas Omlin,SUI,GK,28,1994,15,15,1290,14.3,18,1.26,56,38,67.9,5,4,6,5,33.3,2,2,0,0,0.0,2022-2023,keeper
+,2022,Gladbach,Tobias Sippel,GER,GK,34,1988,6,5,510,5.7,12,2.12,33,21,63.6,1,1,3,1,20.0,1,1,0,0,0.0,2022-2023,keeper
+,2022,Gladbach,Yann Sommer,SUI,GK,33,1988,10,10,900,10.0,14,1.4,61,47,77.0,4,4,2,3,30.0,2,2,0,0,0.0,2022-2023,keeper
+,2022,Hertha BSC,Oliver Christensen,DEN,GK,23,1999,33,33,2970,33.0,68,2.06,159,96,57.2,6,8,19,3,9.1,6,5,1,0,16.7,2022-2023,keeper
+,2022,Hertha BSC,Tjark Ernst,GER,GK,19,2003,1,1,90,1.0,1,1.0,8,7,87.5,1,0,0,0,0.0,0,0,0,0,,2022-2023,keeper
+,2022,Hoffenheim,Oliver Baumann,GER,GK,32,1990,34,34,3060,34.0,57,1.68,163,106,65.0,10,6,18,5,14.7,3,2,0,1,0.0,2022-2023,keeper
+,2022,Köln,Marvin Schwäbe,GER,GK,27,1995,34,34,3060,34.0,54,1.59,127,77,57.5,10,12,12,6,17.6,5,4,1,0,20.0,2022-2023,keeper
+,2022,Leverkusen,Andrey Lunyov,RUS,GK,30,1991,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,0,0,0,0,,2022-2023,keeper
+,2022,Leverkusen,Lukáš Hrádecký,FIN,GK,32,1989,33,33,2969,33.0,47,1.42,138,97,65.9,14,8,11,9,27.3,7,7,0,0,0.0,2022-2023,keeper
+,2022,Mainz 05,Finn Dahmen,GER,GK,24,1998,8,8,720,8.0,16,2.0,43,27,62.8,3,2,3,0,0.0,3,1,2,0,66.7,2022-2023,keeper
+,2022,Mainz 05,Robin Zentner,GER,GK,27,1994,26,26,2340,26.0,39,1.5,106,70,63.2,9,8,9,7,26.9,5,3,1,1,25.0,2022-2023,keeper
+,2022,RB Leipzig,Janis Blaswich,GER,GK,31,1991,26,26,2340,26.0,29,1.12,75,46,61.3,16,4,6,7,26.9,7,6,1,0,14.3,2022-2023,keeper
+,2022,RB Leipzig,Péter Gulácsi,HUN,GK,32,1990,6,6,540,6.0,10,1.67,27,17,63.0,2,2,2,2,33.3,1,1,0,0,0.0,2022-2023,keeper
+,2022,RB Leipzig,Ørjan Nyland,NOR,GK,31,1990,2,2,180,2.0,2,1.0,6,4,66.7,2,0,0,1,50.0,0,0,0,0,,2022-2023,keeper
+,2022,Schalke 04,Alexander Schwolow,GER,GK,30,1992,23,22,2035,22.6,58,2.57,138,80,58.0,4,4,14,2,9.1,4,4,0,0,0.0,2022-2023,keeper
+,2022,Schalke 04,Ralf Fährmann,GER,GK,33,1988,12,12,1025,11.4,13,1.14,56,43,76.8,3,6,3,5,41.7,2,1,0,1,0.0,2022-2023,keeper
+,2022,Stuttgart,Fabian Bredlow,GER,GK,27,1995,15,15,1350,15.0,23,1.53,61,38,62.3,4,5,6,1,6.7,5,5,0,0,0.0,2022-2023,keeper
+,2022,Stuttgart,Florian Müller,GER,GK,24,1997,19,19,1710,19.0,34,1.79,87,53,60.9,3,7,9,1,5.3,1,1,0,0,0.0,2022-2023,keeper
+,2022,Union Berlin,Frederik Rønnow,DEN,GK,29,1992,29,29,2610,29.0,27,0.93,121,94,77.7,16,7,6,11,37.9,5,5,0,0,0.0,2022-2023,keeper
+,2022,Union Berlin,Lennart Grill,GER,GK,23,1999,5,5,450,5.0,11,2.2,25,14,56.0,2,1,2,2,40.0,2,2,0,0,0.0,2022-2023,keeper
+,2022,Werder Bremen,Jiří Pavlenka,CZE,GK,30,1992,33,33,2908,32.3,61,1.89,172,111,64.5,10,5,18,4,12.1,3,2,1,0,33.3,2022-2023,keeper
+,2022,Werder Bremen,Michael Zetterer,GER,GK,27,1995,2,1,152,1.7,3,1.78,14,11,78.6,0,1,0,0,0.0,0,0,0,0,,2022-2023,keeper
+,2022,Wolfsburg,Koen Casteels,BEL,GK,30,1992,34,34,3060,34.0,48,1.41,149,101,67.8,13,10,11,12,35.3,7,4,1,2,20.0,2022-2023,keeper

@@ -7,10 +7,11 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROCESSED_DATA_PATH = PROJECT_ROOT / "data" / "processed" / "transfermarkt_dataset_clean.csv"
 MODEL_DATA_PATH = PROJECT_ROOT / "data" / "model" / "players_model.csv"
-METRICS_PATH = PROJECT_ROOT / "data" / "output" / "model_metrics_improved.csv"
+METRICS_PATH = PROJECT_ROOT / "data" / "output" / "model_metrics.csv"
 CLASSIFICATION_REPORT_PATH = PROJECT_ROOT / "data" / "output" / "classification_report_best_model.csv"
 CONFUSION_MATRIX_PATH = PROJECT_ROOT / "data" / "output" / "confusion_matrix_best_model.csv"
 FEATURE_IMPORTANCE_PATH = PROJECT_ROOT / "data" / "output" / "feature_importance_best_model.csv"
+MODEL_COMPARISON_PATH = PROJECT_ROOT / "data" / "output" / "model_comparison_scenarios.csv"
 BEST_MODEL_PATH = PROJECT_ROOT / "models" / "best_model.pkl"
 LABEL_ENCODER_PATH = PROJECT_ROOT / "models" / "label_encoder.pkl"
 
@@ -18,7 +19,9 @@ LABEL_ENCODER_PATH = PROJECT_ROOT / "models" / "label_encoder.pkl"
 def require_file(path):
     path = Path(path)
     if not path.exists():
-        st.error(f"File tidak ditemukan: {path}")
+        st.error(
+            f"File tidak ditemukan: {path}. Jalankan tahap preprocessing atau training yang sesuai."
+        )
         st.stop()
     return path
 
@@ -51,6 +54,14 @@ def load_confusion_matrix():
 @st.cache_data(show_spinner=False)
 def load_feature_importance():
     return pd.read_csv(require_file(FEATURE_IMPORTANCE_PATH))
+
+
+@st.cache_data(show_spinner=False)
+def load_model_comparison():
+    metrics = load_metrics()
+    test_metrics = metrics[metrics["split"] == "test"].copy()
+    test_metrics["dataset"] = "final"
+    return test_metrics
 
 
 @st.cache_resource(show_spinner=False)
