@@ -1,0 +1,16 @@
+metric,value
+raw_rows,30024
+rows_after_season_filter,30024
+rows_dropped_missing_market_value,1690
+duplicate_player_season_rows_dropped,1593
+rows_dropped_below_5_mio,16530
+clean_rows,10211
+fbref_available,True
+fbref_matched_rows,9836
+fbref_unmatched_rows,375
+fbref_fallback_used,False
+model_rows,10211
+model_features,37
+train_rows_planned,6138
+validation_rows_planned,1334
+test_rows_planned,2739

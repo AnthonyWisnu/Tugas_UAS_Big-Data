@@ -1,0 +1,2 @@
+model,scenario,split,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,recall_menengah,precision_menengah,f1_menengah,recall_rendah,precision_rendah,f1_rendah,recall_tinggi,precision_tinggi,f1_tinggi
+xgboost,random_oversampling_light,validation,0.8178410794602698,0.7997990867579908,0.7788689235670256,0.7885566529755913,0.81656432163424,0.7197309417040358,0.7328767123287672,0.7262443438914027,0.9008264462809917,0.872,0.8861788617886179,0.7160493827160493,0.7945205479452054,0.7532467532467533

@@ -1,0 +1,56 @@
+feature,importance,model
+prev_mv_category_Menengah,0.2272098,xgboost
+prev_season_mv,0.09099207,xgboost
+prev_season_mv_log,0.088002056,xgboost
+prev_mv_category_Tinggi,0.07891439,xgboost
+prev_mv_category_Rendah,0.029097533,xgboost
+has_prev_mv,0.027418597,xgboost
+club_total_mv_mio,0.026349617,xgboost
+shots_total,0.024501594,xgboost
+club_mv_relative_to_league_avg,0.019308845,xgboost
+mv_history_count,0.018694742,xgboost
+shots_on_target,0.018558946,xgboost
+age,0.018009692,xgboost
+minutes,0.01795304,xgboost
+two_seasons_ago_mv_category_Rendah,0.016990589,xgboost
+goals,0.015277951,xgboost
+league_Premier League,0.01272165,xgboost
+two_seasons_ago_mv_category_No History,0.01264515,xgboost
+is_peak_age,0.011777617,xgboost
+has_performance_stats,0.011268512,xgboost
+starts_rate,0.0106291585,xgboost
+assists,0.010519421,xgboost
+prev_mv_category_Below 5,0.010084689,xgboost
+club_total_mv_pct_league_season,0.009982596,xgboost
+two_seasons_ago_mv,0.00984529,xgboost
+club_total_mv_rank_league_season,0.009634169,xgboost
+league_Ligue 1,0.009009979,xgboost
+league_La Liga,0.008687657,xgboost
+league_rank,0.008400809,xgboost
+goal_assist_per_90,0.007836811,xgboost
+is_midfielder,0.0078316275,xgboost
+prev_growth_rate_clipped,0.0074646156,xgboost
+prev_mv_to_club_total_ratio,0.007104047,xgboost
+two_seasons_ago_mv_category_Menengah,0.007087841,xgboost
+goals_per_90,0.006880608,xgboost
+is_goalkeeper,0.0067512877,xgboost
+pos_category_Midfield,0.0066423477,xgboost
+is_defender,0.0063912193,xgboost
+assists_per_90,0.006338602,xgboost
+shots_per_90,0.0063226335,xgboost
+age_peak_distance,0.0061119017,xgboost
+preferred_foot_right,0.0060599316,xgboost
+pos_category_Attack,0.0054857596,xgboost
+preferred_foot_both,0.005473363,xgboost
+pos_category_Goalkeeper,0.005404663,xgboost
+preferred_foot_left,0.005375056,xgboost
+yellow_cards,0.005356809,xgboost
+height_m,0.005083253,xgboost
+pos_category_Defender,0.005060634,xgboost
+league_Bundesliga,0.0050598527,xgboost
+two_seasons_ago_mv_category_Tinggi,0.0048597828,xgboost
+league_Serie A,0.0046744132,xgboost
+is_forward,0.0036114955,xgboost
+two_seasons_ago_mv_category_Below 5,0.0032453283,xgboost
+prev_mv_category_No History,0.0,xgboost
+preferred_foot_Unknown,0.0,xgboost

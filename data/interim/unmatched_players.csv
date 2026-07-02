@@ -1,0 +1,376 @@
+row_id,player_id,player_name,club,league,season,matched,match_type,name_score,club_score,fbref_player_name,fbref_club,reason
+76,18900,Hatem Ben Arfa,Paris Saint-Germain,Ligue 1,2017,False,none,0,0,,,no_fuzzy_candidate
+103,22614,Robert Snodgrass,West Ham United,Premier League,2017,False,none,0,0,,,score_below_threshold
+229,34944,Konstantinos Mitroglou,Olympique Marseille,Ligue 1,2017,False,none,0,0,,,no_fuzzy_candidate
+230,34944,Konstantinos Mitroglou,Olympique Marseille,Ligue 1,2018,False,none,0,0,,,no_fuzzy_candidate
+269,37526,Winston Reid,West Ham United,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+409,44162,Miralem Pjanić,FC Barcelona,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+410,44162,Miralem Pjanić,FC Barcelona,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+441,45184,Grzegorz Krychowiak,Paris Saint-Germain,Ligue 1,2018,False,none,0,0,,,no_fuzzy_candidate
+571,50219,Simon Mignolet,Liverpool FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+572,50219,Simon Mignolet,Liverpool FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+577,50935,Chicharito,West Ham United,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+578,50935,Chicharito,West Ham United,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+579,50935,Chicharito,Sevilla FC,La Liga,2019,False,none,0,0,,,no_fuzzy_candidate
+602,52059,Zanka,Huddersfield Town,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+603,52059,Zanka,Huddersfield Town,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+615,52570,Fraser Forster,Southampton FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+653,54781,Nicolás Otamendi,Manchester City,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+712,57162,Sofiane Feghouli,West Ham United,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+798,59631,Nacer Chadli,AS Monaco,Ligue 1,2019,False,none,0,0,,,no_fuzzy_candidate
+868,62049,Mame Diouf,Stoke City,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+978,68863,Mauro Icardi,Paris Saint-Germain,Ligue 1,2022,False,none,0,0,,,no_fuzzy_candidate
+1011,71271,Adrián San Miguel,West Ham United,Premier League,2017,False,none,0,0,,,score_below_threshold
+1058,73491,Danny Drinkwater,Chelsea FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1138,75471,Yannick Bolasie,Everton FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1298,85177,Nathaniel Clyne,Liverpool FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+1333,85864,Loris Karius,Liverpool FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1363,87469,Cote,SD Eibar,La Liga,2018,False,none,0,0,,,no_fuzzy_candidate
+1418,90681,Eliaquim Mangala,Manchester City,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1506,93905,Muhamed Besic,Everton FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1539,95435,Connor Wickham,Crystal Palace,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+1660,104223,Jordy Clasie,Southampton FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+1662,104752,Konstantinos Manolas,AS Roma,Serie A,2017,False,none,0,0,,,no_fuzzy_candidate
+1663,104752,Konstantinos Manolas,AS Roma,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+1664,104752,Konstantinos Manolas,SSC Napoli,Serie A,2019,False,none,0,0,,,no_fuzzy_candidate
+1665,104752,Konstantinos Manolas,SSC Napoli,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+1793,111524,Ahmed Hegazy,West Bromwich Albion,Premier League,2017,False,none,0,0,,,score_below_threshold
+1871,117996,Phil Jones,Manchester United,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+1920,119269,Shane Duffy,Brighton & Hove Albion,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+2028,124419,Odysseas Vlachodimos,Newcastle United,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+2097,126422,Allan,Everton FC,Premier League,2022,False,none,0,0,,,score_below_threshold
+2132,126710,Layvin Kurzawa,Paris Saint-Germain,Ligue 1,2021,False,none,0,0,,,no_fuzzy_candidate
+2186,127181,Benjamin Lecomte,Atlético de Madrid,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+2238,128904,Ben Gibson,Burnley FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+2239,128904,Ben Gibson,Burnley FC,Premier League,2020,False,none,0,0,,,score_below_threshold
+2433,137745,Marçal,Olympique Lyon,Ligue 1,2017,False,none,0,0,,,score_below_threshold
+2434,137745,Marçal,Olympique Lyon,Ligue 1,2018,False,none,0,0,,,score_below_threshold
+2525,144303,Lazar Markovic,Liverpool FC,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+2535,145866,Munas Dabbur,TSG 1899 Hoffenheim,Bundesliga,2019,False,none,0,0,,,no_fuzzy_candidate
+2536,145866,Munas Dabbur,TSG 1899 Hoffenheim,Bundesliga,2020,False,none,0,0,,,no_fuzzy_candidate
+2581,147034,Marco van Ginkel,Chelsea FC,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+2582,147034,Marco van Ginkel,Chelsea FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+2585,147094,José Izquierdo,Brighton & Hove Albion,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+2626,148657,Tomas Kalas,Chelsea FC,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+2777,161011,Filip Kostić,Juventus FC,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+2897,167721,Chimy Ávila,SD Huesca,La Liga,2018,False,none,0,0,,,no_fuzzy_candidate
+2898,167721,Chimy Ávila,CA Osasuna,La Liga,2019,False,none,0,0,,,no_fuzzy_candidate
+2899,167721,Chimy Ávila,CA Osasuna,La Liga,2020,False,none,0,0,,,no_fuzzy_candidate
+2900,167721,Chimy Ávila,CA Osasuna,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+2901,167721,Chimy Ávila,CA Osasuna,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+2919,167850,Memphis Depay,Olympique Lyon,Ligue 1,2017,False,none,0,0,,,score_below_threshold
+2920,167850,Memphis Depay,Olympique Lyon,Ligue 1,2018,False,none,0,0,,,score_below_threshold
+2921,167850,Memphis Depay,Olympique Lyon,Ligue 1,2019,False,none,0,0,,,score_below_threshold
+2922,167850,Memphis Depay,Olympique Lyon,Ligue 1,2020,False,none,0,0,,,score_below_threshold
+2935,168337,Ahmed Musa,Leicester City,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+3042,174915,Islam Slimani,Leicester City,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+3047,175446,Jonny Otto,Celta de Vigo,La Liga,2017,False,none,0,0,,,no_fuzzy_candidate
+3048,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+3049,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+3050,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+3051,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+3052,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+3053,175446,Jonny Otto,Wolverhampton Wanderers,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+3129,178614,Jean Michaël Seri,OGC Nice,Ligue 1,2017,False,none,0,0,,,no_fuzzy_candidate
+3130,178614,Jean Michaël Seri,Fulham FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+3196,182201,Ally Samatta,Aston Villa,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+3299,183720,Anwar El Ghazi,LOSC Lille,Ligue 1,2018,False,none,0,0,,,no_fuzzy_candidate
+3355,186644,Mohamed Elyounoussi,Southampton FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+3356,186644,Mohamed Elyounoussi,Southampton FC,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+3458,192080,Nick Pope,Burnley FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+3516,193082,Alejandro Grimaldo,Bayer 04 Leverkusen,Bundesliga,2023,False,none,0,0,,,no_fuzzy_candidate
+3517,193082,Alejandro Grimaldo,Bayer 04 Leverkusen,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+3546,194549,Simy,FC Crotone,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+3587,196522,Dwight Gayle,Newcastle United,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+3612,197470,Mattia Caldara,AC Milan,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+3657,198589,Lewis Baker,Chelsea FC,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+3703,201040,Marco Benassi,Hellas Verona,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+3738,203026,Danny Ward,Leicester City,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+3739,203026,Danny Ward,Leicester City,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+3749,203394,Andreas Pereira,Manchester United,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+3834,205940,Marko Pjaca,Juventus FC,Serie A,2019,False,none,0,0,,,score_below_threshold
+3902,207929,Dele Alli,Everton FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+3919,210081,Didier Ndong,Watford FC,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+3926,211637,Kiki Kouyaté,FC Metz,Ligue 1,2020,False,none,0,0,,,no_fuzzy_candidate
+3927,211637,Kiki Kouyaté,FC Metz,Ligue 1,2021,False,none,0,0,,,no_fuzzy_candidate
+3928,211637,Kiki Kouyaté,Montpellier HSC,Ligue 1,2022,False,none,0,0,,,no_fuzzy_candidate
+3929,211637,Kiki Kouyaté,Montpellier HSC,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+3966,214056,Daniel Amartey,Leicester City,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+4031,216375,Felipe Avenatti,Bologna FC 1909,Serie A,2018,False,none,0,0,,,score_below_threshold
+4034,216464,Carlos Fernández,Real Sociedad,La Liga,2021,False,none,0,0,,,score_below_threshold
+4074,221322,José Gayà,Valencia CF,La Liga,2017,False,none,0,0,,,no_fuzzy_candidate
+4075,221322,José Gayà,Valencia CF,La Liga,2018,False,none,0,0,,,no_fuzzy_candidate
+4076,221322,José Gayà,Valencia CF,La Liga,2019,False,none,0,0,,,no_fuzzy_candidate
+4077,221322,José Gayà,Valencia CF,La Liga,2020,False,none,0,0,,,no_fuzzy_candidate
+4078,221322,José Gayà,Valencia CF,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+4079,221322,José Gayà,Valencia CF,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+4080,221322,José Gayà,Valencia CF,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+4081,221322,José Gayà,Valencia CF,La Liga,2024,False,none,0,0,,,no_fuzzy_candidate
+4096,222813,Marko Grujić,Liverpool FC,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+4131,225020,Mariano Díaz,Olympique Lyon,Ligue 1,2017,False,none,0,0,,,score_below_threshold
+4132,225020,Mariano Díaz,Olympique Lyon,Ligue 1,2018,False,none,0,0,,,score_below_threshold
+4157,225452,Patrick Roberts,Manchester City,Premier League,2017,False,none,0,0,,,score_below_threshold
+4183,226049,Freddie Woodman,Newcastle United,Premier League,2020,False,none,0,0,,,score_below_threshold
+4210,228433,Wendell,Bayer 04 Leverkusen,Bundesliga,2021,False,none,0,0,,,no_fuzzy_candidate
+4328,234803,Andrew Robertson,Liverpool FC,Premier League,2017,False,none,0,0,,,score_below_threshold
+4329,234803,Andrew Robertson,Liverpool FC,Premier League,2018,False,none,0,0,,,score_below_threshold
+4330,234803,Andrew Robertson,Liverpool FC,Premier League,2019,False,none,0,0,,,score_below_threshold
+4331,234803,Andrew Robertson,Liverpool FC,Premier League,2020,False,none,0,0,,,score_below_threshold
+4332,234803,Andrew Robertson,Liverpool FC,Premier League,2021,False,none,0,0,,,score_below_threshold
+4333,234803,Andrew Robertson,Liverpool FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+4334,234803,Andrew Robertson,Liverpool FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+4335,234803,Andrew Robertson,Liverpool FC,Premier League,2024,False,none,0,0,,,score_below_threshold
+4456,241481,Jaïro Riedewald,Crystal Palace,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+4520,244192,Pierluigi Gollini,Tottenham Hotspur,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+4521,244275,Gabriel Barbosa,Inter Milan,Serie A,2017,False,none,0,0,,,score_below_threshold
+4711,253341,Rob Holding,Crystal Palace,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+4748,255744,Samir Caetano,Udinese Calcio,Serie A,2017,False,none,0,0,,,no_fuzzy_candidate
+4749,255744,Samir Caetano,Udinese Calcio,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+4750,255744,Samir Caetano,Udinese Calcio,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+4751,255744,Samir Caetano,Udinese Calcio,Serie A,2021,False,none,0,0,,,no_fuzzy_candidate
+4889,258919,Dean Henderson,Manchester United,Premier League,2021,False,none,0,0,,,score_below_threshold
+4988,263801,Kasim Adams,TSG 1899 Hoffenheim,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+5019,265504,Firmin Mubele,FC Toulouse,Ligue 1,2017,False,none,0,0,,,no_fuzzy_candidate
+5186,278343,Felix Uduokhai,FC Augsburg,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+5198,279455,Harry Wilson,Liverpool FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+5200,279455,Harry Wilson,Liverpool FC,Premier League,2020,False,none,0,0,,,score_below_threshold
+5241,282041,Presnel Kimpembe,Paris Saint-Germain,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+5280,282722,Álex Collado,FC Barcelona,La Liga,2020,False,none,0,0,,,no_fuzzy_candidate
+5321,284342,Conan Ledesma,Cádiz CF,La Liga,2020,False,none,0,0,,,no_fuzzy_candidate
+5322,284342,Conan Ledesma,Cádiz CF,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+5323,284342,Conan Ledesma,Cádiz CF,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+5324,284342,Conan Ledesma,Cádiz CF,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+5348,284854,Carles Aleñá,FC Barcelona,La Liga,2017,False,none,0,0,,,no_fuzzy_candidate
+5354,284857,Marc Cucurella,FC Barcelona,La Liga,2017,False,none,0,0,,,no_fuzzy_candidate
+5447,288253,Jeremiah St. Juste,1.FSV Mainz 05,Bundesliga,2019,False,none,0,0,,,no_fuzzy_candidate
+5448,288253,Jeremiah St. Juste,1.FSV Mainz 05,Bundesliga,2020,False,none,0,0,,,no_fuzzy_candidate
+5449,288253,Jeremiah St. Juste,1.FSV Mainz 05,Bundesliga,2021,False,none,0,0,,,no_fuzzy_candidate
+5455,288318,Adrián Embarba,RCD Espanyol Barcelona,La Liga,2019,False,none,0,0,,,score_below_threshold
+5472,289592,Orel Mangala,VfB Stuttgart,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+5538,291544,Jordan Hugill,West Ham United,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+5568,293168,Filip Benkovic,Leicester City,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+5569,293168,Filip Benkovic,Leicester City,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+5581,293200,Nikola Vlašić,Everton FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+5610,294321,Ferro,Valencia CF,La Liga,2020,False,none,0,0,,,no_fuzzy_candidate
+5668,297212,Joe Rodon,Tottenham Hotspur,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+5671,298091,Harry Souttar,Leicester City,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+5715,303219,Jeff Chabot,1.FC Köln,Bundesliga,2022,False,none,0,0,,,no_fuzzy_candidate
+5716,303219,Jeff Chabot,1.FC Köln,Bundesliga,2023,False,none,0,0,,,no_fuzzy_candidate
+5717,303219,Jeff Chabot,VfB Stuttgart,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+5746,307519,Fede San Emeterio,Real Valladolid CF,La Liga,2018,False,none,0,0,,,no_fuzzy_candidate
+5777,311489,Landry Dimata,VfL Wolfsburg,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+5786,312862,Dalbert,OGC Nice,Ligue 1,2017,False,none,0,0,,,score_below_threshold
+5787,312862,Dalbert,Inter Milan,Serie A,2018,False,none,0,0,,,score_below_threshold
+5919,316889,Hirving Lozano,SSC Napoli,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+5937,318470,Matvey Safonov,Paris Saint-Germain,Ligue 1,2024,False,none,0,0,,,score_below_threshold
+5992,321247,Emiliano Buendía,Norwich City,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+5993,321247,Emiliano Buendía,Aston Villa,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+5994,321247,Emiliano Buendía,Aston Villa,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+5995,321247,Emiliano Buendía,Aston Villa,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+5996,321247,Emiliano Buendía,Bayer 04 Leverkusen,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+6033,324351,Panagiotis Retsos,Bayer 04 Leverkusen,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+6064,325223,Mama Baldé,ESTAC Troyes,Ligue 1,2022,False,none,0,0,,,no_fuzzy_candidate
+6097,328480,Pepelu,Valencia CF,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+6098,328480,Pepelu,Valencia CF,La Liga,2024,False,none,0,0,,,no_fuzzy_candidate
+6154,331726,Tammy Abraham,Chelsea FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+6249,336077,Altay Bayındır,Manchester United,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+6278,337800,Gedson Fernandes,Tottenham Hotspur,Premier League,2020,False,none,0,0,,,score_below_threshold
+6279,338070,Konstantinos Tsimikas,Liverpool FC,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+6280,338070,Konstantinos Tsimikas,Liverpool FC,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+6281,338070,Konstantinos Tsimikas,Liverpool FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+6282,338070,Konstantinos Tsimikas,Liverpool FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+6283,338070,Konstantinos Tsimikas,Liverpool FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+6316,338672,Zinho Vanheusden,Inter Milan,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+6322,339340,Tyrell Malacia,Manchester United,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+6347,340321,Josh Dasilva,Brentford FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+6348,340322,Nathan Tella,Southampton FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+6396,341049,Cameron Carter-Vickers,Tottenham Hotspur,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+6411,341227,Juan Miranda,FC Barcelona,La Liga,2018,False,none,0,0,,,score_below_threshold
+6435,341501,Hamza Choudhury,Leicester City,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+6442,341647,Cengiz Ünder,Olympique Marseille,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+6451,342046,Axel Tuanzebe,Manchester United,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+6502,344015,Ben Woodburn,Liverpool FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+6535,344600,Michaël Cuisance,Borussia Mönchengladbach,Bundesliga,2017,False,none,0,0,,,score_below_threshold
+6536,344600,Michaël Cuisance,Borussia Mönchengladbach,Bundesliga,2018,False,none,0,0,,,score_below_threshold
+6538,344600,Michaël Cuisance,Olympique Marseille,Ligue 1,2020,False,none,0,0,,,score_below_threshold
+6630,347900,Jerdy Schouten,Bologna FC 1909,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+6631,347913,Luan Peres,Olympique Marseille,Ligue 1,2021,False,none,0,0,,,score_below_threshold
+6659,349066,Alexander Isak,Borussia Dortmund,Bundesliga,2018,False,none,0,0,,,score_below_threshold
+6753,354361,Frank Anguissa,Olympique Marseille,Ligue 1,2017,False,none,0,0,,,no_fuzzy_candidate
+6754,354361,Frank Anguissa,Fulham FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+6755,354361,Frank Anguissa,Villarreal CF,La Liga,2019,False,none,0,0,,,no_fuzzy_candidate
+6756,354361,Frank Anguissa,Fulham FC,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+6757,354361,Frank Anguissa,SSC Napoli,Serie A,2021,False,none,0,0,,,no_fuzzy_candidate
+6758,354361,Frank Anguissa,SSC Napoli,Serie A,2022,False,none,0,0,,,no_fuzzy_candidate
+6759,354361,Frank Anguissa,SSC Napoli,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+6760,354361,Frank Anguissa,SSC Napoli,Serie A,2024,False,none,0,0,,,score_below_threshold
+6769,354482,Amir Murillo,Olympique Marseille,Ligue 1,2024,False,none,0,0,,,score_below_threshold
+6778,355369,Jordan,Stade Rennais FC,Ligue 1,2018,False,none,0,0,,,score_below_threshold
+6779,355369,Jordan,1.FC Union Berlin,Bundesliga,2022,False,none,0,0,,,score_below_threshold
+6958,361260,Ozan Kabak,TSG 1899 Hoffenheim,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+6964,362086,Isi Palazón,Rayo Vallecano,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+6965,362086,Isi Palazón,Rayo Vallecano,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+6973,362842,Arthur Melo,Liverpool FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+6988,364133,Pietro Pellegri,AS Monaco,Ligue 1,2019,False,none,0,0,,,no_fuzzy_candidate
+7006,364603,José Manuel Arnáiz,FC Barcelona,La Liga,2017,False,none,0,0,,,no_fuzzy_candidate
+7089,371149,Evan Ndicka,Eintracht Frankfurt,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+7090,371149,Evan Ndicka,Eintracht Frankfurt,Bundesliga,2019,False,none,0,0,,,no_fuzzy_candidate
+7091,371149,Evan Ndicka,Eintracht Frankfurt,Bundesliga,2020,False,none,0,0,,,no_fuzzy_candidate
+7092,371149,Evan Ndicka,Eintracht Frankfurt,Bundesliga,2021,False,none,0,0,,,no_fuzzy_candidate
+7093,371149,Evan Ndicka,Eintracht Frankfurt,Bundesliga,2022,False,none,0,0,,,no_fuzzy_candidate
+7094,371149,Evan Ndicka,AS Roma,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+7095,371149,Evan Ndicka,AS Roma,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+7106,371814,Nat Phillips,Liverpool FC,Premier League,2020,False,none,0,0,,,score_below_threshold
+7107,371814,Nat Phillips,Liverpool FC,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+7163,375382,André Almeida,Valencia CF,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+7164,375382,André Almeida,Valencia CF,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+7165,375382,André Almeida,Valencia CF,La Liga,2024,False,none,0,0,,,score_below_threshold
+7215,380350,Igor Julio,Brighton & Hove Albion,Premier League,2023,False,none,0,0,,,score_below_threshold
+7216,380350,Igor Julio,Brighton & Hove Albion,Premier League,2024,False,none,0,0,,,score_below_threshold
+7217,380415,Henry Onyekuru,Everton FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+7244,384461,Jakub Moder,Brighton & Hove Albion,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+7306,389253,Auston Trusty,Arsenal FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+7323,391065,Hamed Traoré,FC Empoli,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+7324,391065,Hamed Traoré,US Sassuolo,Serie A,2019,False,none,0,0,,,no_fuzzy_candidate
+7325,391065,Hamed Traoré,US Sassuolo,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+7326,391065,Hamed Traoré,US Sassuolo,Serie A,2021,False,none,0,0,,,no_fuzzy_candidate
+7327,391065,Hamed Traoré,US Sassuolo,Serie A,2022,False,none,0,0,,,no_fuzzy_candidate
+7328,391065,Hamed Traoré,SSC Napoli,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+7329,391065,Hamed Traoré,AJ Auxerre,Ligue 1,2024,False,none,0,0,,,no_fuzzy_candidate
+7334,392085,Nicolò Zaniolo,AS Roma,Serie A,2020,False,none,0,0,,,no_fuzzy_candidate
+7372,392771,Ethan Ampadu,Chelsea FC,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+7382,392775,Ryan Sessegnon,Tottenham Hotspur,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+7410,394328,Rafik Guitane,Stade Rennais FC,Ligue 1,2018,False,none,0,0,,,no_fuzzy_candidate
+7413,395083,Andreaw Gravillon,Inter Milan,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+7551,401604,Michal Karbownik,Brighton & Hove Albion,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+7561,401923,Victor Osimhen,VfL Wolfsburg,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+7584,403898,Jordan Beyer,Borussia Mönchengladbach,Bundesliga,2022,False,none,0,0,,,no_fuzzy_candidate
+7624,406560,Rhian Brewster,Liverpool FC,Premier League,2019,False,none,0,0,,,no_fuzzy_candidate
+7644,406638,Oliver Skipp,Tottenham Hotspur,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+7774,417575,Uros Racic,Valencia CF,La Liga,2018,False,none,0,0,,,no_fuzzy_candidate
+7777,417575,Uros Racic,Valencia CF,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+7781,418543,Perr Schuurs,Torino FC,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+7853,424015,Nathan Patterson,Everton FC,Premier League,2021,False,none,0,0,,,score_below_threshold
+7876,424881,Omar Richards,Nottingham Forest,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+7877,425306,Matt Turner,Arsenal FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+7930,432090,Nicolò Fagioli,Juventus FC,Serie A,2021,False,none,0,0,,,no_fuzzy_candidate
+7956,433181,Tino Anjorin,FC Empoli,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+7994,435485,Luiz Araújo,LOSC Lille,Ligue 1,2021,False,none,0,0,,,no_fuzzy_candidate
+8014,441986,Yann Bisseck,Inter Milan,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+8015,441986,Yann Bisseck,Inter Milan,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+8090,451276,Dominik Szoboszlai,RB Leipzig,Bundesliga,2020,False,none,0,0,,,no_fuzzy_candidate
+8141,459463,Cucho Hernández,Real Betis Balompié,La Liga,2024,False,none,0,0,,,score_below_threshold
+8207,463620,Willem Geubbels,AS Monaco,Ligue 1,2019,False,none,0,0,,,no_fuzzy_candidate
+8212,465555,Djordje Petrovic,RC Strasbourg Alsace,Ligue 1,2024,False,none,0,0,,,score_below_threshold
+8332,475411,Wesley Fofana,Chelsea FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8334,475412,Jean Marcelin,AS Monaco,Ligue 1,2019,False,none,0,0,,,no_fuzzy_candidate
+8343,476344,Emerson Royal,Real Betis Balompié,La Liga,2019,False,none,0,0,,,score_below_threshold
+8344,476344,Emerson Royal,Real Betis Balompié,La Liga,2020,False,none,0,0,,,score_below_threshold
+8346,476344,Emerson Royal,Tottenham Hotspur,Premier League,2022,False,none,0,0,,,score_below_threshold
+8347,476344,Emerson Royal,Tottenham Hotspur,Premier League,2023,False,none,0,0,,,score_below_threshold
+8387,480763,Juan Foyth,Tottenham Hotspur,Premier League,2017,False,none,0,0,,,no_fuzzy_candidate
+8399,480987,Chris Mepham,AFC Bournemouth,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+8401,481173,Mady Camara,AS Roma,Serie A,2022,False,none,0,0,,,no_fuzzy_candidate
+8412,484387,Matty Longstaff,Newcastle United,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+8455,486604,Vitezslav Jaros,Liverpool FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8580,503638,Mohamed Ihattaren,UC Sampdoria,Serie A,2021,False,none,0,0,,,no_fuzzy_candidate
+8609,503977,Taylor Harwood-Bellis,Manchester City,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8636,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2019,False,none,0,0,,,no_fuzzy_candidate
+8637,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2020,False,none,0,0,,,no_fuzzy_candidate
+8638,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2021,False,none,0,0,,,no_fuzzy_candidate
+8639,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2022,False,none,0,0,,,no_fuzzy_candidate
+8640,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2023,False,none,0,0,,,no_fuzzy_candidate
+8641,504215,Giovanni Reyna,Borussia Dortmund,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+8650,505219,James Garner,Manchester United,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+8660,506189,Flynn Downes,West Ham United,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8671,507700,Brandon Williams,Manchester United,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+8720,522784,Taty Castellanos,Girona FC,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+8721,522784,Taty Castellanos,SS Lazio,Serie A,2023,False,none,0,0,,,no_fuzzy_candidate
+8722,522784,Taty Castellanos,SS Lazio,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+8737,525247,Maximilian Kilman,Wolverhampton Wanderers,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+8738,525247,Maximilian Kilman,Wolverhampton Wanderers,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+8739,525247,Maximilian Kilman,Wolverhampton Wanderers,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8740,525247,Maximilian Kilman,West Ham United,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+8765,532541,Luke Cundle,Wolverhampton Wanderers,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+8794,534033,Alexis Mac Allister,Brighton & Hove Albion,Premier League,2018,False,none,0,0,,,no_fuzzy_candidate
+8822,536835,Amad Diallo,Manchester United,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+8823,536835,Amad Diallo,Manchester United,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+8874,541231,Sepp van den Berg,Liverpool FC,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+8939,551505,Mousa Tamari,Montpellier HSC,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+8940,551505,Mousa Tamari,Montpellier HSC,Ligue 1,2024,False,none,0,0,,,no_fuzzy_candidate
+9000,559794,Jack Clarke,Tottenham Hotspur,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+9010,560694,Lewis O'Brien,Nottingham Forest,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+9018,563812,Christian Oliva,Cagliari Calcio,Serie A,2018,False,none,0,0,,,no_fuzzy_candidate
+9043,565822,Harvey Elliott,Liverpool FC,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+9115,570421,Nico Melamed,RCD Espanyol Barcelona,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+9116,570421,Nico Melamed,RCD Espanyol Barcelona,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+9147,575998,Leonardo Balerdi,Borussia Dortmund,Bundesliga,2018,False,none,0,0,,,no_fuzzy_candidate
+9158,576314,Jan Paul van Hecke,Brighton & Hove Albion,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+9225,585550,Gavin Bazunu,Southampton FC,Premier League,2024,False,none,0,0,,,score_below_threshold
+9257,591949,Aaron Hickey,Brentford FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9262,594991,Mohamed Bayo,Clermont Foot 63,Ligue 1,2021,False,none,0,0,,,no_fuzzy_candidate
+9263,594991,Mohamed Bayo,LOSC Lille,Ligue 1,2022,False,none,0,0,,,no_fuzzy_candidate
+9264,594991,Mohamed Bayo,Le Havre AC,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+9276,597659,Charlie Cresswell,Leeds United,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9302,606718,Toti,Wolverhampton Wanderers,Premier League,2022,False,none,0,0,,,score_below_threshold
+9303,606718,Toti,Wolverhampton Wanderers,Premier League,2023,False,none,0,0,,,score_below_threshold
+9304,606718,Toti,Wolverhampton Wanderers,Premier League,2024,False,none,0,0,,,score_below_threshold
+9314,607224,Hannibal,Manchester United,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9335,610849,Liam Delap,Manchester City,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9343,612826,Silas,VfB Stuttgart,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+9375,618350,Dion Beljo,FC Augsburg,Bundesliga,2022,False,none,0,0,,,no_fuzzy_candidate
+9381,618494,Tyler Morton,Liverpool FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9403,622988,Fran Pérez,Valencia CF,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+9427,625651,Urko González de Zárate,RCD Espanyol Barcelona,La Liga,2024,False,none,0,0,,,score_below_threshold
+9439,627226,Reinier,Real Madrid,La Liga,2019,False,none,0,0,,,no_fuzzy_candidate
+9442,627228,Yan Couto,Manchester City,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+9455,630995,Rodri Sánchez,Real Betis Balompié,La Liga,2022,False,none,0,0,,,score_below_threshold
+9460,633652,Calvin Ramsay,Liverpool FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9523,648020,Alexsandro,LOSC Lille,Ligue 1,2022,False,none,0,0,,,score_below_threshold
+9524,648020,Alexsandro,LOSC Lille,Ligue 1,2023,False,none,0,0,,,score_below_threshold
+9525,648020,Alexsandro,LOSC Lille,Ligue 1,2024,False,none,0,0,,,score_below_threshold
+9546,649317,Jhon Durán,Aston Villa,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9547,649317,Jhon Durán,Aston Villa,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+9548,649317,Jhon Durán,Aston Villa,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9570,656316,Gabriel Slonina,Chelsea FC,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9590,659518,Félix Lemaréchal,AS Monaco,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+9604,660438,Orri Óskarsson,Real Sociedad,La Liga,2024,False,none,0,0,,,no_fuzzy_candidate
+9622,663581,Vini Souza,RCD Espanyol Barcelona,La Liga,2022,False,none,0,0,,,no_fuzzy_candidate
+9623,663581,Vini Souza,Sheffield United,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+9634,666974,Mikayil Faye,FC Barcelona,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+9642,668207,Petar Sučić,Inter Milan,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+9652,669366,Tom Cannon,Leicester City,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9684,676318,Facundo Pellistri,Manchester United,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9700,684210,Jaidon Anthony,AFC Bournemouth,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9702,686965,Juan Cabal,Juventus FC,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+9705,687626,Moisés Caicedo,Brighton & Hove Albion,Premier League,2020,False,none,0,0,,,no_fuzzy_candidate
+9734,696589,Tim Iroegbunam,Aston Villa,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9765,708678,Isaak Touré,AJ Auxerre,Ligue 1,2022,False,none,0,0,,,no_fuzzy_candidate
+9766,708678,Isaak Touré,FC Lorient,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+9767,708678,Isaak Touré,Udinese Calcio,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+9782,711382,Jon Karrikaburu,Real Sociedad,La Liga,2021,False,none,0,0,,,no_fuzzy_candidate
+9804,712107,Luiz Júnior,Villarreal CF,La Liga,2024,False,none,0,0,,,no_fuzzy_candidate
+9809,717411,Yegor Yarmolyuk,Brentford FC,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+9810,717411,Yegor Yarmolyuk,Brentford FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9844,735571,Rodrigo Muniz,Fulham FC,Premier League,2022,False,none,0,0,,,score_below_threshold
+9860,743591,Savinho,Girona FC,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+9861,743591,Savinho,Manchester City,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9883,747951,Shea Charles,Southampton FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9900,776798,Abdallah Sima,Brighton & Hove Albion,Premier League,2021,False,none,0,0,,,no_fuzzy_candidate
+9902,776798,Abdallah Sima,Brighton & Hove Albion,Premier League,2023,False,none,0,0,,,no_fuzzy_candidate
+9917,787232,David Datro Fofana,Chelsea FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+9935,796297,Jobe Bellingham,Borussia Dortmund,Bundesliga,2024,False,none,0,0,,,no_fuzzy_candidate
+9961,810096,Ismaël Gharbi,Paris Saint-Germain,Ligue 1,2023,False,none,0,0,,,no_fuzzy_candidate
+9966,811778,Álvaro Carreras,Manchester United,Premier League,2022,False,none,0,0,,,no_fuzzy_candidate
+9996,834397,Mike Penders,Chelsea FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+10105,930781,Pio Esposito,Inter Milan,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+10130,948294,Nico Paz,Real Madrid,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+10131,948294,Nico Paz,Como 1907,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+10138,961022,Benja Domínguez,Bologna FC 1909,Serie A,2024,False,none,0,0,,,score_below_threshold
+10156,984964,Niccolò Fortini,ACF Fiorentina,Serie A,2024,False,none,0,0,,,no_fuzzy_candidate
+10157,991268,Samu Aghehowa,Deportivo Alavés,La Liga,2023,False,none,0,0,,,no_fuzzy_candidate
+10182,1042886,Chido Obi,Manchester United,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+10191,1064871,Joaquín Panichelli,Deportivo Alavés,La Liga,2024,False,none,0,0,,,no_fuzzy_candidate
+10197,1082850,Deivid Washington,Chelsea FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+10207,1145504,Aarón Anselmino,Chelsea FC,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate
+10208,1178758,Malick Yalcouyé,Brighton & Hove Albion,Premier League,2024,False,none,0,0,,,no_fuzzy_candidate

@@ -1,0 +1,9 @@
+metric,value
+model_rows,10211
+model_features,37
+clean_rows,10211
+fbref_matched_rows,9836
+fbref_unmatched_rows,375
+train_rows_planned,6138
+validation_rows_planned,1334
+test_rows_planned,2739
