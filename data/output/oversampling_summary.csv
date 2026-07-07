@@ -1,0 +1,4 @@
+category,before_records,after_records,added_records,oversampling_ratio_to_majority,source_split
+Rendah,3403,3403,0,0.85,train_2017_2021
+Menengah,1977,2892,915,0.85,train_2017_2021
+Tinggi,758,2892,2134,0.85,train_2017_2021

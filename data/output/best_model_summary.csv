@@ -1,0 +1,2 @@
+model,scenario,target_column,prediction_type,label_order,value_range_rendah,value_range_menengah,value_range_tinggi,validation_accuracy,validation_macro_f1,test_accuracy,test_macro_f1,train_rows_before_oversampling,train_rows_after_oversampling
+xgboost,random_oversampling_light,market_value_category,classification,Rendah|Menengah|Tinggi,5 <= value < 15 EUR juta,15 <= value <= 35 EUR juta,> 35 EUR juta,0.8178410794602698,0.7885566529755913,0.8159912376779846,0.7988958267019268,6138,9187
