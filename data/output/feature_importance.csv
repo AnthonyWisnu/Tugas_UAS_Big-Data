@@ -1,56 +1,30 @@
-feature,importance,model
-prev_mv_category_Menengah,0.2272098,xgboost
-prev_season_mv,0.09099207,xgboost
-prev_season_mv_log,0.088002056,xgboost
-prev_mv_category_Tinggi,0.07891439,xgboost
-prev_mv_category_Rendah,0.029097533,xgboost
-has_prev_mv,0.027418597,xgboost
-club_total_mv_mio,0.026349617,xgboost
-shots_total,0.024501594,xgboost
-club_mv_relative_to_league_avg,0.019308845,xgboost
-mv_history_count,0.018694742,xgboost
-shots_on_target,0.018558946,xgboost
-age,0.018009692,xgboost
-minutes,0.01795304,xgboost
-two_seasons_ago_mv_category_Rendah,0.016990589,xgboost
-goals,0.015277951,xgboost
-league_Premier League,0.01272165,xgboost
-two_seasons_ago_mv_category_No History,0.01264515,xgboost
-is_peak_age,0.011777617,xgboost
-has_performance_stats,0.011268512,xgboost
-starts_rate,0.0106291585,xgboost
-assists,0.010519421,xgboost
-prev_mv_category_Below 5,0.010084689,xgboost
-club_total_mv_pct_league_season,0.009982596,xgboost
-two_seasons_ago_mv,0.00984529,xgboost
-club_total_mv_rank_league_season,0.009634169,xgboost
-league_Ligue 1,0.009009979,xgboost
-league_La Liga,0.008687657,xgboost
-league_rank,0.008400809,xgboost
-goal_assist_per_90,0.007836811,xgboost
-is_midfielder,0.0078316275,xgboost
-prev_growth_rate_clipped,0.0074646156,xgboost
-prev_mv_to_club_total_ratio,0.007104047,xgboost
-two_seasons_ago_mv_category_Menengah,0.007087841,xgboost
-goals_per_90,0.006880608,xgboost
-is_goalkeeper,0.0067512877,xgboost
-pos_category_Midfield,0.0066423477,xgboost
-is_defender,0.0063912193,xgboost
-assists_per_90,0.006338602,xgboost
-shots_per_90,0.0063226335,xgboost
-age_peak_distance,0.0061119017,xgboost
-preferred_foot_right,0.0060599316,xgboost
-pos_category_Attack,0.0054857596,xgboost
-preferred_foot_both,0.005473363,xgboost
-pos_category_Goalkeeper,0.005404663,xgboost
-preferred_foot_left,0.005375056,xgboost
-yellow_cards,0.005356809,xgboost
-height_m,0.005083253,xgboost
-pos_category_Defender,0.005060634,xgboost
-league_Bundesliga,0.0050598527,xgboost
-two_seasons_ago_mv_category_Tinggi,0.0048597828,xgboost
-league_Serie A,0.0046744132,xgboost
-is_forward,0.0036114955,xgboost
-two_seasons_ago_mv_category_Below 5,0.0032453283,xgboost
-prev_mv_category_No History,0.0,xgboost
-preferred_foot_Unknown,0.0,xgboost
+feature,feature_label,importance,importance_std,importance_share
+age,Umur pemain,1.3601726508935952,0.16089124321393591,0.40792825398900234
+current_market_value_mio,Nilai pasar musim saat ini,1.1109536955018195,0.2541860483158748,0.33318520334235097
+current_value_to_club_ratio,Porsi nilai pemain terhadap nilai skuad,0.2426293012895025,0.05473979780570821,0.0727667529387349
+starts_rate,Rasio menjadi starter,0.15651676482315208,0.014223225879002663,0.046940813397747444
+minutes,Menit bermain,0.0938783654677465,0.03963162685386057,0.028154982889444312
+historical_growth_rate,Pertumbuhan nilai pasar historis,0.05322155692460075,0.01969983879339808,0.015961633088685798
+shots_per_90,Tembakan per 90 menit,0.03713943722150699,0.0167193911450135,0.011138457878821662
+height_m,Tinggi badan,0.034567007327994934,0.023995343606503117,0.010366962558517961
+previous_market_value_mio,Nilai pasar satu musim sebelumnya,0.03414835513781522,0.027721006612293472,0.01024140492665668
+club_mv_relative_to_league_avg,Kekuatan nilai skuad dibanding rata-rata liga,0.027678891337842692,0.0183339851765658,0.008301153392828197
+assists,Jumlah assist,0.024048605593569583,0.007546329487867061,0.007212397399852168
+market_value_history_count,Jumlah musim dalam riwayat pemain,0.023014593546941953,0.018209282906807758,0.006902287702743281
+shots_total,Jumlah tembakan,0.022157543654040525,0.024115354429129404,0.006645250578696526
+goals,Jumlah gol,0.020776956453236472,0.008776227013802864,0.006231199813939884
+assists_per_90,Assist per 90 menit,0.017747367895872834,0.003524853504999479,0.005322598417125673
+club_total_mv_mio,Total nilai pasar skuad,0.01446601606787432,0.025602296221883238,0.004338490906186042
+goal_assist_per_90,Kontribusi gol per 90 menit,0.013776644186938292,0.014576848936657876,0.004131741955929912
+league_rank,Peringkat liga,0.012677369647666659,0.009415300909080573,0.003802059438666358
+pos_category,Posisi bermain,0.01235868582335815,0.015069054945244973,0.003706483236675161
+goals_per_90,Gol per 90 menit,0.011215958672826964,0.012194381880694579,0.003363768882732103
+current_market_value_log,Nilai pasar saat ini yang dinormalisasi,0.008646277440797689,0.005830978446480475,0.002593097911218786
+shots_on_target,Tembakan tepat sasaran,0.0019105660955149872,0.015848613496603926,0.0005729962964348589
+preferred_foot,Kaki dominan,0.0004220330635643421,0.005188159395269613,0.00012657158679990217
+current_market_value_category,Kategori nilai pasar saat ini,0.00021819095993400595,0.0008479256196409152,6.543747020908619e-05
+two_seasons_ago_market_value_mio,Nilai pasar dua musim sebelumnya,0.0,0.01610370061456764,0.0
+yellow_cards,Kartu kuning,0.0,0.008096372731336069,0.0
+has_previous_market_value,Ketersediaan riwayat nilai pasar,0.0,0.0004171491643892625,0.0
+league,Liga,0.0,0.0033583496445906366,0.0
+has_performance_stats,Ketersediaan statistik performa,0.0,0.000486646969937771,0.0
